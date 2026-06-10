@@ -1,0 +1,36 @@
+{
+    "inspection_id": "INS_20260609_003816_F059",
+    "timestamp": "2026-06-08T23:38:16Z",
+    "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "Prateleira superior (segunda a contar de cima), secção de Sacos de Congelação e Sacos Multiusos, lado esquerdo e centro.",
+            "severity": "high",
+            "description": "Várias caixas de exposição de Sacos de Congelação e Sacos Multiusos estão significativamente vazias ou com muito pouco stock, criando grandes buracos na prateleira.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.25
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "Prateleira inferior, secção de Insecticidas (sprays), lado direito.",
+            "severity": "low",
+            "description": "Uma lata de spray inseticida está caída e mal posicionada na prateleira.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.01
+        }
+    ],
+    "shelf_fill_rate": 0.93,
+    "products_detected": [
+        "Sacos",
+        "Alumínio",
+        "Papel",
+        "Filme Aderente",
+        "Insecticidas"
+    ],
+    "model_reasoning": "A análise da imagem revelou uma rutura de stock significativa na prateleira superior (segunda a contar de cima), na secção de Sacos de Congelação e Sacos Multiusos. Várias caixas de exposição estão quase vazias, criando buracos profundos e visíveis. A área afetada por esta rutura é estimada em 25% da área total da prateleira, o que é superior a 0.2. De acordo com o EXEMPLO 2, uma área afetada superior a 0.2 resulta numa 'severity' de 'high' e o 'overall_status' muda para 'critical'. Além disso, foi detetada uma lata de spray inseticida caída na prateleira inferior, classificada como um problema de 'misaligned' com 'severity' 'low', dado o seu impacto mínimo. O 'shelf_fill_rate' geral é de 0.93, mas a gravidade da rutura de stock justifica o estado 'critical'."
+}

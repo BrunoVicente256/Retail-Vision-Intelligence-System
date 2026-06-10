@@ -1,0 +1,44 @@
+{
+    "inspection_id": "INS_20260610_115339_3121AB1B",
+    "timestamp": "2026-06-10T10:53:39Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, centro",
+            "severity": "high",
+            "description": "Espaço vazio profundo na prateleira superior, indicando rutura de stock.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira do meio, lado direito",
+            "severity": "medium",
+            "description": "Vários espaços vazios na prateleira do meio, com visibilidade do fundo da prateleira.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.25
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Espaço vazio na prateleira inferior, com visibilidade do fundo da prateleira.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.15
+        }
+    ],
+    "shelf_fill_rate": 0.65,
+    "products_detected": [
+        "cereais",
+        "nestum",
+        "nestum pro",
+        "nestum zero"
+    ],
+    "model_reasoning": "A análise da imagem revela a presença de várias categorias de cereais, predominantemente da marca Nestum. O preenchimento geral da prateleira é estimado em 65%, com algumas áreas apresentando falta de produto. Foram detetadas múltiplas ruturas de stock (empty_shelf) em diferentes prateleiras: uma rutura significativa na prateleira superior central, e outras menores mas visíveis nas prateleiras do meio e inferior. Não foram detetados outros tipos de anomalias como produtos errados, danos ou sujidade. Devido à presença de múltiplas ruturas de stock, o status geral é classificado como 'critical'."
+}

@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260609_231426_C6686624",
+    "timestamp": "2026-06-09T22:14:26Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Espaço vazio profundo na prateleira superior, onde deveriam estar produtos de limpeza.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado direito",
+            "severity": "medium",
+            "description": "Espaço vazio profundo na prateleira intermédia, com uma caixa de cartão a cobrir parte do espaço.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.2
+        }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+        "produtos de limpeza",
+        "detergentes",
+        "panos de cozinha"
+    ],
+    "model_reasoning": "O inventário de produtos detetados inclui principalmente produtos de limpeza, como lixívia e detergentes, e também panos de cozinha. A prateleira superior e a intermédia apresentam espaços vazios profundos, indicando rutura de stock, o que leva à classificação de 'warning' devido a duas ocorrências de 'empty_shelf'. O preenchimento geral da prateleira foi estimado em 75%, considerando as áreas com produto e as áreas vazias."
+}

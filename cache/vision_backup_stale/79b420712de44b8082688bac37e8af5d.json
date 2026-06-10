@@ -1,0 +1,28 @@
+{
+    "inspection_id": "INS_20260609_003240_D7E8",
+    "timestamp": "2026-06-08T23:32:40Z",
+    "image_path": "images/normal/garrafeira_01.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "misaligned",
+            "location": "Várias prateleiras, produtos no lado esquerdo e direito",
+            "severity": "low",
+            "description": "Várias garrafas estão ligeiramente desalinhadas em diversas prateleiras, afetando a organização visual e a estética geral.",
+            "confidence": 1.0,
+            "affected_area_pct": 15.0
+        }
+    ],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "Cachaça",
+        "Vodka",
+        "Licores",
+        "Whisky",
+        "Vermute",
+        "Bebidas prontas a beber / Espirituosas aromatizadas"
+    ],
+    "model_reasoning": "A imagem apresenta uma secção de garrafeira com um bom nível de stock. A maioria das prateleiras está bem preenchida e os produtos estão visíveis. A principal questão identificada é o desalinhamento de algumas garrafas em várias prateleiras, tanto no lado esquerdo quanto no direito, o que impacta a apresentação visual, mas não a disponibilidade do produto. Não foram observadas prateleiras vazias significativas, produtos fora do lugar, danos visíveis nos produtos ou falta de etiquetas de preço. O 'overall_status' é 'ok' devido ao alto nível de preenchimento e à natureza de baixa gravidade do único problema detetado. A taxa de preenchimento da prateleira foi estimada em 95% com base na densidade de produtos visíveis. As categorias de produtos foram inferidas a partir dos rótulos e tipos de garrafas claramente visíveis na imagem."
+}

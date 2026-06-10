@@ -1,0 +1,46 @@
+{
+    "inspection_id": "INS_20260609_133453_ACAF",
+    "timestamp": "2026-06-09T12:34:53Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "Prateleira inferior, centro",
+            "severity": "high",
+            "description": "Prateleira com grande vazio de stock, apenas um produto visível.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.7
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "Prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Embalagem de detergente com amassado visível.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "Prateleira superior, centro",
+            "severity": "low",
+            "description": "Produtos de limpeza de loiça ligeiramente desalinhados.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.4,
+    "products_detected": [
+        "Detergente loiça",
+        "Lixívia",
+        "Spray multiusos",
+        "Desengordurante",
+        "Limpador vitrocerâmica",
+        "Produtos de limpeza geral"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente produtos de limpeza doméstica, como detergentes para loiça, sprays multiusos, lixívias e desengordurantes. Os produtos estão organizados por tipo em cada secção da prateleira. PASSO 2: Avaliação de Preenchimento. A prateleira não está a 100%. A prateleira inferior, no centro, apresenta um grande vazio, indicando uma rutura de stock significativa. As outras prateleiras estão razoavelmente preenchidas, embora com alguns produtos desalinhados. O shelf_fill_rate foi estimado em 40%. PASSO 3: Deteção de Anomalias. Foi detetada uma rutura de stock grave na prateleira inferior (ISS_001). Foi identificada uma embalagem amassada numa prateleira superior (ISS_002). Alguns produtos de detergente para loiça na prateleira superior estão ligeiramente desalinhados (ISS_003). Não foi detetado caos ou sujidade óbvia, nem produtos claramente fora do lugar (violação). PASSO 4: Classificação de Risco. Devido à rutura de stock grave e a algumas anomalias menores, o estado geral é 'warning'. A rutura de stock é o fator principal para não ser 'ok'."
+}

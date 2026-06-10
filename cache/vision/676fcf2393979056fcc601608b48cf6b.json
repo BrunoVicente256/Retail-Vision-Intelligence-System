@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260610_130525_676FCF23",
+    "timestamp": "2026-06-10T12:05:25Z",
+    "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "ração para gatos",
+        "snacks para gatos"
+    ],
+    "model_reasoning": "O inventário de produtos consiste principalmente em ração para gatos, organizada por tipo (seco, húmido, snacks) e marca (Ultima, Perfect Fit). A avaliação de preenchimento indica que as prateleiras estão bem abastecidas, com uma taxa de preenchimento estimada em 0.9. Não foram detetadas anomalias como ruturas de stock, danos, produtos incorretos, desalinhamentos significativos ou etiquetas em falta, resultando num status geral 'ok'."
+}

@@ -1,0 +1,21 @@
+{
+    "inspection_id": "INS_20260609_012801_63CB",
+    "timestamp": "2026-06-09T00:28:01Z",
+    "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "sacos para sandes",
+        "sacos para cubos de gelo",
+        "sacos de congelação",
+        "sacos multiusos",
+        "folha de alumínio",
+        "papel vegetal",
+        "papel forno",
+        "película aderente",
+        "inseticida"
+    ],
+    "model_reasoning": "The shelf appears to be well-stocked with most products in their correct positions. There are no obvious signs of damaged products or missing labels. The fill rate is high, indicating good stock levels. The detected products are consistent with a retail environment selling household goods. No critical or warning issues were identified."
+}

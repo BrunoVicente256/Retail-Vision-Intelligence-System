@@ -1,0 +1,21 @@
+{
+    "inspection_id": "INS_20260609_012814_F9EA",
+    "timestamp": "2026-06-09T00:28:14Z",
+    "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "sacos para sandes",
+        "sacos para cubos de gelo",
+        "sacos de congelação",
+        "sacos multiusos",
+        "folha de alumínio",
+        "papel vegetal",
+        "papel de forno",
+        "película aderente",
+        "inseticida"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está organizada por zonas lógicas, com produtos como sacos, folhas de alumínio, papel vegetal, papel de forno, película aderente e inseticidas agrupados por tipo. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com apenas algumas pequenas lacunas visíveis na frente de algumas embalagens, o que é normal. O shelf_fill_rate é estimado em 0.95. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, embalagens destruídas, produtos fora do lugar ou ruturas de stock graves. PASSO 4: Classificação de Risco. Com zero anomalias detetadas, o estado geral é 'ok'."
+}

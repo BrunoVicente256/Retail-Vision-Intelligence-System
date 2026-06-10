@@ -1,0 +1,1234 @@
+{
+    "normal_garrafeira_01.jpeg": {
+        "caminho": "images\\normal\\garrafeira_01.jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125456_294E",
+            "timestamp": "2026-06-09T11:54:56Z",
+            "image_path": "images\\normal\\garrafeira_01.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 99.0,
+            "products_detected": [
+                "Cachaça",
+                "Gin",
+                "Vodka",
+                "Limoncello",
+                "Licor Beirão",
+                "Whisky",
+                "Licor Añejo",
+                "Ready-to-drink cocktails",
+                "Vermouth"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de bebidas alcoólicas, incluindo Cachaça, Gin, Vodka, Limoncello, Licor Beirão, Whisky, Licor Añejo, cocktails prontos a beber (sabores como morango, maracujá, piña colada, e versões 'Ice' de lima e limão/laranja) e Vermouth. Os produtos estão claramente organizados por tipo e marca em zonas lógicas distintas em cada prateleira, facilitando a navegação e a apresentação. Não foram detetadas violações de categoria. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está excecionalmente bem preenchida, com a maioria dos produtos alinhados à frente (front-faced). Não há buracos visíveis ou filas vazias que sugiram rutura de stock. O preenchimento é estimado em 99.0%, indicando uma gestão de stock e reposição muito eficaz. PASSO 3: Deteção de Anomalias. Não foram encontradas anomalias significativas. Não há sinais de CAOS/SUJIDADE (embalagens danificadas, lixo, derrames ou produtos tombados). Não há VIOLAÇÃO (produtos fora da sua categoria lógica). Não há RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias detetadas, o 'overall_status' é classificado como 'ok'."
+        }
+    },
+    "normal_garrafeira_02.jpeg": {
+        "caminho": "images\\normal\\garrafeira_02.jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125523_A734",
+            "timestamp": "2026-06-09T11:55:23Z",
+            "image_path": "images\\normal\\garrafeira_02.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.99,
+            "products_detected": [
+                "Cocktails",
+                "Vinho Rosé",
+                "Vinho Espumante",
+                "Vinho Branco"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém uma variedade de bebidas alcoólicas, incluindo cocktails (Caipirinha Coco), vinhos rosé, vinhos espumantes (Bubbles Melancia, Bubbles Melão, JP Moscatel, Vinho Verde, Branco Bubbles 5.5°, Lambrusco) e vinhos brancos (Moscatel Graúdo & Fernão Pires). Os produtos estão bem organizados por tipo e marca/sabor em zonas lógicas distintas, facilitando a navegação e a apresentação. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira apresenta um excelente nível de preenchimento, estimado em 99%. Não há buracos visíveis ou filas vazias que sugiram rutura de stock. Todos os produtos estão bem alinhados e front-faced, maximizando a visibilidade. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas. Não há sinais de CAOS/SUJIDADE (embalagens danificadas, lixo, produtos tombados ou desorganizados). Não há VIOLAÇÃO (produtos fora da sua categoria lógica). Não há RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias e no excelente estado de preenchimento e organização, o 'overall_status' é classificado como 'ok'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125547_8FD4",
+            "timestamp": "2026-06-09T11:55:47Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "critical",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "prateleira do meio, lado esquerdo",
+                    "severity": "high",
+                    "description": "Grande espaço vazio na prateleira do meio, indicando uma rutura de stock significativa para um tipo de bolacha/cracker.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 10.0
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "prateleira superior, secção Marinheiras Chia",
+                    "severity": "medium",
+                    "description": "Faltam vários pacotes de Marinheiras Chia, com buracos visíveis na frente e no fundo da exposição.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 5.0
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "empty_shelf",
+                    "location": "prateleira inferior, secção bolachas de manteiga",
+                    "severity": "medium",
+                    "description": "Faltam produtos na secção de bolachas de manteiga, com caixas de exposição parcialmente vazias.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 7.0
+                },
+                {
+                    "issue_id": "ISS_004",
+                    "type": "damaged",
+                    "location": "prateleira do meio, centro-esquerda",
+                    "severity": "low",
+                    "description": "Uma caixa de exposição de produto (branca com topo vermelho) está ligeiramente amarfanhada/danificada.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 1.0
+                },
+                {
+                    "issue_id": "ISS_005",
+                    "type": "wrong_product",
+                    "location": "prateleira do meio, centro",
+                    "severity": "low",
+                    "description": "Pequenas latas/frascos (possivelmente café ou similar) estão misturadas na secção de bolachas/crackers, fora da sua categoria principal.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 2.0
+                },
+                {
+                    "issue_id": "ISS_006",
+                    "type": "empty_shelf",
+                    "location": "prateleira inferior, secção bolachas amarelas",
+                    "severity": "low",
+                    "description": "Faltam alguns produtos na secção de bolachas de embalagem amarela, com buracos visíveis.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 3.0
+                }
+            ],
+            "shelf_fill_rate": 80.0,
+            "products_detected": [
+                "Bolachas Marinheiras Chia",
+                "Crackers Mini Milho",
+                "Bolachas Integrais",
+                "Bolachas Digestive",
+                "Crackers",
+                "Bolachas de Manteiga",
+                "Bolachas diversas (embalagem amarela)",
+                "Bolachas diversas (embalagem azul)",
+                "Pequenas latas/frascos (café/similar)"
+            ],
+            "model_reasoning": "O processo de análise seguiu os passos definidos:\n\nPASSO 1: Mapeamento de Categorias.\nForam identificadas diversas categorias de produtos, predominantemente bolachas e crackers. As categorias incluem \"Marinheiras Chia\", \"Crackers Mini Milho\", \"Bolachas Integrais\", \"Bolachas Digestive\", \"Crackers\" e vários tipos de bolachas em embalagens distintas (amarelas, azuis, de manteiga). A organização geral é por tipo de produto, com algumas zonas lógicas bem definidas. No entanto, na prateleira do meio, foram detetadas pequenas latas/frascos (possivelmente café ou similar) que parecem estar fora da categoria principal de bolachas/crackers.\n\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate).\nA prateleira não está a 100% de preenchimento. Foram observados vários buracos e espaços vazios significativos. A taxa de preenchimento estimada é de aproximadamente 80%. Existem ruturas de stock evidentes, não apenas na frente, mas com espaços vazios que se estendem para o fundo das prateleiras, indicando falta de reposição.\n\nPASSO 3: Deteção de Anomalias.\n- CAOS/SUJIDADE (dirty/damaged): Foi detetada uma caixa de exposição de produto (branca com topo vermelho) na prateleira do meio, centro-esquerda, que se encontra ligeiramente amarfanhada/danificada. Não foram observados derrames, lixo óbvio ou caos generalizado.\n- VIOLAÇÃO (wrong_product): Pequenas latas/frascos (possivelmente café ou similar) foram identificadas na prateleira do meio, centro, misturadas com bolachas/crackers, o que constitui uma violação da organização por categoria.\n- RUTURA (empty_shelf): Foram detetadas várias ruturas de stock:\n    - Uma grande área vazia na prateleira do meio, lado esquerdo, indicando uma rutura crítica.\n    - Buracos visíveis na secção \"Marinheiras Chia\" na prateleira superior.\n    - Espaços vazios nas secções de bolachas de manteiga e bolachas de embalagem amarela na prateleira inferior.\n    - Pequenos buracos e falta de preenchimento em outras secções da prateleira do meio.\n\nPASSO 4: Classificação de Risco.\nCom base nas anomalias encontradas:\n- Uma anomalia de `damaged` (caixa amarfanhada) com severidade baixa.\n- Uma anomalia de `wrong_product` (latas/frascos) com severidade baixa.\n- Múltiplas anomalias de `empty_shelf`, incluindo uma de severidade alta (grande espaço vazio na prateleira do meio) e várias de severidade média/baixa.\nA presença de uma rutura de stock de alta severidade, juntamente com outras ruturas e anomalias menores, leva à classificação de 'critical' para o estado geral da prateleira."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125625_84EB",
+            "timestamp": "2026-06-09T11:56:25Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "critical",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "prateleira inferior, lado direito (Sementes de Girassol)",
+                    "severity": "high",
+                    "description": "Rutura grave: A caixa de exposição de Sementes de Girassol está quase completamente vazia.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 0.8
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "prateleira inferior, lado esquerdo (Amêndoas)",
+                    "severity": "medium",
+                    "description": "Espaço vazio significativo na caixa de exposição de Amêndoas.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.4
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "empty_shelf",
+                    "location": "prateleira do meio, lado esquerdo (Amêndoas)",
+                    "severity": "medium",
+                    "description": "Espaço vazio na caixa de exposição de Amêndoas.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 0.3
+                },
+                {
+                    "issue_id": "ISS_004",
+                    "type": "misaligned",
+                    "location": "prateleira inferior, centro-direita (Noz Pecan)",
+                    "severity": "low",
+                    "description": "Uma embalagem de Noz Pecan ligeiramente tombada/desalinhada.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 0.01
+                }
+            ],
+            "shelf_fill_rate": 0.75,
+            "products_detected": [
+                "Mixed Nuts",
+                "Cocktail de Frutos Secos",
+                "Amêndoas",
+                "Caju",
+                "Noz Pecan",
+                "Arandos Desidratados",
+                "Sementes de Girassol"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de frutos secos e sementes, incluindo 'Mixed Nuts', 'Cocktail de Frutos Secos', 'Amêndoas', 'Caju', 'Noz Pecan', 'Arandos Desidratados' e 'Sementes de Girassol'. Os produtos estão organizados por tipo e marca dentro de caixas de exposição, seguindo uma lógica de agrupamento para a categoria de frutos secos. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira não está a 100% da sua capacidade. Existem várias áreas com falta de produtos. Na prateleira inferior, a caixa de 'Sementes de Girassol' no lado direito está quase vazia, indicando uma rutura grave. Também na prateleira inferior, no lado esquerdo, e na prateleira do meio, no lado esquerdo, as caixas de 'Amêndoas' apresentam espaços vazios significativos. O preenchimento geral da prateleira é estimado em 75.0%. PASSO 3: Deteção de Anomalias. - CAOS/SUJIDADE: Não foram detetadas embalagens amarfanhadas, caixas destruídas, líquidos derramados ou lixo óbvio. Apenas uma embalagem de 'Noz Pecan' na prateleira inferior, centro-direita, está ligeiramente tombada/desalinhada. - VIOLAÇÃO: Todos os produtos visíveis pertencem à categoria de frutos secos/sementes. Não há produtos fora da sua categoria lógica. - RUTURA: Foram identificadas ruturas significativas. A mais grave é a caixa de 'Sementes de Girassol' na prateleira inferior direita, que está quase vazia. Há também ruturas notáveis nas caixas de 'Amêndoas' na prateleira inferior esquerda e na prateleira do meio esquerda. PASSO 4: Classificação de Risco. Com base nas anomalias detetadas, o 'overall_status' é classificado como 'critical'. Esta classificação deve-se à presença de múltiplas ruturas de stock, sendo uma delas (Sementes de Girassol) de alta gravidade, afetando significativamente a disponibilidade do produto e a apresentação da prateleira."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125657_47CC",
+            "timestamp": "2026-06-09T11:56:57Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "critical",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira do meio (segunda de cima para baixo), lado esquerdo (secção Cream Crackers)",
+                    "severity": "medium",
+                    "description": "Rutura de stock na secção de Cream Crackers, com espaço vazio para aproximadamente 2-3 embalagens.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 5.0
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior (quarta de cima para baixo), centro-direita (secção HACA)",
+                    "severity": "high",
+                    "description": "Rutura de stock significativa na secção de produtos 'HACA', com um grande espaço vazio para aproximadamente 3-4 embalagens.",
+                    "confidence": 0.98,
+                    "affected_area_pct": 10.0
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "damaged",
+                    "location": "Prateleira inferior (quarta de cima para baixo), centro-direita (secção HACA)",
+                    "severity": "low",
+                    "description": "Embalagens de produtos 'HACA' desalinhadas e com aspeto ligeiramente amarfanhado/desorganizado na secção com rutura.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 3.0
+                },
+                {
+                    "issue_id": "ISS_004",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior (quarta de cima para baixo), lado direito (ao lado de Salutem Crisp Bread)",
+                    "severity": "low",
+                    "description": "Pequena rutura de stock ao lado dos produtos Salutem Crisp Bread, com espaço para 1 embalagem.",
+                    "confidence": 0.92,
+                    "affected_area_pct": 2.0
+                }
+            ],
+            "shelf_fill_rate": 85.0,
+            "products_detected": [
+                "Gran Pavesi Crackers",
+                "Continente Crackers",
+                "Cream Crackers",
+                "Gran Pavesi Sfoglie",
+                "Marinheiras",
+                "Pic'ks Crackers",
+                "Du Bois & Roche Crackers",
+                "Salutem Crisp Bread",
+                "HACA Crackers/Biscuits"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém predominantemente crackers e biscoitos salgados de diversas marcas (Gran Pavesi, Continente, Cream Crackers, Marinheiras, Pic'ks, Du Bois & Roche, Salutem, HACA). A organização geral é por marca ou tipo de produto, o que é considerado uma organização lógica para esta categoria. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira não está a 100% de preenchimento. Foram identificadas várias lacunas significativas. Estima-se um 'shelf_fill_rate' de aproximadamente 85%, com base nas áreas vazias observadas. As faltas não são apenas na frente, mas indicam buracos/filas vazias. PASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias: 1. Rutura de stock (empty_shelf) na prateleira do meio, lado esquerdo, na secção de Cream Crackers. 2. Rutura de stock (empty_shelf) na prateleira inferior (quarta de cima para baixo), centro-direita, na secção de produtos 'HACA', que é uma lacuna considerável. 3. Caos/Sujidade (damaged/misaligned) na mesma secção 'HACA', onde as embalagens restantes estão desalinhadas e com aspeto desorganizado. 4. Uma pequena rutura de stock (empty_shelf) na prateleira inferior, lado direito, ao lado dos produtos Salutem Crisp Bread. Não foram detetados produtos fora da sua categoria lógica (wrong_product) nem sujidade óbvia ou danos graves em embalagens além do desalinhamento. PASSO 4: Classificação de Risco. Com base nas anomalias encontradas (múltiplas ruturas de stock, incluindo uma significativa, e algum desalinhamento/caos visual), o 'overall_status' é classificado como 'critical'. As ruturas de stock são consideradas graves e excedem o limiar de '1 a 2 anomalias pequenas'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125729_0BAC",
+            "timestamp": "2026-06-09T11:57:29Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "segunda prateleira, secção esquerda (Continente Creams Cobertas)",
+                    "severity": "low",
+                    "description": "Um produto em falta na primeira fila, mas com stock visível atrás. Não é uma rutura de stock crítica, mas sim uma falha de reposição frontal.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 0.03
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "segunda prateleira, secção central (Continente Creams)",
+                    "severity": "low",
+                    "description": "Um produto em falta na primeira fila, mas com stock visível atrás. Não é uma rutura de stock crítica, mas sim uma falha de reposição frontal.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 0.03
+                }
+            ],
+            "shelf_fill_rate": 97.0,
+            "products_detected": [
+                "Bolachas de Creme",
+                "Bolachas Recheadas",
+                "Bolachas de Chocolate",
+                "Bolachas para Crianças",
+                "Bolachas de Baunilha"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de bolachas e biscoitos, incluindo bolachas de creme (Continente Creams Cobertas, Continente Creams), bolachas recheadas (Gullón Choco Bom, Continente Mini Delícias, Gullón Duo), e bolachas para crianças (Gullón Hookies Tuestis, Mini Prince, Gullón Twins, Kinderini, Milka Mini Animals, Dinosaurs). Os produtos estão organizados de forma lógica por marca e tipo, com agrupamentos claros em cada secção da prateleira.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está muito bem preenchida, com um 'shelf_fill_rate' estimado em 97%. Foram identificadas duas pequenas falhas na primeira fila de produtos na segunda prateleira, mas em ambos os casos, há stock visível imediatamente atrás, indicando que não se trata de uma rutura de stock profunda, mas sim de uma necessidade de reposição frontal.\nPASSO 3: Deteção de Anomalias. Foram detetadas duas anomalias do tipo 'empty_shelf', ambas correspondendo a produtos em falta na primeira fila da segunda prateleira. Não foram observados sinais de CAOS/SUJIDADE (embalagens danificadas, lixo, produtos tombados), nem VIOLAÇÃO (produtos fora da sua categoria lógica). As anomalias de 'empty_shelf' são de baixa severidade, pois o stock está presente, apenas não está na frente.\nPASSO 4: Classificação de Risco. Com base nas duas anomalias pequenas (falhas de reposição frontal) encontradas, o 'overall_status' é classificado como 'warning', conforme a regra '1 a 2 anomalias pequenas = warning'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133040_DE0A",
+            "timestamp": "2026-06-09T12:30:40Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "Sheba",
+                "Cesar",
+                "Ranchos",
+                "Pedigree Rodeo",
+                "Pedigree Tasty Minis",
+                "Pedigree Dentastix"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos para animais de companhia, especificamente comida e snacks para cães e gatos. Os produtos estão organizados por marca e tipo em cada prateleira, formando zonas lógicas (ex: comida húmida em lata/caixa, snacks em saco, snacks em caixa). PASSO 2: Avaliação de Preenchimento. A prateleira está quase a 100% preenchida. Existem algumas pequenas lacunas na frente de algumas prateleiras, mas não há buracos profundos ou filas vazias que indiquem rutura de stock significativa. O shelf_fill_rate é estimado em 0.95. PASSO 3: Deteção de Anomalias. Não foram detetados casos de CAOS/SUJIDADE, VIOLAÇÃO (produtos fora do lugar) ou RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o 'overall_status' é 'ok'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133058_E1AA",
+            "timestamp": "2026-06-09T12:30:58Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "creme antirrugas",
+                "limpeza",
+                "hidratante",
+                "matificante",
+                "sérum",
+                "água micelar",
+                "tónico",
+                "gel esfoliante",
+                "discos de algodão",
+                "toalhitas desmaquilhantes"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos de cosmética e higiene pessoal, organizados por tipo de produto e marca (MYLABEL). As categorias incluem cremes, séruns, produtos de limpeza facial, tónicos, discos de algodão e toalhitas. A organização parece lógica por zona de produto. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock significativa. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar (violação) ou ruturas graves de stock. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125820_7DBE",
+            "timestamp": "2026-06-09T11:58:20Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 98.5,
+            "products_detected": [
+                "Coloração de Cabelo",
+                "Spray Retoque de Raízes",
+                "Shampoo Colorante",
+                "Produtos para Sobrancelhas"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de produtos de cuidados capilares, especificamente focados em coloração e retoque de raízes. As categorias identificadas incluem colorações permanentes (L'Oréal Excellence, Syoss, Garnier Olia, Garnier Good), colorações semi-permanentes (L'Oréal Casting Crème Gloss), sprays de retoque de raízes (L'Oréal Magic Retouch), shampoos colorantes (L'Oréal Colorista, L'Oréal Cool Silver) e produtos para sobrancelhas (Brow). A organização parece lógica, com produtos agrupados por marca e tipo, e uma secção dedicada a marcas específicas de coloração (Garnier Good, L'Oréal Excellence) no lado direito, enquanto o lado esquerdo contém uma mistura de outras marcas e tipos de produtos. A sinalética 'CUIDADOS' no topo reforça a categoria geral.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está muito bem preenchida. Não foram observados buracos significativos ou filas vazias que indicassem rutura de stock. Os produtos estão, na sua maioria, bem alinhados e puxados para a frente. O preenchimento é estimado em 98.5%, indicando um excelente nível de stock e organização.\nPASSO 3: Deteção de Anomalias. Foram procuradas ativamente as seguintes anomalias:\n    - CAOS/SUJIDADE (dirty/damaged): Não foram detetadas embalagens amarfanhadas, caixas destruídas, líquidos derramados, lixo óbvio ou produtos atirados/tombados de forma caótica. A prateleira apresenta-se limpa e organizada.\n    - VIOLAÇÃO (wrong_product): Todos os produtos observados pertencem à categoria lógica de 'Cuidados' e, mais especificamente, de coloração e tratamento capilar. Não há produtos fora da sua categoria lógica.\n    - RUTURA (empty_shelf): Não há falta evidente de stock crítico. As prateleiras estão cheias e bem abastecidas.\nPASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas detetadas nos passos anteriores, o 'overall_status' é classificado como 'ok'. A prateleira está em excelente estado de manutenção e stock."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.51.jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51.jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125846_E7DF",
+            "timestamp": "2026-06-09T11:58:46Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "misaligned",
+                    "location": "Várias prateleiras, produtos Nivea e Mixa",
+                    "severity": "low",
+                    "description": "Alguns produtos estão ligeiramente desalinhados ou não perfeitamente frontais em diversas prateleiras.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 5.0
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "Várias prateleiras, lado esquerdo e centro",
+                    "severity": "low",
+                    "description": "Pequenas lacunas visíveis na frente das prateleiras, indicando que alguns produtos foram vendidos ou não foram repostos na frente. Não há ruturas profundas ou filas vazias até ao fundo.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 3.0
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "damaged",
+                    "location": "Prateleira 2, zona Nivea Nutritivo",
+                    "severity": "low",
+                    "description": "Etiqueta promocional amarfanhada ('Apenas').",
+                    "confidence": 0.85,
+                    "affected_area_pct": 0.1
+                }
+            ],
+            "shelf_fill_rate": 96.0,
+            "products_detected": [
+                "Nivea Body Lotions",
+                "Nivea Body Creams",
+                "Mixa Body Lotions",
+                "Mixa Body Creams",
+                "Lactovit Body Lotions",
+                "Lactovit Body Creams",
+                "Soft Body Creams",
+                "Dove Body Care",
+                "Scholl Foot Care"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A imagem exibe uma secção de 'CUIDADOS DO CORPO'. Os produtos estão organizados por marca (Nivea, Mixa, Lactovit, Soft, Dove, Scholl) e, dentro de cada marca, por tipo de produto (loções, cremes, bálsamos). A organização geral é lógica e clara, com categorias bem definidas por zona de prateleira. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está muito bem preenchida, com uma taxa de preenchimento estimada em 96.0%. Existem pequenas lacunas na frente das prateleiras, principalmente no lado esquerdo e em algumas secções centrais, mas estas não indicam ruturas profundas ou filas vazias até ao fundo, sendo mais provável que sejam resultado de vendas recentes ou ligeiro desalinhamento. PASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias: 1. Misalignment: Vários produtos Nivea e Mixa em diferentes prateleiras estão ligeiramente desalinhados ou não perfeitamente frontais. 2. Empty Shelf (pequenas lacunas): Pequenas áreas vazias na frente das prateleiras, que não constituem uma rutura crítica de stock. 3. Damaged: Uma etiqueta promocional amarfanhada ('Apenas') na prateleira 2, na secção Nivea Nutritivo. Não foram observados sinais de caos visual significativo, sujidade, embalagens destruídas ou produtos fora da sua categoria lógica (wrong_product). PASSO 4: Classificação de Risco. Com base nas anomalias detetadas (múltiplos desalinhamentos menores, pequenas lacunas e uma etiqueta amarfanhada), que são todas de baixa severidade e não representam problemas críticos de stock ou merchandising grave, o 'overall_status' é classificado como 'warning'. Não é 'ok' devido à presença de múltiplas pequenas imperfeições, mas não atinge o nível de 'critical' por não haver ruturas graves ou caos generalizado."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133146_B6C2",
+            "timestamp": "2026-06-09T12:31:46Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 1.0,
+            "products_detected": [
+                "Lixívia",
+                "Lixívia em Spray",
+                "Lixívia Concentrada",
+                "Lixívia Perfumada",
+                "Lixívia Power+"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente produtos de lixívia, alguns em formato spray e outros em garrafões. Estão organizados por tipo de produto e marca, formando zonas lógicas. PASSO 2: Avaliação de Preenchimento. A prateleira está completamente cheia, sem buracos ou filas vazias visíveis. O shelf_fill_rate é de 1.0. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock. PASSO 4: Classificação de Risco. Como não foram encontradas anomalias, o overall_status é 'ok'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_131710_FF83",
+            "timestamp": "2026-06-09T12:17:10Z",
+            "image_path": "images/normal/WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "misaligned",
+                    "location": "Prateleira 3 (a contar do topo), secção central (latas Heinz)",
+                    "severity": "low",
+                    "description": "Ligeiro recuo de stock nas latas Heinz Beanz, deixando espaço vazio na frente da prateleira.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 2.0
+                }
+            ],
+            "shelf_fill_rate": 0.96,
+            "products_detected": [
+                "Feijão em lata",
+                "Grão-de-bico em lata",
+                "Feijão em frasco de vidro",
+                "Grão-de-bico em frasco de vidro"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém leguminosas em conserva (feijão e grão-de-bico) em lata e frasco de vidro. Estão perfeitamente organizadas por marca (Ferbar, Heinz, Sabores da Terra, Compal) e tipo de embalagem. PASSO 2: Avaliação de Preenchimento. A taxa de preenchimento é excelente (~96%). Não há buracos profundos ou ruturas graves, apenas ligeiros recuos de stock normais devido ao consumo. PASSO 3: Deteção de Anomalias. Não foram detetados sinais de caos, sujidade, embalagens danificadas ou produtos fora do sítio (violação). Apenas se regista um ligeiro recuo frontal nas latas Heinz (ISS_001). PASSO 4: Classificação de Risco. Classificado como 'ok' devido ao excelente estado de conservação, organização e abastecimento geral da prateleira."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_131742_77D2",
+            "timestamp": "2026-06-09T12:17:42Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.98,
+            "products_detected": [
+                "Licor de Ervas (Jägermeister, Beirão)",
+                "Licor de Creme (Baileys, Macieira Cream, Amarula, Carolans)",
+                "Licores Tradicionais (Amarguinha, Licor de Nata, Ginjinha)",
+                "Aguardente Vínica / Cognac (Remy Martin, CRF, Adega Velha, Aliança Velha)",
+                "Aguardente Bagaceira",
+                "Cachaça"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A secção está corretamente identificada como 'Aguardentes/Licores'. A organização é altamente lógica e segmentada por prateleira: licores de ervas e espirituosos no topo, licores de creme na segunda prateleira, licores tradicionais e frutados na terceira, aguardentes premium e cognacs na quarta, e aguardentes de bagaço, cachaça e brandies de rotação na base. PASSO 2: Avaliação de Preenchimento. A taxa de preenchimento da prateleira (shelf_fill_rate) é excelente, estimada em 98%. Não existem falhas de stock visíveis na frente de canal. PASSO 3: Deteção de Anomalias. Não foram identificados produtos danificados, sujidade, desalinhamentos graves ou produtos fora da sua categoria (wrong_product). Todas as etiquetas de preço estão presentes e alinhadas com os respetivos produtos. PASSO 4: Classificação de Risco. Dada a ausência de anomalias e o estado de arrumação exemplar, o nível de risco é nulo, resultando num 'overall_status' de 'ok'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125927_C737",
+            "timestamp": "2026-06-09T11:59:27Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 98.0,
+            "products_detected": [
+                "Mustard",
+                "Ketchup",
+                "Mayonnaise",
+                "Sauces"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira apresenta uma organização lógica clara. No lado esquerdo, as categorias principais são Mostarda (em frascos e bisnagas) e Ketchup (em várias marcas e formatos). No lado direito, as categorias são Maionese e outros Molhos (também em diversas marcas e formatos). Os produtos estão agrupados por tipo e marca dentro de cada secção, indicando uma organização por zona lógica. Produtos detetados: Mostarda, Ketchup, Maionese, Molhos.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está extremamente bem preenchida. Não há buracos significativos ou filas vazias que sugiram rutura de stock. Existem apenas pequenas lacunas na frente de algumas filas, o que é normal devido à remoção de produtos pelos clientes, mas o stock de fundo parece estar presente. O preenchimento é estimado em 98.0%.\nPASSO 3: Deteção de Anomalias. Foram procuradas ativamente as seguintes anomalias:\n- CAOS/SUJIDADE: Não foi detetado lixo óbvio, líquidos derramados ou produtos atirados/tombados de forma caótica. As embalagens estão, na sua maioria, em bom estado. Algumas caixas de cartão de suporte mostram um desgaste mínimo, mas não estão destruídas ou danificadas de forma crítica.\n- VIOLAÇÃO: Não foram encontrados produtos fora da sua categoria lógica. Todos os produtos estão corretamente posicionados dentro das suas secções de Mostarda, Ketchup, Maionese ou Molhos.\n- RUTURA: Não há falta evidente de stock crítico. As prateleiras estão bem abastecidas em profundidade.\nPASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas (caos visual, embalagens destruídas, ruturas graves ou produtos fora de lugar), o estado geral é classificado como 'ok'. As pequenas imperfeições, como ligeiros desalinhamentos de alguns produtos ou o desgaste mínimo das caixas de cartão, são consideradas normais para um ambiente de retalho e não justificam um 'warning' ou 'critical' status."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.54.jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_125958_CC1F",
+            "timestamp": "2026-06-09T11:59:58Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "misaligned",
+                    "location": "Várias prateleiras",
+                    "severity": "low",
+                    "description": "Algumas garrafas de azeite não estão perfeitamente alinhadas ou viradas para a frente, especialmente nas prateleiras superiores e em algumas caixas nas prateleiras inferiores.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 5.0
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "other",
+                    "location": "Divisor vertical, prateleira superior direita",
+                    "severity": "low",
+                    "description": "Um pequeno pedaço de papel/cartão está pendurado no divisor vertical da prateleira, indicando uma pequena desorganização.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.1
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "misaligned",
+                    "location": "Prateleira superior esquerda e prateleira intermédia direita",
+                    "severity": "low",
+                    "description": "Etiquetas promocionais amarelas ('50%') estão ligeiramente desalinhadas ou penduradas de forma irregular.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 0.2
+                }
+            ],
+            "shelf_fill_rate": 96.0,
+            "products_detected": [
+                "Azeite",
+                "Azeite Virgem Extra",
+                "Azeite Virgem",
+                "Azeite Virgem Português"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está dedicada exclusivamente a azeites de diversas marcas (Gallo, Cinco Soldos, Saloio, Continente, Oliveira da Serra) e tipos (Azeite Virgem Extra, Azeite Virgem, Azeite Virgem Português). A organização é lógica, com produtos agrupados por tipo e marca, e formatos maiores nas prateleiras superiores. Um divisor vertical separa as zonas de 'Azeite' (com indicação de regiões) e 'Azeite Virgem'.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira apresenta um nível de preenchimento muito elevado. Existem pequenas falhas na primeira fila de algumas caixas ou produtos individuais, mas não há buracos profundos ou filas vazias que sugiram uma rutura de stock significativa. O preenchimento é estimado em 96%.\nPASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias:\n- CAOS/SUJIDADE: Não há sujidade óbvia, embalagens destruídas ou líquidos derramados. No entanto, um pequeno pedaço de papel/cartão está pendurado no divisor vertical da prateleira superior, e algumas etiquetas promocionais amarelas estão ligeiramente desalinhadas ou mal posicionadas.\n- VIOLAÇÃO: Não foram encontrados produtos fora da sua categoria lógica. Todos os itens são azeite.\n- RUTURA: Não há rutura de stock crítica. As pequenas falhas na frente das prateleiras são consideradas normais para um ambiente de retalho e não indicam uma rutura grave.\nPASSO 4: Classificação de Risco. Com base nas anomalias identificadas (garrafas ligeiramente desalinhadas, um pequeno pedaço de papel pendurado e etiquetas promocionais desalinhadas), que são consideradas anomalias pequenas, o 'overall_status' é classificado como 'warning'. Embora a prateleira esteja em muito bom estado geral e bem abastecida, a presença de múltiplas pequenas desorganizações impede a classificação como 'ok', seguindo a regra de que '1 a 2 anomalias pequenas (ex: um produto ligeiramente desalinhado) = warning'."
+        }
+    },
+    "normal_WhatsApp Image 2026-06-08 at 20.55.55.jpeg": {
+        "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.55.jpeg",
+        "categoria_real": "normal",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133305_59C2",
+            "timestamp": "2026-06-09T12:33:05Z",
+            "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.55.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "molhos",
+                "maionese",
+                "vinagrete",
+                "ketchup",
+                "mostarda",
+                "molho barbecue",
+                "pesto",
+                "bolonhesa",
+                "leite de coco"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está organizada por zonas lógicas, com categorias de produtos como molhos, maioneses, vinagretes, ketchup, mostarda, molho barbecue, pesto, bolonhesa e leite de coco claramente separadas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133322_B7DC",
+            "timestamp": "2026-06-09T12:33:22Z",
+            "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "Cien",
+                "Nivea",
+                "Rexona",
+                "Cremes",
+                "Loções",
+                "Desodorizantes",
+                "Produtos capilares"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos de cuidados pessoais, principalmente cremes, loções e desodorizantes, organizados por marca (Cien, Nivea, Rexona) e tipo de produto. As zonas lógicas são respeitadas, com produtos similares agrupados. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.40.23.jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_130040_A034",
+            "timestamp": "2026-06-09T12:00:40Z",
+            "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "wrong_product",
+                    "location": "Prateleira superior, lado esquerdo",
+                    "severity": "low",
+                    "description": "Espíritos (Jameson, Baileys, Beirão) estão misturados com vinhos espumantes (Casal Garcia Fruitzy), quebrando a organização estrita por categoria de produto.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.05
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "wrong_product",
+                    "location": "Terceira prateleira, lado esquerdo",
+                    "severity": "low",
+                    "description": "Vinhos (Monte Velho, Esporão) estão misturados com uma secção predominantemente de espíritos (Sierra, Bombay Sapphire, Eristoff, Gordon's), resultando numa organização de categoria mista.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.1
+                }
+            ],
+            "shelf_fill_rate": 0.98,
+            "products_detected": [
+                "Vinho Espumante",
+                "Espíritos",
+                "Vinho Tinto",
+                "Vinho Branco",
+                "Bebidas Mistas"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de bebidas alcoólicas. Na prateleira superior esquerda, há vinhos espumantes, espíritos (Jameson, Baileys, Beirão). Na prateleira superior direita, vinhos tintos da região do Douro. Na segunda prateleira esquerda, vinhos brancos e algumas bebidas mistas/ingredientes para cocktails. Na segunda prateleira direita, mais vinhos tintos do Douro. Na terceira prateleira esquerda, uma mistura de espíritos (Sierra, Bombay Sapphire, Eristoff, Gordon's) e alguns vinhos (Monte Velho, Esporão). Na terceira prateleira direita, vinhos tintos do Douro. As prateleiras inferiores contêm vinhos tintos e brancos, muitos em caixas. A organização é maioritariamente lógica por tipo de bebida e região, mas há algumas misturas de categorias. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está extremamente bem preenchida, com uma taxa de preenchimento estimada em 98%. Não há buracos visíveis ou filas vazias que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foi detetado CAOS/SUJIDADE; as embalagens estão em bom estado, não há lixo ou derrames visíveis, e os produtos estão bem alinhados. Não há RUTURA evidente de stock. No entanto, foram detetadas duas instâncias de VIOLAÇÃO (wrong_product) devido à mistura de categorias: 1) Na prateleira superior esquerda, espíritos estão misturados com vinhos espumantes. 2) Na terceira prateleira esquerda, alguns vinhos estão misturados com uma secção predominantemente de espíritos. Embora sejam todas bebidas alcoólicas, a mistura de categorias distintas (vinho vs. espírito) é uma anomalia de organização. PASSO 4: Classificação de Risco. Com base nas duas anomalias de 'wrong_product' de baixa severidade (mistura de categorias), e seguindo a regra de que '1 a 2 anomalias pequenas (ex: um produto ligeiramente desalinhado) = warning', o 'overall_status' é classificado como 'warning'. Não é 'critical' pois não há caos visual, embalagens destruídas ou ruturas graves."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133355_7689",
+            "timestamp": "2026-06-09T12:33:55Z",
+            "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior, lado direito",
+                    "severity": "medium",
+                    "description": "Vários espaços vazios na prateleira, indicando rutura de stock.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 0.3
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "Prateleira intermédia, lado direito",
+                    "severity": "medium",
+                    "description": "Espaços vazios na prateleira, indicando rutura de stock.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 0.25
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "misaligned",
+                    "location": "Prateleira superior, lado esquerdo",
+                    "severity": "low",
+                    "description": "Algumas caixas de café estão ligeiramente desalinhadas.",
+                    "confidence": 0.7,
+                    "affected_area_pct": 0.05
+                }
+            ],
+            "shelf_fill_rate": 0.6,
+            "products_detected": [
+                "Café em cápsulas",
+                "Máquinas de café"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente produtos de café em cápsulas, organizados por marca e tipo (ex: descafeinado, intensos). Há também uma secção com máquinas de café na parte inferior. A organização parece lógica por zona de produto. PASSO 2: Avaliação de Preenchimento. A prateleira não está a 100%. Existem buracos visíveis em várias prateleiras, especialmente na inferior e intermédia do lado direito, indicando ruturas de stock que vão até ao fundo. O preenchimento geral é estimado em 60%. PASSO 3: Deteção de Anomalias. Foram detetadas ruturas de stock (empty_shelf) em várias secções, com espaços vazios significativos. Alguns produtos de café na prateleira superior esquerda estão ligeiramente desalinhados (misaligned). Não há indícios de caos, sujidade ou produtos errados. PASSO 4: Classificação de Risco. Foram identificadas 2 anomalias de rutura de stock (medium severity) e 1 anomalia de desalinhamento (low severity). As ruturas de stock são o fator mais impactante. Portanto, o status geral é 'warning'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133415_5200",
+            "timestamp": "2026-06-09T12:34:15Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira superior, centro",
+                    "severity": "medium",
+                    "description": "Falta de stock visível na prateleira superior, com uma fila vazia no centro.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 0.15
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "Prateleira intermédia, lado direito",
+                    "severity": "low",
+                    "description": "Um pequeno espaço vazio na prateleira intermédia, lado direito.",
+                    "confidence": 0.7,
+                    "affected_area_pct": 0.05
+                }
+            ],
+            "shelf_fill_rate": 0.8,
+            "products_detected": [
+                "Nestle Pensal",
+                "Continente Flocos Chocolate",
+                "Continente Flocos Mel",
+                "Nestum Mel",
+                "Nestum 5 Cereais",
+                "Nestum Chocolate",
+                "Nestum Pro Cacau",
+                "Nestum Pro Morango",
+                "Nestum Arroz Zero",
+                "Nestum Mel Zero",
+                "Nestum Espelta Aveia Zero"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente cereais de pequeno-almoço de várias marcas (Nestle Pensal, Continente, Nestum) e variedades (Mel, Chocolate, 5 Cereais, Pro, Zero). Os produtos estão organizados por marca e tipo em zonas lógicas em cada prateleira. PASSO 2: Avaliação de Preenchimento. A prateleira superior tem uma falha de stock visível no centro. A prateleira intermédia tem um pequeno espaço vazio no lado direito. As prateleiras inferiores parecem estar bem preenchidas. O shelf_fill_rate estimado é de 80%. PASSO 3: Deteção de Anomalias. Foi detetada uma rutura de stock (empty_shelf) na prateleira superior, no centro, com uma extensão considerável. Foi também detetada uma rutura de stock menor (empty_shelf) na prateleira intermédia, lado direito. Não foram detetados caos, sujidade ou produtos errados. PASSO 4: Classificação de Risco. Foram identificadas duas anomalias de tipo 'empty_shelf', uma de gravidade média e outra de gravidade baixa. A presença de ruturas de stock, mesmo que não graves, justifica um estado de 'warning'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133435_1275",
+            "timestamp": "2026-06-09T12:34:35Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "detergente",
+                "lixívia",
+                "panos de cozinha"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente produtos de limpeza, como detergentes (Domestos, Neo Blanc) e lixívia. Há também uma secção com panos de cozinha. Os produtos estão organizados por zonas lógicas, com detergentes numa prateleira e lixívia noutra, e os panos de cozinha numa área dedicada. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock significativa. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar (violação) ou ruturas graves de stock. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133453_ACAF",
+            "timestamp": "2026-06-09T12:34:53Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior, centro",
+                    "severity": "high",
+                    "description": "Prateleira com grande vazio de stock, apenas um produto visível.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.7
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "damaged",
+                    "location": "Prateleira superior, lado direito",
+                    "severity": "low",
+                    "description": "Embalagem de detergente com amassado visível.",
+                    "confidence": 0.7,
+                    "affected_area_pct": 0.05
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "misaligned",
+                    "location": "Prateleira superior, centro",
+                    "severity": "low",
+                    "description": "Produtos de limpeza de loiça ligeiramente desalinhados.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 0.1
+                }
+            ],
+            "shelf_fill_rate": 0.4,
+            "products_detected": [
+                "Detergente loiça",
+                "Lixívia",
+                "Spray multiusos",
+                "Desengordurante",
+                "Limpador vitrocerâmica",
+                "Produtos de limpeza geral"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente produtos de limpeza doméstica, como detergentes para loiça, sprays multiusos, lixívias e desengordurantes. Os produtos estão organizados por tipo em cada secção da prateleira. PASSO 2: Avaliação de Preenchimento. A prateleira não está a 100%. A prateleira inferior, no centro, apresenta um grande vazio, indicando uma rutura de stock significativa. As outras prateleiras estão razoavelmente preenchidas, embora com alguns produtos desalinhados. O shelf_fill_rate foi estimado em 40%. PASSO 3: Deteção de Anomalias. Foi detetada uma rutura de stock grave na prateleira inferior (ISS_001). Foi identificada uma embalagem amassada numa prateleira superior (ISS_002). Alguns produtos de detergente para loiça na prateleira superior estão ligeiramente desalinhados (ISS_003). Não foi detetado caos ou sujidade óbvia, nem produtos claramente fora do lugar (violação). PASSO 4: Classificação de Risco. Devido à rutura de stock grave e a algumas anomalias menores, o estado geral é 'warning'. A rutura de stock é o fator principal para não ser 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133511_3914",
+            "timestamp": "2026-06-09T12:35:11Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "detergente líquido",
+                "detergente em pastilhas",
+                "detergente em pó"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente detergente líquido para loiça, com algumas variações em embalagem (garrafas, recargas) e formatos (pack poupança). Há também detergente em pastilhas e em pó. Os produtos estão organizados por tipo e marca, com o detergente líquido a ocupar a maior parte do espaço, seguido pelas pastilhas e pó. A organização é lógica por zona de produto. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está bem preenchida, com a maioria das secções a apresentar stock completo. Existem algumas pequenas lacunas visíveis, especialmente na parte frontal de algumas prateleiras, mas não há buracos ou filas vazias que indiquem rutura de stock significativa. O preenchimento estimado é de 95%. PASSO 3: Deteção de Anomalias. Não foram detetados casos de CAOS/SUJIDADE (embalagens danificadas, sujidade visível, produtos tombados). Não foram detetadas VIOLAÇÕES (produtos fora da sua categoria lógica). Não foram detetadas RUTURAS graves (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133529_AE43",
+            "timestamp": "2026-06-09T12:35:29Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "detergente para máquina de lavar loiça",
+                "pastilhas para máquina de lavar loiça",
+                "líquido abrilhantador para máquina de lavar loiça",
+                "sal para máquina de lavar loiça"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente produtos para máquinas de lavar loiça, como detergentes, pastilhas, abrilhantadores e sal. Os produtos estão organizados por tipo, com as pastilhas e detergentes em embalagens maiores nas prateleiras superiores e inferiores, e os abrilhantadores e sal em embalagens mais pequenas nas prateleiras intermédias e inferiores. A organização parece lógica por zona de produto. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock significativa. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos/sujidade, produtos fora do lugar (violação) ou ruturas graves de stock. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133547_873E",
+            "timestamp": "2026-06-09T12:35:47Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "critical",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira superior, secção central",
+                    "severity": "high",
+                    "description": "Várias caixas de ovos vazias, indicando rutura de stock.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.4
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior, secção esquerda",
+                    "severity": "medium",
+                    "description": "Caixa de ovos parcialmente vazia, com buracos visíveis.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 0.3
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior, secção central",
+                    "severity": "high",
+                    "description": "Caixa de ovos completamente vazia.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 0.5
+                }
+            ],
+            "shelf_fill_rate": 0.3,
+            "products_detected": [
+                "ovos"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente ovos, organizados em caixas de diferentes tamanhos e tipos (biológicos, criados ao ar livre, etc.). A organização parece ser por zona lógica, com diferentes secções dedicadas a tipos específicos de ovos. PASSO 2: Avaliação de Preenchimento. A prateleira não está a 100% preenchida. Existem várias secções com caixas vazias ou parcialmente vazias, indicando ruturas de stock significativas. PASSO 3: Deteção de Anomalias. Foram detetadas várias ruturas de stock (empty_shelf) em diferentes secções da prateleira. Não há indícios de caos, sujidade ou produtos errados. PASSO 4: Classificação de Risco. Devido à presença de múltiplas ruturas de stock significativas, o estado geral é classificado como 'critical'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133606_B3A6",
+            "timestamp": "2026-06-09T12:36:06Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "ervilhas",
+                "feijão verde",
+                "macedonia de legumes",
+                "milho doce",
+                "polpa de tomate",
+                "cogumelos laminados",
+                "cogumelos inteiros"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está organizada por zonas lógicas, com produtos como ervilhas, feijão verde, milho doce, polpa de tomate, cogumelos laminados e cogumelos inteiros agrupados por tipo. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133624_73F8",
+            "timestamp": "2026-06-09T12:36:24Z",
+            "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 1.0,
+            "products_detected": [
+                "azeite virgem extra",
+                "azeite",
+                "azeite de oliva"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe predominantemente azeite virgem extra, organizado por marcas e tamanhos. As categorias estão bem definidas em zonas lógicas. PASSO 2: Avaliação de Preenchimento. A prateleira parece estar 100% preenchida, sem buracos visíveis ou filas vazias até ao fundo. PASSO 3: Deteção de Anomalias. Não foram detetados problemas de caos/sujidade, produtos fora do lugar (violação) ou ruturas evidentes de stock. PASSO 4: Classificação de Risco. Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133642_839B",
+            "timestamp": "2026-06-09T12:36:42Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "Whisky",
+                "Scotch Whisky",
+                "Irish Whiskey",
+                "Bourbon"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe predominantemente garrafas de whisky, organizadas por marcas e tipos (Scotch, Irish, Bourbon). A organização parece lógica, com diferentes marcas e linhas de produtos agrupadas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com a maioria dos espaços ocupados por produtos. Existem algumas pequenas lacunas na frente, o que é normal, mas não há buracos visíveis até ao fundo da prateleira. O shelf_fill_rate é estimado em 95%. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar (violação) ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133700_D0D2",
+            "timestamp": "2026-06-09T12:37:00Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "Whisky",
+                "Champagne",
+                "Vinho Espumante"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe predominantemente garrafas de whisky, com algumas garrafas de champanhe e vinho espumante nas extremidades. Os produtos estão organizados por tipo em secções lógicas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem abastecida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetados problemas de caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133718_9F3C",
+            "timestamp": "2026-06-09T12:37:18Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "Vinho Tinto",
+                "Vinho Branco",
+                "Sangria",
+                "Vinho Rosé"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente vinhos, divididos por tipo (tinto, branco, rosé) e formato (garrafas, caixas cartonadas, garrafões). Há também sangria. A organização parece lógica por zona de produto. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com a maioria das secções a apresentar stock completo ou quase completo. Há algumas áreas com ligeiras falhas na frente, mas sem buracos profundos. O shelf_fill_rate estimado é de 95%. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, embalagens destruídas, produtos fora do lugar ou ruturas graves. PASSO 4: Classificação de Risco. Com zero anomalias detetadas, o estado geral é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133736_815C",
+            "timestamp": "2026-06-09T12:37:36Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "biscoitos",
+                "bolachas",
+                "cereais",
+                "snacks"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente biscoitos e bolachas, organizados por marcas e tipos (ex: 'zero açúcar', 'digestive', 'breakfast'). Há uma organização lógica por zonas de marca e tipo de produto. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos evidentes ou filas vazias até ao fundo, indicando um bom stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock graves. PASSO 4: Classificação de Risco. Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "empty_WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg": {
+        "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+        "categoria_real": "empty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133753_3329",
+            "timestamp": "2026-06-09T12:37:53Z",
+            "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "Chocolate",
+                "Milka",
+                "Toblerone",
+                "KitKat",
+                "Regina",
+                "Nestle",
+                "Lindt",
+                "Dairy Milk",
+                "Domak"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente produtos de chocolate, organizados por marca e tipo (ex: Milka, Toblerone, KitKat, Lindt). As marcas estão agrupadas em secções lógicas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem abastecida, com a maioria dos produtos visíveis na frente. Existem algumas áreas com menos stock, mas não parecem ser ruturas graves até ao fundo. O shelf_fill_rate é estimado em 95%. PASSO 3: Deteção de Anomalias. Não foram detetados casos de caos/sujidade, produtos fora do lugar (violação) ou ruturas evidentes de stock crítico. PASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas, o estado geral é 'ok'."
+        }
+    },
+    "planogram_WhatsApp Image 2026-06-08 at 20.40.22.jpeg": {
+        "caminho": "images\\planogram\\WhatsApp Image 2026-06-08 at 20.40.22.jpeg",
+        "categoria_real": "planogram",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133812_0E81",
+            "timestamp": "2026-06-09T12:38:12Z",
+            "image_path": "images/planogram/WhatsApp Image 2026-06-08 at 20.40.22.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "coffee capsules",
+                "coffee beans",
+                "chocolate bars",
+                "cookies",
+                "jars of spread",
+                "pasta",
+                "rice",
+                "cereal",
+                "baked goods",
+                "spice jars",
+                "sauces"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de produtos, principalmente café (cápsulas e grãos), chocolates, biscoitos, produtos de padaria, e alguns itens de mercearia como massas e arroz. Os produtos estão organizados por zonas lógicas, com categorias semelhantes agrupadas em cada prateleira. PASSO 2: Avaliação de Preenchimento. A prateleira está bem abastecida, com uma taxa de preenchimento estimada em 95%. Não há buracos visíveis ou filas vazias até ao fundo, indicando um bom nível de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    },
+    "planogram_WhatsApp Image 2026-06-08 at 20.55.50.jpeg": {
+        "caminho": "images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+        "categoria_real": "planogram",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_130121_E027",
+            "timestamp": "2026-06-09T12:01:21Z",
+            "image_path": "images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "misaligned",
+                    "location": "prateleira do meio (terceira de cima para baixo), secção Continente Farinha Láctea",
+                    "severity": "low",
+                    "description": "Uma caixa de 'Continente Farinha Láctea' está ligeiramente tombada e desalinhada em relação às restantes.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 0.5
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "misaligned",
+                    "location": "quarta prateleira (de cima para baixo), secção Hero Solo",
+                    "severity": "low",
+                    "description": "Uma caixa de 'Hero Solo 8 Cereais' está ligeiramente empurrada para trás e desalinhada.",
+                    "confidence": 0.95,
+                    "affected_area_pct": 0.5
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "empty_shelf",
+                    "location": "prateleira superior, lado direito",
+                    "severity": "medium",
+                    "description": "Pequenas falhas de stock na secção 'Primeira Papa', indicando produtos retirados da frente da prateleira.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 5.0
+                },
+                {
+                    "issue_id": "ISS_004",
+                    "type": "empty_shelf",
+                    "location": "quarta prateleira (de cima para baixo), secção Hero Solo",
+                    "severity": "medium",
+                    "description": "Faltam alguns produtos na secção 'Hero Solo', criando um espaço vazio notável na frente da prateleira.",
+                    "confidence": 0.9,
+                    "affected_area_pct": 8.0
+                }
+            ],
+            "shelf_fill_rate": 88.0,
+            "products_detected": [
+                "Papas de Bebé Bio",
+                "Farinhas Infantis de Fruta (Maçã, Pera, Multifrutos)",
+                "Farinhas Lácteas",
+                "Farinhas Não Lácteas",
+                "Cereais Infantis (8 Cereais, com Bolacha, com Mel, com Frutas)",
+                "Papas Infantis (Arroz Banana, Pêssego Banana)"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe exclusivamente produtos de alimentação infantil, especificamente papas e farinhas de cereais para bebé, de diversas marcas (Continente do Bebé, Hero Solo, Bledina, Aptamil, Nutribén). A organização geral é lógica, agrupando produtos por marca e tipo (ex: Bio, farinhas de fruta, farinhas lácteas/não lácteas, cereais). PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A taxa de preenchimento estimada é de 88.0%. Existem algumas falhas de stock visíveis, principalmente na prateleira superior (secção 'Primeira Papa') e na quarta prateleira (secção 'Hero Solo'). Estas parecem ser ruturas de frente de prateleira, onde os produtos foram retirados, mas não há indícios de buracos profundos ou filas completamente vazias até ao fundo. PASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias: - CAOS/SUJIDADE: Não há evidência de sujidade, líquidos derramados, lixo óbvio ou embalagens destruídas. No entanto, foram observados alguns produtos ligeiramente desalinhados (uma caixa 'Continente Farinha Láctea' na terceira prateleira e uma caixa 'Hero Solo' na quarta prateleira). - VIOLAÇÃO: Não foram encontrados produtos fora da sua categoria lógica. Todos os itens são farinhas/papas infantis. - RUTURA: Existem pequenas ruturas de stock na prateleira superior (lado direito) e na quarta prateleira (secção Hero Solo), classificadas como de gravidade média, pois afetam a apresentação e disponibilidade imediata, mas não são ruturas críticas de stock profundo. PASSO 4: Classificação de Risco. Com base nas anomalias encontradas (duas pequenas desalinhamentos e duas áreas com falhas de stock de gravidade média), o 'overall_status' é classificado como 'warning'. Não é 'ok' devido às anomalias visíveis, mas também não é 'critical' pois não há caos visual generalizado, danos graves ou ruturas de stock profundas e generalizadas."
+        }
+    },
+    "dirty_WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg": {
+        "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+        "categoria_real": "dirty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133845_BEA6",
+            "timestamp": "2026-06-09T12:38:45Z",
+            "image_path": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira inferior, lado esquerdo",
+                    "severity": "medium",
+                    "description": "Falta de stock visível numa das caixas de produtos de charcutaria.",
+                    "confidence": 0.85,
+                    "affected_area_pct": 0.2
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "damaged",
+                    "location": "Prateleira superior, centro",
+                    "severity": "low",
+                    "description": "Embalagem de produto de charcutaria ligeiramente amarfanhada.",
+                    "confidence": 0.7,
+                    "affected_area_pct": 0.05
+                },
+                {
+                    "issue_id": "ISS_003",
+                    "type": "misaligned",
+                    "location": "Prateleira intermédia, lado direito",
+                    "severity": "low",
+                    "description": "Alguns pacotes de produtos de charcutaria estão desalinhados.",
+                    "confidence": 0.75,
+                    "affected_area_pct": 0.1
+                }
+            ],
+            "shelf_fill_rate": 0.85,
+            "products_detected": [
+                "charcutaria",
+                "salame",
+                "presunto",
+                "salsichas"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente produtos de charcutaria, como presunto, salame e salsichas. Os produtos estão organizados por zonas lógicas, com diferentes tipos de charcutaria agrupados. PASSO 2: Avaliação de Preenchimento. A prateleira está maioritariamente cheia, mas há uma caixa visivelmente vazia na prateleira inferior esquerda, indicando uma rutura parcial. O preenchimento geral é estimado em 85%. PASSO 3: Deteção de Anomalias. Foi detetada uma rutura de stock numa caixa de charcutaria na prateleira inferior esquerda (empty_shelf). Uma embalagem na prateleira superior central parece ligeiramente amarfanhada (damaged). Vários pacotes de charcutaria na prateleira intermédia direita estão desalinhados (misaligned). Não há caos visual ou sujidade óbvia. PASSO 4: Classificação de Risco. Foram identificadas 3 anomalias: uma rutura de stock de média gravidade, uma embalagem danificada de baixa gravidade e produtos desalinhados de baixa gravidade. A presença de uma rutura de stock, mesmo que parcial, eleva o status para 'warning'."
+        }
+    },
+    "dirty_WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg": {
+        "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+        "categoria_real": "dirty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133904_346E",
+            "timestamp": "2026-06-09T12:39:04Z",
+            "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "warning",
+            "issues": [
+                {
+                    "issue_id": "ISS_001",
+                    "type": "empty_shelf",
+                    "location": "Prateleira superior, lado esquerdo",
+                    "severity": "medium",
+                    "description": "Falta de stock visível em algumas embalagens de molho.",
+                    "confidence": 0.8,
+                    "affected_area_pct": 0.15
+                },
+                {
+                    "issue_id": "ISS_002",
+                    "type": "damaged",
+                    "location": "Prateleira inferior, centro",
+                    "severity": "low",
+                    "description": "Uma embalagem de batatas fritas parece ligeiramente amarfanhada.",
+                    "confidence": 0.7,
+                    "affected_area_pct": 0.05
+                }
+            ],
+            "shelf_fill_rate": 0.85,
+            "products_detected": [
+                "Molhos",
+                "Conservas",
+                "Café",
+                "Sumos",
+                "Massas",
+                "Azeite",
+                "Batatas fritas"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está organizada por zonas lógicas, com molhos e conservas na parte superior, seguidos por café, sumos, massas, azeite e batatas fritas nas prateleiras inferiores. PASSO 2: Avaliação de Preenchimento. O preenchimento geral da prateleira é bom, mas há algumas falhas visíveis, especialmente na secção de molhos, indicando uma possível rutura parcial. PASSO 3: Deteção de Anomalias. Foi detetada uma falta de stock em algumas embalagens de molho (empty_shelf) na prateleira superior. Uma embalagem de batatas fritas na prateleira inferior parece ligeiramente danificada (damaged). Não há caos visual ou produtos claramente fora do lugar. PASSO 4: Classificação de Risco. Com uma rutura parcial e um item danificado, o status geral é 'warning'."
+        }
+    },
+    "dirty_WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg": {
+        "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+        "categoria_real": "dirty",
+        "analise_ia": {
+            "inspection_id": "INS_20260609_133923_3338",
+            "timestamp": "2026-06-09T12:39:23Z",
+            "image_path": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+            "zone_id": "Z_TEST_01",
+            "overall_status": "ok",
+            "issues": [],
+            "shelf_fill_rate": 0.95,
+            "products_detected": [
+                "detergente",
+                "perfume",
+                "escovas de dentes",
+                "sabonete",
+                "loção",
+                "champô",
+                "amaciador",
+                "detergente para a loiça",
+                "desinfetante",
+                "detergente para a roupa",
+                "detergente para máquina de lavar loiça",
+                "detergente para máquina de lavar roupa"
+            ],
+            "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos de higiene pessoal (perfumes, loções, champôs, sabonetes, escovas de dentes) e produtos de limpeza doméstica (detergentes para a loiça, roupa, máquina de lavar loiça e roupa, desinfetantes). Os produtos estão organizados por zonas lógicas, com categorias semelhantes agrupadas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+        }
+    }
+}

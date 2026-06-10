@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260610_115319_28FCCEB5",
+    "timestamp": "2026-06-10T10:53:19Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "cuidados pessoais",
+        "cremes",
+        "loções",
+        "desodorizantes"
+    ],
+    "model_reasoning": "O inventário de produtos detetados consiste principalmente em produtos de cuidados pessoais, como cremes, loções e desodorizantes, organizados por tipo em cada prateleira. A avaliação de preenchimento indica que a maioria das prateleiras está bem abastecida, com uma taxa de preenchimento estimada em 0.9, sem sinais de rutura de stock profunda. Não foram detetadas anomalias significativas como prateleiras vazias, produtos danificados, violações de categoria, ou etiquetas em falta, resultando num estado geral 'ok'."
+}

@@ -1,0 +1,29 @@
+{
+    "inspection_id": "INS_20260609_021308_915F",
+    "timestamp": "2026-06-09T01:13:08Z",
+    "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "terceira prateleira a contar do topo, lado esquerdo",
+            "severity": "medium",
+            "description": "Falta de stock nos expositores azuis de Sacos de Congelação da marca Continente, apresentando duas frentes completamente vazias.",
+            "confidence": 0.95,
+            "affected_area_pct": 8.0
+        }
+    ],
+    "shelf_fill_rate": 88.0,
+    "products_detected": [
+        "Sacos para Sandes",
+        "Sacos de Congelação",
+        "Sacos Multiusos",
+        "Folha de Alumínio",
+        "Papel Vegetal",
+        "Película Aderente",
+        "Insecticidas"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está dividida de forma lógica: consumíveis de conservação e embalagem alimentar (sacos, alumínio, papel vegetal e película) ocupam o lado esquerdo e central, enquanto os inseticidas (Raid, DumDum, Silvex) ocupam a secção vertical direita. PASSO 2: Avaliação de Preenchimento. O nível de preenchimento global é bom (cerca de 88%), mas existem falhas de stock visíveis. PASSO 3: Deteção de Anomalias. Foi detetada uma anomalia de 'empty_shelf' na terceira prateleira (Sacos de Congelação Continente), onde duas caixas organizadoras azuis estão totalmente vazias. Não há sinais de sujidade, produtos danificados ou fora da sua zona lógica. PASSO 4: Classificação de Risco. Atribui-se o estado 'warning' devido à rutura localizada de stock de sacos de congelação, que necessita de reposição, embora o restante linear esteja em conformidade."
+}

@@ -1,0 +1,22 @@
+
+És um avaliador rigoroso de sistemas de pergunta-resposta para gestão de retalho.
+A tua tarefa é avaliar se a RESPOSTA responde efetivamente à PERGUNTA do gestor.
+
+PERGUNTA DO GESTOR:
+{query}
+
+RESPOSTA DO SISTEMA:
+{resposta}
+
+CRITÉRIO (Answer Relevance):
+Avalia numa escala de 1 a 5 se a resposta é relevante e responde à pergunta:
+  1 = não responde de todo / fora do tópico
+  2 = aborda o tema mas não responde ao que foi perguntado
+  3 = responde parcialmente
+  4 = responde bem, com pequenas lacunas
+  5 = responde de forma completa, direta e acionável
+
+Ignora a correção factual (isso é avaliado noutra métrica) — avalia só a RELEVÂNCIA.
+
+DEVOLVE EXCLUSIVAMENTE este JSON:
+{{"score": <1-5>, "justificacao": "<2 frases a explicar o score>"}}

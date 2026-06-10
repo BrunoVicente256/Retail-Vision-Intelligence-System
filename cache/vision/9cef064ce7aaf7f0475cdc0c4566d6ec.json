@@ -1,0 +1,51 @@
+{
+    "inspection_id": "INS_20260610_115332_9CEF064C",
+    "timestamp": "2026-06-10T10:53:32Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "high",
+            "description": "Vários espaços vazios profundos na prateleira superior, indicando rutura de stock.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado direito",
+            "severity": "medium",
+            "description": "Espaços vazios visíveis na prateleira intermédia, com o fundo da prateleira exposto.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.2
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Ausência de produtos em várias secções da prateleira inferior, com o fundo visível.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.25
+        },
+        {
+            "issue_id": "ISS_004",
+            "type": "damaged",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Uma caixa de produto ligeiramente amarfanhada visível na prateleira inferior.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.65,
+    "products_detected": [
+        "café em cápsulas",
+        "máquinas de café"
+    ],
+    "model_reasoning": "O produto principal identificado é café em cápsulas, com algumas máquinas de café na prateleira inferior. A avaliação de preenchimento da prateleira é de aproximadamente 65%, com várias secções vazias. Foram detetadas múltiplas ruturas de stock (empty_shelf) em diferentes prateleiras, especialmente nas secções superiores e intermédias do lado direito, onde o fundo da prateleira é visível. Existe também uma anomalia de dano menor numa caixa. Devido à presença de múltiplas ruturas de stock significativas, o estado geral é classificado como 'critical'."
+}

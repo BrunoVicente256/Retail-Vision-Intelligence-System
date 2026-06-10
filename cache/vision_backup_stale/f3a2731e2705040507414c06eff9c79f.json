@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260609_133322_B7DC",
+    "timestamp": "2026-06-09T12:33:22Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "Cien",
+        "Nivea",
+        "Rexona",
+        "Cremes",
+        "Loções",
+        "Desodorizantes",
+        "Produtos capilares"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos de cuidados pessoais, principalmente cremes, loções e desodorizantes, organizados por marca (Cien, Nivea, Rexona) e tipo de produto. As zonas lógicas são respeitadas, com produtos similares agrupados. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+}

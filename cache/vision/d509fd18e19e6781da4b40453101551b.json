@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260610_115300_D509FD18",
+    "timestamp": "2026-06-10T10:53:00Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "mostarda",
+        "ketchup",
+        "maionese",
+        "molhos"
+    ],
+    "model_reasoning": "PASSO 1: Os produtos identificados são principalmente condimentos como mostarda, ketchup e maionese, organizados por tipo em prateleiras distintas. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em 95%, com pouquíssimos espaços vazios que parecem ser apenas falta de unidades na frente e não rutura de stock. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+}

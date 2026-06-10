@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260609_003304_4DC0",
+    "timestamp": "2026-06-08T23:33:04Z",
+    "image_path": "images/normal/garrafeira_01.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.97,
+    "products_detected": [
+        "Cachaça",
+        "Vodka",
+        "Licores",
+        "Whisky",
+        "Rum",
+        "Bebidas Mistas Alcoólicas",
+        "Vermouth"
+    ],
+    "model_reasoning": "A prateleira apresenta um excelente estado de organização e preenchimento. Todas as garrafas estão bem alinhadas e não há sinais de rutura de stock significativa, produtos fora do lugar ou danos visíveis. O shelf_fill_rate é elevado, indicando que a maioria do espaço está ocupada por produtos. Pequenos desfalques na linha da frente são considerados normais na operação diária da loja e, de acordo com o EXEMPLO 1, não justificam a criação de 'issues'. Portanto, o overall_status é 'ok' e a lista de 'issues' está vazia."
+}

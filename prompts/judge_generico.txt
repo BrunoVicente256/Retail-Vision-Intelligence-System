@@ -1,0 +1,11 @@
+
+És um avaliador especialista. Avalia o OUTPUT abaixo segundo o CRITÉRIO dado.
+
+CRITÉRIO DE AVALIAÇÃO:
+{criterio}
+
+OUTPUT A AVALIAR:
+{output}
+
+DEVOLVE EXCLUSIVAMENTE este JSON:
+{{"score": <1-5>, "justificacao": "<2-3 frases a fundamentar o score>"}}

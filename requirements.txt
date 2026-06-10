@@ -1,0 +1,14 @@
+# Retail Vision Intelligence System (TP2 LIACD)
+# Python 3.13 (venv). Setup:
+#   python -m venv venv
+#   venv\Scripts\activate        (Windows)   |   source venv/bin/activate (Linux/Mac)
+#   python -m pip install -r requirements.txt
+
+# --- Componente 1: Shelf Inspector (análise visual multimodal) ---
+google-genai==2.8.0          # SDK Gemini — import: from google import genai
+pillow==12.2.0               # carregamento de imagens (PIL.Image)
+python-dotenv==1.2.2         # carregar GEMINI_API_KEY do .env
+
+# --- Componente 3: RAG Memory (vector store + embeddings locais) ---
+chromadb==1.5.9              # vector store local persistente (sem servidor)
+sentence-transformers==5.5.1 # embeddings multilingues (paraphrase-multilingual-MiniLM-L12-v2)

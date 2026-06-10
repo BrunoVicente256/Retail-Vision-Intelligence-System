@@ -1,0 +1,36 @@
+{
+    "inspection_id": "INS_20260609_130040_A034",
+    "timestamp": "2026-06-09T12:00:40Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "wrong_product",
+            "location": "Prateleira superior, lado esquerdo",
+            "severity": "low",
+            "description": "Espíritos (Jameson, Baileys, Beirão) estão misturados com vinhos espumantes (Casal Garcia Fruitzy), quebrando a organização estrita por categoria de produto.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "wrong_product",
+            "location": "Terceira prateleira, lado esquerdo",
+            "severity": "low",
+            "description": "Vinhos (Monte Velho, Esporão) estão misturados com uma secção predominantemente de espíritos (Sierra, Bombay Sapphire, Eristoff, Gordon's), resultando numa organização de categoria mista.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+        "Vinho Espumante",
+        "Espíritos",
+        "Vinho Tinto",
+        "Vinho Branco",
+        "Bebidas Mistas"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de bebidas alcoólicas. Na prateleira superior esquerda, há vinhos espumantes, espíritos (Jameson, Baileys, Beirão). Na prateleira superior direita, vinhos tintos da região do Douro. Na segunda prateleira esquerda, vinhos brancos e algumas bebidas mistas/ingredientes para cocktails. Na segunda prateleira direita, mais vinhos tintos do Douro. Na terceira prateleira esquerda, uma mistura de espíritos (Sierra, Bombay Sapphire, Eristoff, Gordon's) e alguns vinhos (Monte Velho, Esporão). Na terceira prateleira direita, vinhos tintos do Douro. As prateleiras inferiores contêm vinhos tintos e brancos, muitos em caixas. A organização é maioritariamente lógica por tipo de bebida e região, mas há algumas misturas de categorias. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está extremamente bem preenchida, com uma taxa de preenchimento estimada em 98%. Não há buracos visíveis ou filas vazias que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foi detetado CAOS/SUJIDADE; as embalagens estão em bom estado, não há lixo ou derrames visíveis, e os produtos estão bem alinhados. Não há RUTURA evidente de stock. No entanto, foram detetadas duas instâncias de VIOLAÇÃO (wrong_product) devido à mistura de categorias: 1) Na prateleira superior esquerda, espíritos estão misturados com vinhos espumantes. 2) Na terceira prateleira esquerda, alguns vinhos estão misturados com uma secção predominantemente de espíritos. Embora sejam todas bebidas alcoólicas, a mistura de categorias distintas (vinho vs. espírito) é uma anomalia de organização. PASSO 4: Classificação de Risco. Com base nas duas anomalias de 'wrong_product' de baixa severidade (mistura de categorias), e seguindo a regra de que '1 a 2 anomalias pequenas (ex: um produto ligeiramente desalinhado) = warning', o 'overall_status' é classificado como 'warning'. Não é 'critical' pois não há caos visual, embalagens destruídas ou ruturas graves."
+}

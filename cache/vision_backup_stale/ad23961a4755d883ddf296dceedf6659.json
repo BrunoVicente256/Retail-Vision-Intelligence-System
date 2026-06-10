@@ -1,0 +1,21 @@
+{
+    "inspection_id": "INS_20260609_133753_3329",
+    "timestamp": "2026-06-09T12:37:53Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "Chocolate",
+        "Milka",
+        "Toblerone",
+        "KitKat",
+        "Regina",
+        "Nestle",
+        "Lindt",
+        "Dairy Milk",
+        "Domak"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente produtos de chocolate, organizados por marca e tipo (ex: Milka, Toblerone, KitKat, Lindt). As marcas estão agrupadas em secções lógicas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem abastecida, com a maioria dos produtos visíveis na frente. Existem algumas áreas com menos stock, mas não parecem ser ruturas graves até ao fundo. O shelf_fill_rate é estimado em 95%. PASSO 3: Deteção de Anomalias. Não foram detetados casos de caos/sujidade, produtos fora do lugar (violação) ou ruturas evidentes de stock crítico. PASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas, o estado geral é 'ok'."
+}

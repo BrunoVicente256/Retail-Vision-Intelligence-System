@@ -1,0 +1,26 @@
+# --- Segredos (NUNCA commitar) ---
+.env
+
+# --- Ambiente virtual ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Regeneráveis / temporários ---
+*.log                        # logs de execução (ab_err.log, batch_err.log, etc.)
+vectorstore/                 # índice ChromaDB (regenerável por re-indexação)
+cache/vision_backup_stale/   # cache antigo, obsoleto
+_*.py                        # diagnósticos temporários (_analise_cache.py, etc.)
+_tmp_*                       # pastas/ficheiros de teste temporários
+eval_dev.json                # output de auto-teste do evaluate.py
+
+# NOTA: cache/vision/ é MANTIDO de propósito — permite a demo funcionar sem
+# gastar quota (free tier = 20 req/dia). data/, reports/, prompts/ são entregáveis.
+
+.DS_Store
+Thumbs.db

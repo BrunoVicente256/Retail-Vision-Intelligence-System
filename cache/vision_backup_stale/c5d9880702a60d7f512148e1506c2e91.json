@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260609_125820_7DBE",
+    "timestamp": "2026-06-09T11:58:20Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 98.5,
+    "products_detected": [
+        "Coloração de Cabelo",
+        "Spray Retoque de Raízes",
+        "Shampoo Colorante",
+        "Produtos para Sobrancelhas"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de produtos de cuidados capilares, especificamente focados em coloração e retoque de raízes. As categorias identificadas incluem colorações permanentes (L'Oréal Excellence, Syoss, Garnier Olia, Garnier Good), colorações semi-permanentes (L'Oréal Casting Crème Gloss), sprays de retoque de raízes (L'Oréal Magic Retouch), shampoos colorantes (L'Oréal Colorista, L'Oréal Cool Silver) e produtos para sobrancelhas (Brow). A organização parece lógica, com produtos agrupados por marca e tipo, e uma secção dedicada a marcas específicas de coloração (Garnier Good, L'Oréal Excellence) no lado direito, enquanto o lado esquerdo contém uma mistura de outras marcas e tipos de produtos. A sinalética 'CUIDADOS' no topo reforça a categoria geral.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está muito bem preenchida. Não foram observados buracos significativos ou filas vazias que indicassem rutura de stock. Os produtos estão, na sua maioria, bem alinhados e puxados para a frente. O preenchimento é estimado em 98.5%, indicando um excelente nível de stock e organização.\nPASSO 3: Deteção de Anomalias. Foram procuradas ativamente as seguintes anomalias:\n    - CAOS/SUJIDADE (dirty/damaged): Não foram detetadas embalagens amarfanhadas, caixas destruídas, líquidos derramados, lixo óbvio ou produtos atirados/tombados de forma caótica. A prateleira apresenta-se limpa e organizada.\n    - VIOLAÇÃO (wrong_product): Todos os produtos observados pertencem à categoria lógica de 'Cuidados' e, mais especificamente, de coloração e tratamento capilar. Não há produtos fora da sua categoria lógica.\n    - RUTURA (empty_shelf): Não há falta evidente de stock crítico. As prateleiras estão cheias e bem abastecidas.\nPASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas detetadas nos passos anteriores, o 'overall_status' é classificado como 'ok'. A prateleira está em excelente estado de manutenção e stock."
+}

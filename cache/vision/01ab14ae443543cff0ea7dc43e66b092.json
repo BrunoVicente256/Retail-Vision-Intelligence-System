@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260610_115355_01AB14AE",
+    "timestamp": "2026-06-10T10:53:55Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "detergente para loiça"
+    ],
+    "model_reasoning": "A análise da imagem revela uma prateleira predominantemente preenchida com produtos da marca Fairy, especificamente detergentes para loiça. Não foram detetadas anomalias significativas como rupturas de stock, danos nas embalagens, produtos incorretos ou etiquetas em falta. A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com apenas pequenas lacunas normais de reposição na frente de algumas unidades. Portanto, o estado geral da prateleira é considerado 'ok'."
+}

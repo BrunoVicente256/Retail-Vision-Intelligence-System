@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260610_115220_E53FD419",
+    "timestamp": "2026-06-10T10:52:20Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "cuidados da pele",
+        "limpeza facial",
+        "hidratantes",
+        "séruns",
+        "toalhitas desmaquilhantes",
+        "discos de algodão"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe uma variedade de produtos de cuidados da pele, organizados em categorias lógicas por prateleira, como cremes, séruns, toalhitas e discos de algodão. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com a maioria dos espaços preenchidos por produtos. Não há buracos profundos que indiquem rutura de stock, apenas algumas unidades em falta na frente, o que é considerado reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos fora de categoria, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+}

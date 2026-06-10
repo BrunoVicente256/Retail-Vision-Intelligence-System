@@ -1,0 +1,22 @@
+{
+    "inspection_id": "INS_20260609_024639_6CC1",
+    "timestamp": "2026-06-09T01:46:39Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "feijão branco",
+        "feijão frade",
+        "feijão manteiga",
+        "feijão encarnado",
+        "feijão preto",
+        "grão de bico",
+        "ervilhas",
+        "milho",
+        "conservas de legumes",
+        "conservas de fruta"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está organizada por zonas lógicas, com diferentes tipos de conservas de leguminosas (feijões, grão de bico, ervilhas) e outros vegetais (milho) em diferentes secções. Há também uma zona com conservas de fruta. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com a maioria dos produtos a cobrir a frente da prateleira. Existem algumas pequenas falhas de stock, mas não parecem ser ruturas graves. O shelf_fill_rate é estimado em 95%. PASSO 3: Deteção de Anomalias. Não foram detetados problemas de caos/sujidade, produtos fora do lugar (violação) ou ruturas graves de stock. PASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas, o estado geral é 'ok'."
+}

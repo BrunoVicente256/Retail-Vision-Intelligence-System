@@ -1,0 +1,41 @@
+{
+    "inspection_id": "INS_20260609_133547_873E",
+    "timestamp": "2026-06-09T12:35:47Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "Prateleira superior, secção central",
+            "severity": "high",
+            "description": "Várias caixas de ovos vazias, indicando rutura de stock.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "Prateleira inferior, secção esquerda",
+            "severity": "medium",
+            "description": "Caixa de ovos parcialmente vazia, com buracos visíveis.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "Prateleira inferior, secção central",
+            "severity": "high",
+            "description": "Caixa de ovos completamente vazia.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.5
+        }
+    ],
+    "shelf_fill_rate": 0.3,
+    "products_detected": [
+        "ovos"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém principalmente ovos, organizados em caixas de diferentes tamanhos e tipos (biológicos, criados ao ar livre, etc.). A organização parece ser por zona lógica, com diferentes secções dedicadas a tipos específicos de ovos. PASSO 2: Avaliação de Preenchimento. A prateleira não está a 100% preenchida. Existem várias secções com caixas vazias ou parcialmente vazias, indicando ruturas de stock significativas. PASSO 3: Deteção de Anomalias. Foram detetadas várias ruturas de stock (empty_shelf) em diferentes secções da prateleira. Não há indícios de caos, sujidade ou produtos errados. PASSO 4: Classificação de Risco. Devido à presença de múltiplas ruturas de stock significativas, o estado geral é classificado como 'critical'."
+}

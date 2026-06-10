@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260610_115147_4420C4EC",
+    "timestamp": "2026-06-10T10:51:47Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "bolachas",
+        "biscoitos",
+        "snacks",
+        "cereais"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe principalmente produtos da categoria de bolachas e biscoitos, organizados em caixas de exposição por tipo. Há também alguns snacks e cereais visíveis. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 85%. A maioria das prateleiras está bem abastecida, com apenas algumas unidades em falta na frente, o que é considerado reposição normal e não uma rutura de stock. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock (buracos profundos), danos nas embalagens, produtos fora de categoria ou etiquetas em falta. PASSO 4: Como não foram identificadas anomalias, o estado geral da inspeção é 'ok'."
+}

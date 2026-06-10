@@ -1,0 +1,20 @@
+{
+    "inspection_id": "INS_20260609_024320_208F",
+    "timestamp": "2026-06-09T01:43:20Z",
+    "image_path": "images/normal/garrafeira_01.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "vodka",
+        "gin",
+        "vermouth",
+        "liqueur",
+        "whisky",
+        "cocktail",
+        "water",
+        "juice"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de bebidas alcoólicas e não alcoólicas, organizadas por tipo de produto em diferentes níveis. As categorias identificadas incluem vodka, gin, vermouth, licores, whisky, cocktails, água e sumos. A organização é por zona lógica, com cada prateleira dedicada a um tipo de bebida ou a uma marca específica. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está bem abastecida, com a maioria dos produtos a cobrir a frente da prateleira. Existem algumas pequenas lacunas, mas não há buracos ou filas vazias que indiquem rutura de stock significativa. O preenchimento estimado é de 95%. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos/sujidade, produtos fora do lugar (violação) ou ruturas graves de stock. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+}

@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260609_024546_39E6",
+    "timestamp": "2026-06-09T01:45:46Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "hair dye",
+        "hair color remover",
+        "hair treatment",
+        "hair color shampoo",
+        "root touch-up"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe predominantemente produtos para coloração e tratamento capilar, organizados por marca e tipo de produto em cada nível. As categorias incluem tintas de cabelo, shampoos coloridos, tratamentos de raiz e produtos de manutenção. A organização parece lógica por zona de produto. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está bem abastecida, com a maioria das secções a apresentar um preenchimento próximo de 100%. Existem algumas áreas com um ou dois produtos em falta na frente, o que é normal, mas não há buracos ou filas vazias que indiquem rutura de stock significativa. O shelf_fill_rate estimado é de 95%. PASSO 3: Deteção de Anomalias. Não foram detetados casos de CAOS/SUJIDADE (embalagens danificadas, sujidade visível ou produtos desorganizados de forma caótica). Não há VIOLAÇÃO (produtos fora da sua categoria lógica). Não há RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas, o estado geral da prateleira é considerado 'ok'."
+}

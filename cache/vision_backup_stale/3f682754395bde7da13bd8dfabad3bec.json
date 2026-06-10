@@ -1,0 +1,55 @@
+{
+    "inspection_id": "INS_20260609_130121_E027",
+    "timestamp": "2026-06-09T12:01:21Z",
+    "image_path": "images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "misaligned",
+            "location": "prateleira do meio (terceira de cima para baixo), secção Continente Farinha Láctea",
+            "severity": "low",
+            "description": "Uma caixa de 'Continente Farinha Láctea' está ligeiramente tombada e desalinhada em relação às restantes.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.5
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "quarta prateleira (de cima para baixo), secção Hero Solo",
+            "severity": "low",
+            "description": "Uma caixa de 'Hero Solo 8 Cereais' está ligeiramente empurrada para trás e desalinhada.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.5
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Pequenas falhas de stock na secção 'Primeira Papa', indicando produtos retirados da frente da prateleira.",
+            "confidence": 0.9,
+            "affected_area_pct": 5.0
+        },
+        {
+            "issue_id": "ISS_004",
+            "type": "empty_shelf",
+            "location": "quarta prateleira (de cima para baixo), secção Hero Solo",
+            "severity": "medium",
+            "description": "Faltam alguns produtos na secção 'Hero Solo', criando um espaço vazio notável na frente da prateleira.",
+            "confidence": 0.9,
+            "affected_area_pct": 8.0
+        }
+    ],
+    "shelf_fill_rate": 88.0,
+    "products_detected": [
+        "Papas de Bebé Bio",
+        "Farinhas Infantis de Fruta (Maçã, Pera, Multifrutos)",
+        "Farinhas Lácteas",
+        "Farinhas Não Lácteas",
+        "Cereais Infantis (8 Cereais, com Bolacha, com Mel, com Frutas)",
+        "Papas Infantis (Arroz Banana, Pêssego Banana)"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe exclusivamente produtos de alimentação infantil, especificamente papas e farinhas de cereais para bebé, de diversas marcas (Continente do Bebé, Hero Solo, Bledina, Aptamil, Nutribén). A organização geral é lógica, agrupando produtos por marca e tipo (ex: Bio, farinhas de fruta, farinhas lácteas/não lácteas, cereais). PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A taxa de preenchimento estimada é de 88.0%. Existem algumas falhas de stock visíveis, principalmente na prateleira superior (secção 'Primeira Papa') e na quarta prateleira (secção 'Hero Solo'). Estas parecem ser ruturas de frente de prateleira, onde os produtos foram retirados, mas não há indícios de buracos profundos ou filas completamente vazias até ao fundo. PASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias: - CAOS/SUJIDADE: Não há evidência de sujidade, líquidos derramados, lixo óbvio ou embalagens destruídas. No entanto, foram observados alguns produtos ligeiramente desalinhados (uma caixa 'Continente Farinha Láctea' na terceira prateleira e uma caixa 'Hero Solo' na quarta prateleira). - VIOLAÇÃO: Não foram encontrados produtos fora da sua categoria lógica. Todos os itens são farinhas/papas infantis. - RUTURA: Existem pequenas ruturas de stock na prateleira superior (lado direito) e na quarta prateleira (secção Hero Solo), classificadas como de gravidade média, pois afetam a apresentação e disponibilidade imediata, mas não são ruturas críticas de stock profundo. PASSO 4: Classificação de Risco. Com base nas anomalias encontradas (duas pequenas desalinhamentos e duas áreas com falhas de stock de gravidade média), o 'overall_status' é classificado como 'warning'. Não é 'ok' devido às anomalias visíveis, mas também não é 'critical' pois não há caos visual generalizado, danos graves ou ruturas de stock profundas e generalizadas."
+}

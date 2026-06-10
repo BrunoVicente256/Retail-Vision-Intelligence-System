@@ -1,0 +1,37 @@
+{
+    "inspection_id": "INS_20260609_021334_3B1A",
+    "timestamp": "2026-06-09T01:13:34Z",
+    "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "terceira prateleira a contar de cima, lado esquerdo",
+            "severity": "high",
+            "description": "Duas caixas de cartão de exposição de Sacos de Congelação estão completamente vazias, apresentando rutura de stock visível.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "quarta prateleira a contar de cima, lado esquerdo",
+            "severity": "high",
+            "description": "Duas caixas de exposição de Folha de Alumínio (azul) estão vazias ou quase sem produto, mostrando buracos profundos.",
+            "confidence": 0.92,
+            "affected_area_pct": 0.12
+        }
+    ],
+    "shelf_fill_rate": 0.78,
+    "products_detected": [
+        "Sacos de Congelação",
+        "Sacos Multiusos",
+        "Folha de Alumínio",
+        "Papel Vegetal",
+        "Película Aderente",
+        "Inseticidas"
+    ],
+    "model_reasoning": "A análise da prateleira revela um estado crítico devido a múltiplas ruturas de stock (empty_shelf) em caixas de exposição de cartão. Na terceira prateleira (a contar de cima), as duas primeiras caixas de 'Sacos de Congelação' do lado esquerdo estão totalmente vazias. Logo abaixo, na quarta prateleira, as duas caixas azuis de 'Folha de Alumínio' também se encontram vazias. Estas falhas graves de stock reduzem a taxa de preenchimento global para cerca de 78%, justificando o estado 'critical' e a severidade 'high' para estes problemas, conforme as regras de calibração estabelecidas."
+}

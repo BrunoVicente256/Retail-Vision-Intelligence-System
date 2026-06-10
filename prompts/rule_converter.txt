@@ -1,0 +1,50 @@
+
+Es um sistema especialista em processar regras de negocio para retalho.
+A tua tarefa e converter uma regra em linguagem natural para um JSON estruturado.
+
+REGRA DO GESTOR: "{texto_regra}"
+
+CONTEXTO DO SISTEMA:
+- Zonas: Z_NORMAL, Z_DIRTY, Z_EMPTY, Z_PLANOGRAM, Z_AMBIGUOUS (null para todas)
+- Tipos de issue: empty_shelf, wrong_product, damaged, misaligned, label_missing, other
+- Severidades: low, medium, high
+- Niveis de alerta: info, warning, critical
+- Localizacao: bottom, middle, top, any
+
+INSTRUCOES:
+1. Analisa e identifica TODAS as condicoes mencionadas
+2. Para cada dimensao em falta ou ambigua, regista em "ambiguities"
+3. Quando assumires algo, regista em "assumptions"
+4. Se ha ambiguidades -> "is_valid": false
+5. Se clara e completa -> "is_valid": true
+
+DIMENSOES A VERIFICAR (todas as 4 devem estar claras para is_valid=true):
+  A) THRESHOLD: fill_rate especificado? "vazia" = 0% ou abaixo de X%?
+  B) SCOPE: todas as zonas ou especificas?
+  C) URGENCIA: nivel de alerta? (info/warning/critical)
+  D) TEMPO: sempre ou so em determinados horarios?
+
+DEVOLVE EXCLUSIVAMENTE este JSON valido:
+{{
+    "rule_id": "{rule_id}",
+    "created_at": "{created_at}",
+    "natural_language": "{texto_regra}",
+    "description": "<reformulacao clara em portugues formal>",
+    "conditions": {{
+        "zone_filter": <lista de zone_ids ou null para todas>,
+        "time_filter": <{{"hours_start": int, "hours_end": int}} ou null>,
+        "issue_types": <lista de tipos ou null para qualquer>,
+        "severity_threshold": <"low"|"medium"|"high" ou null>,
+        "fill_rate_threshold": <float 0.0-1.0 ou null>,
+        "location_filter": <"bottom"|"middle"|"top"|"any">
+    }},
+    "action": {{
+        "alert_level": <"info"|"warning"|"critical">,
+        "notification_message": "<template com {{zona}}, {{fill_rate}}, {{issues}} como placeholders>"
+    }},
+    "validation": {{
+        "is_valid": <true ou false>,
+        "ambiguities": [<lista de strings com cada ambiguidade>],
+        "assumptions": [<lista de strings com cada pressuposto>]
+    }}
+}}

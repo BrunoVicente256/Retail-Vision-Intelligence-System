@@ -1,0 +1,21 @@
+{
+    "inspection_id": "INS_20260609_125456_294E",
+    "timestamp": "2026-06-09T11:54:56Z",
+    "image_path": "images\\normal\\garrafeira_01.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 99.0,
+    "products_detected": [
+        "Cachaça",
+        "Gin",
+        "Vodka",
+        "Limoncello",
+        "Licor Beirão",
+        "Whisky",
+        "Licor Añejo",
+        "Ready-to-drink cocktails",
+        "Vermouth"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe uma variedade de bebidas alcoólicas, incluindo Cachaça, Gin, Vodka, Limoncello, Licor Beirão, Whisky, Licor Añejo, cocktails prontos a beber (sabores como morango, maracujá, piña colada, e versões 'Ice' de lima e limão/laranja) e Vermouth. Os produtos estão claramente organizados por tipo e marca em zonas lógicas distintas em cada prateleira, facilitando a navegação e a apresentação. Não foram detetadas violações de categoria. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está excecionalmente bem preenchida, com a maioria dos produtos alinhados à frente (front-faced). Não há buracos visíveis ou filas vazias que sugiram rutura de stock. O preenchimento é estimado em 99.0%, indicando uma gestão de stock e reposição muito eficaz. PASSO 3: Deteção de Anomalias. Não foram encontradas anomalias significativas. Não há sinais de CAOS/SUJIDADE (embalagens danificadas, lixo, derrames ou produtos tombados). Não há VIOLAÇÃO (produtos fora da sua categoria lógica). Não há RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias detetadas, o 'overall_status' é classificado como 'ok'."
+}

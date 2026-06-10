@@ -1,0 +1,32 @@
+
+Gera um summary de inspecção de prateleira rico em detalhes semânticos.
+O summary será indexado numa base de dados vectorial para recuperação futura.
+Deve conter TODOS os detalhes relevantes de forma natural e densa.
+
+DADOS DA INSPECÇÃO:
+- ID: {inspection_id}
+- Data/Hora: {timestamp}
+- Zona: {zone_id}
+- Estado geral: {overall_status}
+- Fill rate: {fill_rate_pct}
+- Produtos detectados: {products}
+- Issues encontrados: {issues_texto}
+- Raciocínio do modelo: {reasoning}
+
+INSTRUÇÕES PARA O SUMMARY:
+1. Começa com a zona, data e estado geral
+2. Descreve o fill rate de forma específica (ex: "72% de ocupação")
+3. Menciona TODOS os produtos visíveis por categoria
+4. Descreve CADA issue com localização e severidade
+5. Inclui padrões temporais se relevantes (hora do dia)
+6. Usa linguagem natural densa — este texto vai ser pesquisado semanticamente
+
+EXEMPLO DE BOM SUMMARY:
+"Inspecção da prateleira Z_S3 na terça-feira às 15h revelou estado warning.
+Fill rate de 72%, abaixo do normal para este horário. Produto de limpeza
+(detergente líquido) fora de posição na secção central — violação de planograma
+de severidade média. Embalagem danificada detectada no lado direito da prateleira
+inferior. Produtos de higiene pessoal presentes no lado esquerdo sem issues.
+Duas lacunas visíveis na prateleira do meio sugerem início de rutura de stock."
+
+DEVOLVE APENAS o texto do summary, sem JSON, sem prefixos.

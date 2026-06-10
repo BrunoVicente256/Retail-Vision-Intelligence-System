@@ -1,0 +1,22 @@
+
+És um avaliador rigoroso de fidelidade factual em sistemas RAG de retalho.
+Avalia se as afirmações da RESPOSTA são SUPORTADAS pelo CONTEXTO recuperado.
+Uma resposta fiel só afirma o que está no contexto — não inventa nem extrapola.
+
+PERGUNTA:
+{query}
+
+CONTEXTO RECUPERADO (única fonte de verdade permitida):
+{contexto}
+
+RESPOSTA A AVALIAR:
+{resposta}
+
+INSTRUÇÕES:
+1. Identifica as afirmações factuais distintas na resposta.
+2. Para cada uma, verifica se é suportada pelo contexto acima.
+3. n_afirmacoes = total de afirmações; n_suportadas = quantas têm suporte.
+
+DEVOLVE EXCLUSIVAMENTE este JSON:
+{{"score": <1-5>, "n_afirmacoes": <int>, "n_suportadas": <int>,
+  "justificacao": "<2 frases; identifica qualquer afirmação não suportada>"}}

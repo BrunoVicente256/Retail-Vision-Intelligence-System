@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260609_133718_9F3C",
+    "timestamp": "2026-06-09T12:37:18Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "Vinho Tinto",
+        "Vinho Branco",
+        "Sangria",
+        "Vinho Rosé"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente vinhos, divididos por tipo (tinto, branco, rosé) e formato (garrafas, caixas cartonadas, garrafões). Há também sangria. A organização parece lógica por zona de produto. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com a maioria das secções a apresentar stock completo ou quase completo. Há algumas áreas com ligeiras falhas na frente, mas sem buracos profundos. O shelf_fill_rate estimado é de 95%. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, embalagens destruídas, produtos fora do lugar ou ruturas graves. PASSO 4: Classificação de Risco. Com zero anomalias detetadas, o estado geral é 'ok'."
+}

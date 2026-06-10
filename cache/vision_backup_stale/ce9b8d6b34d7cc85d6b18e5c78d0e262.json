@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260609_125927_C737",
+    "timestamp": "2026-06-09T11:59:27Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 98.0,
+    "products_detected": [
+        "Mustard",
+        "Ketchup",
+        "Mayonnaise",
+        "Sauces"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira apresenta uma organização lógica clara. No lado esquerdo, as categorias principais são Mostarda (em frascos e bisnagas) e Ketchup (em várias marcas e formatos). No lado direito, as categorias são Maionese e outros Molhos (também em diversas marcas e formatos). Os produtos estão agrupados por tipo e marca dentro de cada secção, indicando uma organização por zona lógica. Produtos detetados: Mostarda, Ketchup, Maionese, Molhos.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está extremamente bem preenchida. Não há buracos significativos ou filas vazias que sugiram rutura de stock. Existem apenas pequenas lacunas na frente de algumas filas, o que é normal devido à remoção de produtos pelos clientes, mas o stock de fundo parece estar presente. O preenchimento é estimado em 98.0%.\nPASSO 3: Deteção de Anomalias. Foram procuradas ativamente as seguintes anomalias:\n- CAOS/SUJIDADE: Não foi detetado lixo óbvio, líquidos derramados ou produtos atirados/tombados de forma caótica. As embalagens estão, na sua maioria, em bom estado. Algumas caixas de cartão de suporte mostram um desgaste mínimo, mas não estão destruídas ou danificadas de forma crítica.\n- VIOLAÇÃO: Não foram encontrados produtos fora da sua categoria lógica. Todos os produtos estão corretamente posicionados dentro das suas secções de Mostarda, Ketchup, Maionese ou Molhos.\n- RUTURA: Não há falta evidente de stock crítico. As prateleiras estão bem abastecidas em profundidade.\nPASSO 4: Classificação de Risco. Com base na ausência de anomalias significativas (caos visual, embalagens destruídas, ruturas graves ou produtos fora de lugar), o estado geral é classificado como 'ok'. As pequenas imperfeições, como ligeiros desalinhamentos de alguns produtos ou o desgaste mínimo das caixas de cartão, são consideradas normais para um ambiente de retalho e não justificam um 'warning' ou 'critical' status."
+}

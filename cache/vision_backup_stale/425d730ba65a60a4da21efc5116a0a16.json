@@ -1,0 +1,40 @@
+{
+    "inspection_id": "INS_20260609_003758_6EDA",
+    "timestamp": "2026-06-08T23:37:58Z",
+    "image_path": "images/dirty/WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "damaged",
+            "location": "Prateleira inferior, secção de Papel Forno, caixa azul à esquerda",
+            "severity": "low",
+            "description": "Caixa de exposição de Papel Forno (Albal) ligeiramente rasgada/amassada no canto superior direito.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.01
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "other",
+            "location": "Prateleira inferior, secção de inseticidas, no chão da prateleira",
+            "severity": "medium",
+            "description": "Lata de spray de inseticida vazia e descartada, deitada no chão da prateleira.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.005
+        }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "Sacos para lixo",
+        "Sacos para sandes",
+        "Sacos para congelação",
+        "Sacos multiusos",
+        "Folha de alumínio",
+        "Papel vegetal",
+        "Papel forno",
+        "Película aderente",
+        "Insecticidas"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira apresenta uma organização lógica clara. O lado esquerdo é dedicado a produtos de cozinha e domésticos como sacos (lixo, sandes, congelação, multiusos), folha de alumínio, papel vegetal e papel de forno, e película aderente. O lado direito é consistentemente dedicado a inseticidas (sprays, elétricos). As categorias estão bem delimitadas e organizadas por zona lógica. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira está geralmente bem preenchida. Existem algumas pequenas falhas na frente das prateleiras, especialmente nas secções de Sacos para Congelação, Folha de Alumínio Reforçado, Papel Vegetal e Película Aderente, mas estas parecem ser lacunas superficiais onde os produtos podem ser puxados para a frente, e não ruturas profundas de stock. Não há buracos ou filas vazias até ao fundo que indiquem rutura crítica. O preenchimento estimado é de 92%. PASSO 3: Deteção de Anomalias. Foram detetadas duas anomalias: 1. Uma caixa de exposição de Papel Forno (Albal) na prateleira inferior, secção esquerda, apresenta um canto superior direito ligeiramente rasgado/amassado, classificando-se como 'damaged'. 2. Uma lata de spray de inseticida vazia e descartada foi encontrada deitada no chão da prateleira inferior, secção direita, classificando-se como 'other' (lixo). Não foram encontrados produtos fora da sua zona lógica ('wrong_product') nem falta evidente de stock crítico ('empty_shelf'). PASSO 4: Classificação de Risco. Com base nas duas anomalias pequenas e de baixa a média severidade encontradas (uma caixa danificada e um item de lixo), o 'overall_status' é classificado como 'warning'. Não é 'ok' devido à presença de anomalias, mas não é 'critical' pois não há ruturas graves, produtos destruídos em grande escala ou desorganização generalizada."
+}

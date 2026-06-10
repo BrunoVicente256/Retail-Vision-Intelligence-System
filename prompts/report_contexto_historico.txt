@@ -1,0 +1,16 @@
+
+Analisa o histórico de inspecções e identifica padrões relevantes para este relatório.
+
+QUERY CONTEXTUAL: {query}
+
+INSPECÇÕES HISTÓRICAS RECUPERADAS:
+{chunks}
+
+INSTRUÇÕES:
+1. Identifica padrões recorrentes (mesma zona, mesmo problema, mesmo horário)
+2. Compara a sessão actual com o histórico
+3. Menciona SEMPRE os inspection_id e datas das inspecções referenciadas
+4. Máximo 3 parágrafos
+5. Se não há padrões claros, diz isso directamente
+
+DEVOLVE APENAS o texto de análise, sem títulos.

@@ -1,0 +1,44 @@
+{
+    "inspection_id": "INS_20260609_133845_BEA6",
+    "timestamp": "2026-06-09T12:38:45Z",
+    "image_path": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "Prateleira inferior, lado esquerdo",
+            "severity": "medium",
+            "description": "Falta de stock visível numa das caixas de produtos de charcutaria.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.2
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "Prateleira superior, centro",
+            "severity": "low",
+            "description": "Embalagem de produto de charcutaria ligeiramente amarfanhada.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "Prateleira intermédia, lado direito",
+            "severity": "low",
+            "description": "Alguns pacotes de produtos de charcutaria estão desalinhados.",
+            "confidence": 0.75,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "charcutaria",
+        "salame",
+        "presunto",
+        "salsichas"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente produtos de charcutaria, como presunto, salame e salsichas. Os produtos estão organizados por zonas lógicas, com diferentes tipos de charcutaria agrupados. PASSO 2: Avaliação de Preenchimento. A prateleira está maioritariamente cheia, mas há uma caixa visivelmente vazia na prateleira inferior esquerda, indicando uma rutura parcial. O preenchimento geral é estimado em 85%. PASSO 3: Deteção de Anomalias. Foi detetada uma rutura de stock numa caixa de charcutaria na prateleira inferior esquerda (empty_shelf). Uma embalagem na prateleira superior central parece ligeiramente amarfanhada (damaged). Vários pacotes de charcutaria na prateleira intermédia direita estão desalinhados (misaligned). Não há caos visual ou sujidade óbvia. PASSO 4: Classificação de Risco. Foram identificadas 3 anomalias: uma rutura de stock de média gravidade, uma embalagem danificada de baixa gravidade e produtos desalinhados de baixa gravidade. A presença de uma rutura de stock, mesmo que parcial, eleva o status para 'warning'."
+}

@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260609_125523_A734",
+    "timestamp": "2026-06-09T11:55:23Z",
+    "image_path": "images\\normal\\garrafeira_02.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.99,
+    "products_detected": [
+        "Cocktails",
+        "Vinho Rosé",
+        "Vinho Espumante",
+        "Vinho Branco"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém uma variedade de bebidas alcoólicas, incluindo cocktails (Caipirinha Coco), vinhos rosé, vinhos espumantes (Bubbles Melancia, Bubbles Melão, JP Moscatel, Vinho Verde, Branco Bubbles 5.5°, Lambrusco) e vinhos brancos (Moscatel Graúdo & Fernão Pires). Os produtos estão bem organizados por tipo e marca/sabor em zonas lógicas distintas, facilitando a navegação e a apresentação. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira apresenta um excelente nível de preenchimento, estimado em 99%. Não há buracos visíveis ou filas vazias que sugiram rutura de stock. Todos os produtos estão bem alinhados e front-faced, maximizando a visibilidade. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas. Não há sinais de CAOS/SUJIDADE (embalagens danificadas, lixo, produtos tombados ou desorganizados). Não há VIOLAÇÃO (produtos fora da sua categoria lógica). Não há RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias e no excelente estado de preenchimento e organização, o 'overall_status' é classificado como 'ok'."
+}

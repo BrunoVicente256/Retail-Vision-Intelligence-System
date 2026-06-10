@@ -1,0 +1,22 @@
+
+Escreve um sumário executivo de uma sessão de inspecção de prateleiras de retalho.
+O sumário deve ter NO MÁXIMO {max_palavras} palavras. Linguagem directa e accionável.
+
+DADOS DA SESSÃO:
+- Data/hora: {data_hora}
+- Zonas inspeccionadas: {n_zonas}
+- Total de inspecções: {n_inspeccoes}
+- Issues críticos: {n_criticos}
+- Issues warning: {n_warnings}
+- Issues ok: {n_ok}
+- Fill rate médio: {fill_rate_medio}
+- Tipos de issues mais frequentes: {tipos_frequentes}
+
+INSTRUÇÕES:
+1. Primeira frase: estado geral da sessão (bom/preocupante/crítico)
+2. Menciona o número de zonas e issues críticos
+3. Destaca o problema mais grave se existir
+4. Termina com uma acção imediata se necessário
+5. MÁXIMO {max_palavras} palavras — conta as palavras antes de responder
+
+DEVOLVE APENAS o texto do sumário, sem títulos nem formatação Markdown.

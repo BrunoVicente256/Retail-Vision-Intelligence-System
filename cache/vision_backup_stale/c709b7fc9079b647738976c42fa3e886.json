@@ -1,0 +1,26 @@
+{
+    "inspection_id": "INS_20260609_131710_FF83",
+    "timestamp": "2026-06-09T12:17:10Z",
+    "image_path": "images/normal/WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "misaligned",
+            "location": "Prateleira 3 (a contar do topo), secção central (latas Heinz)",
+            "severity": "low",
+            "description": "Ligeiro recuo de stock nas latas Heinz Beanz, deixando espaço vazio na frente da prateleira.",
+            "confidence": 0.9,
+            "affected_area_pct": 2.0
+        }
+    ],
+    "shelf_fill_rate": 0.96,
+    "products_detected": [
+        "Feijão em lata",
+        "Grão-de-bico em lata",
+        "Feijão em frasco de vidro",
+        "Grão-de-bico em frasco de vidro"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira contém leguminosas em conserva (feijão e grão-de-bico) em lata e frasco de vidro. Estão perfeitamente organizadas por marca (Ferbar, Heinz, Sabores da Terra, Compal) e tipo de embalagem. PASSO 2: Avaliação de Preenchimento. A taxa de preenchimento é excelente (~96%). Não há buracos profundos ou ruturas graves, apenas ligeiros recuos de stock normais devido ao consumo. PASSO 3: Deteção de Anomalias. Não foram detetados sinais de caos, sujidade, embalagens danificadas ou produtos fora do sítio (violação). Apenas se regista um ligeiro recuo frontal nas latas Heinz (ISS_001). PASSO 4: Classificação de Risco. Classificado como 'ok' devido ao excelente estado de conservação, organização e abastecimento geral da prateleira."
+}

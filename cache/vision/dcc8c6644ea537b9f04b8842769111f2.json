@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260610_115213_DCC8C664",
+    "timestamp": "2026-06-10T10:52:13Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "ração húmida",
+        "ração seca",
+        "snacks para cães",
+        "ossos dentários"
+    ],
+    "model_reasoning": "A análise da imagem revela prateleiras bem abastecidas com produtos para animais de companhia, organizados por tipo. A primeira prateleira superior apresenta latas de ração húmida, a segunda prateleira contém embalagens de ração húmida e seca, e as duas prateleiras inferiores estão repletas de embalagens de snacks e ossos dentários para cães. Não foram detetadas anomalias como ruturas de stock, danos, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. A taxa de preenchimento da prateleira é estimada em 0.95, indicando uma excelente ocupação do espaço com produto. Portanto, o estado geral é 'ok'."
+}

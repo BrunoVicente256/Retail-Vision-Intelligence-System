@@ -1,0 +1,33 @@
+{
+    "inspection_id": "INS_20260609_023611_99EB",
+    "timestamp": "2026-06-09T01:36:11Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "Terceira prateleira a contar de cima, secção central",
+            "severity": "high",
+            "description": "Caixa de transporte de cartão completamente vazia deixada na prateleira, indicando rutura total de stock do produto correspondente.",
+            "confidence": 0.98,
+            "affected_area_pct": 12.0
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "Terceira e quarta prateleiras a contar de cima, lado direito",
+            "severity": "medium",
+            "description": "Múltiplos canais de gravidade (gravity feeders) vazios nas marcas Nicola e Paixão, evidenciando falta de reposição.",
+            "confidence": 0.92,
+            "affected_area_pct": 15.0
+        }
+    ],
+    "shelf_fill_rate": 78.0,
+    "products_detected": [
+        "Cápsulas de café",
+        "Máquinas de café expresso"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está dedicada a café, especificamente cápsulas de café organizadas por marca (Continente, L'Or, Nicola, Paixão) e máquinas de café expresso na prateleira inferior. A organização por blocos de marca é clara. PASSO 2: Avaliação de Preenchimento. A taxa de preenchimento é de aproximadamente 78%. Existem vazios significativos que expõem o fundo da prateleira e os organizadores vazios. PASSO 3: Deteção de Anomalias. Detetou-se uma rutura grave (empty_shelf) no centro da terceira prateleira, onde uma caixa de cartão vazia não foi removida. Adicionalmente, há várias colunas vazias no lado direito (marcas Nicola/Paixão). Não há sinais de sujidade ou produtos fora do sítio (wrong_product). PASSO 4: Classificação de Risco. Classificado como 'warning' devido à presença de múltiplas ruturas localizadas e caixas vazias que afetam a experiência de compra e a disponibilidade, requerendo reposição prioritária."
+}

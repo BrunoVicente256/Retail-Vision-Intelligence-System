@@ -1,0 +1,56 @@
+{
+    "inspection_id": "INS_20260609_125032_71C7",
+    "timestamp": "2026-06-09T11:50:32Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "Prateleira do meio (segunda de cima para baixo), lado esquerdo",
+            "severity": "high",
+            "description": "Grande rutura de stock na secção de Bolachas Alentejanas, com um espaço vazio significativo.",
+            "confidence": 0.95,
+            "affected_area_pct": 18.0
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "wrong_product",
+            "location": "Prateleira do meio (segunda de cima para baixo), secção central direita",
+            "severity": "medium",
+            "description": "Produtos de categoria diferente (possivelmente enlatados ou café) misturados com bolachas/crackers.",
+            "confidence": 0.9,
+            "affected_area_pct": 8.0
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "Prateleira do meio (segunda de cima para baixo), secção central",
+            "severity": "low",
+            "description": "Algumas embalagens de bolachas ligeiramente desalinhadas ou amontoadas dentro da caixa expositora.",
+            "confidence": 0.8,
+            "affected_area_pct": 3.0
+        },
+        {
+            "issue_id": "ISS_004",
+            "type": "misaligned",
+            "location": "Terceira prateleira de cima para baixo, lado direito",
+            "severity": "low",
+            "description": "Produtos em embalagens amarelas desalinhados/não perfeitamente empilhados.",
+            "confidence": 0.75,
+            "affected_area_pct": 4.0
+        }
+    ],
+    "shelf_fill_rate": 88.0,
+    "products_detected": [
+        "Bolachas Marinheiras Chia",
+        "Crackers Mini Milho",
+        "Bolachas Integrais",
+        "Bolachas Digestive",
+        "Crackers",
+        "Bolachas Sortidas",
+        "Produtos Enlatados/Café (fora de categoria)"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira é predominantemente dedicada a bolachas e crackers, com várias marcas e tipos (Marinheiras Chia, Crackers Mini Milho, Bolachas Integrais, Digestive, etc.). No entanto, na segunda prateleira de cima para baixo, na secção central direita, foram detetados produtos em embalagens verdes que parecem ser enlatados ou café, claramente fora da categoria de bolachas. PASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A taxa de preenchimento geral da prateleira é estimada em 88%. Existem algumas caixas expositoras não totalmente preenchidas à frente, mas a principal falha é uma rutura significativa. PASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias: 1. RUTURA (empty_shelf): Uma grande área vazia na prateleira do meio, lado esquerdo, onde deveriam estar as 'Bolachas Alentejanas'. Esta é uma rutura de stock crítica. 2. VIOLAÇÃO (wrong_product): Produtos de categoria diferente (enlatados/café) misturados com bolachas na prateleira do meio, secção central direita. 3. MISALIGNED: Algumas embalagens de bolachas ligeiramente desalinhadas ou amontoadas na prateleira do meio, secção central, e na terceira prateleira de cima para baixo, lado direito. Não foram observados sinais de caos visual generalizado, sujidade ou embalagens destruídas de forma grave, para além dos desalinhamentos. PASSO 4: Classificação de Risco. Com base na deteção de uma rutura de stock grave (empty_shelf com severidade 'high') e um produto fora de categoria (wrong_product com severidade 'medium'), o status geral é classificado como 'critical', conforme as regras estabelecidas ('ruturas graves = critical')."
+}

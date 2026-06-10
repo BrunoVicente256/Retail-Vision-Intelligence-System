@@ -1,0 +1,44 @@
+{
+    "inspection_id": "INS_20260609_125958_CC1F",
+    "timestamp": "2026-06-09T11:59:58Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "misaligned",
+            "location": "Várias prateleiras",
+            "severity": "low",
+            "description": "Algumas garrafas de azeite não estão perfeitamente alinhadas ou viradas para a frente, especialmente nas prateleiras superiores e em algumas caixas nas prateleiras inferiores.",
+            "confidence": 0.85,
+            "affected_area_pct": 5.0
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "other",
+            "location": "Divisor vertical, prateleira superior direita",
+            "severity": "low",
+            "description": "Um pequeno pedaço de papel/cartão está pendurado no divisor vertical da prateleira, indicando uma pequena desorganização.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "Prateleira superior esquerda e prateleira intermédia direita",
+            "severity": "low",
+            "description": "Etiquetas promocionais amarelas ('50%') estão ligeiramente desalinhadas ou penduradas de forma irregular.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.2
+        }
+    ],
+    "shelf_fill_rate": 96.0,
+    "products_detected": [
+        "Azeite",
+        "Azeite Virgem Extra",
+        "Azeite Virgem",
+        "Azeite Virgem Português"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está dedicada exclusivamente a azeites de diversas marcas (Gallo, Cinco Soldos, Saloio, Continente, Oliveira da Serra) e tipos (Azeite Virgem Extra, Azeite Virgem, Azeite Virgem Português). A organização é lógica, com produtos agrupados por tipo e marca, e formatos maiores nas prateleiras superiores. Um divisor vertical separa as zonas de 'Azeite' (com indicação de regiões) e 'Azeite Virgem'.\nPASSO 2: Avaliação de Preenchimento (shelf_fill_rate). A prateleira apresenta um nível de preenchimento muito elevado. Existem pequenas falhas na primeira fila de algumas caixas ou produtos individuais, mas não há buracos profundos ou filas vazias que sugiram uma rutura de stock significativa. O preenchimento é estimado em 96%.\nPASSO 3: Deteção de Anomalias. Foram detetadas as seguintes anomalias:\n- CAOS/SUJIDADE: Não há sujidade óbvia, embalagens destruídas ou líquidos derramados. No entanto, um pequeno pedaço de papel/cartão está pendurado no divisor vertical da prateleira superior, e algumas etiquetas promocionais amarelas estão ligeiramente desalinhadas ou mal posicionadas.\n- VIOLAÇÃO: Não foram encontrados produtos fora da sua categoria lógica. Todos os itens são azeite.\n- RUTURA: Não há rutura de stock crítica. As pequenas falhas na frente das prateleiras são consideradas normais para um ambiente de retalho e não indicam uma rutura grave.\nPASSO 4: Classificação de Risco. Com base nas anomalias identificadas (garrafas ligeiramente desalinhadas, um pequeno pedaço de papel pendurado e etiquetas promocionais desalinhadas), que são consideradas anomalias pequenas, o 'overall_status' é classificado como 'warning'. Embora a prateleira esteja em muito bom estado geral e bem abastecida, a presença de múltiplas pequenas desorganizações impede a classificação como 'ok', seguindo a regra de que '1 a 2 anomalias pequenas (ex: um produto ligeiramente desalinhado) = warning'."
+}

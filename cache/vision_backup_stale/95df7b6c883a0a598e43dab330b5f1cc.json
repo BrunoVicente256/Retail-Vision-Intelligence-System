@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260609_024603_C860",
+    "timestamp": "2026-06-09T01:46:03Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51.jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "Nivea",
+        "Mixa",
+        "Lactovit",
+        "Dove",
+        "Scholl"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos de cuidados pessoais, principalmente cremes, loções e produtos para o corpo, organizados por marca (Nivea, Mixa, Lactovit, Dove, Scholl) em zonas lógicas. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar (violação) ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+}

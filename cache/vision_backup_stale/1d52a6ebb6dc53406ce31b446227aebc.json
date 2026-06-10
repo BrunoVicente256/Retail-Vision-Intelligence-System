@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260609_133435_1275",
+    "timestamp": "2026-06-09T12:34:35Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "detergente",
+        "lixívia",
+        "panos de cozinha"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente produtos de limpeza, como detergentes (Domestos, Neo Blanc) e lixívia. Há também uma secção com panos de cozinha. Os produtos estão organizados por zonas lógicas, com detergentes numa prateleira e lixívia noutra, e os panos de cozinha numa área dedicada. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock significativa. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar (violação) ou ruturas graves de stock. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+}

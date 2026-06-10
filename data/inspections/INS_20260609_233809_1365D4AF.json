@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260609_233809_1365D4AF",
+    "timestamp": "2026-06-09T22:38:09Z",
+    "image_path": "images\\normal\\garrafeira_01.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "bebidas espirituosas",
+        "licores",
+        "vermouth",
+        "refrigerantes"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe uma variedade de bebidas, incluindo garrafas de vodka, whisky, licores e refrigerantes, organizadas por tipo em prateleiras. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 95%, com a maioria dos espaços ocupados por produtos. Não há buracos profundos visíveis que indiquem rutura de stock. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da inspeção é 'ok'."
+}

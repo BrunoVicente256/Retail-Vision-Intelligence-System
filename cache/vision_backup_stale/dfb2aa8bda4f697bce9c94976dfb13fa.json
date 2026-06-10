@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260609_131742_77D2",
+    "timestamp": "2026-06-09T12:17:42Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+        "Licor de Ervas (Jägermeister, Beirão)",
+        "Licor de Creme (Baileys, Macieira Cream, Amarula, Carolans)",
+        "Licores Tradicionais (Amarguinha, Licor de Nata, Ginjinha)",
+        "Aguardente Vínica / Cognac (Remy Martin, CRF, Adega Velha, Aliança Velha)",
+        "Aguardente Bagaceira",
+        "Cachaça"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A secção está corretamente identificada como 'Aguardentes/Licores'. A organização é altamente lógica e segmentada por prateleira: licores de ervas e espirituosos no topo, licores de creme na segunda prateleira, licores tradicionais e frutados na terceira, aguardentes premium e cognacs na quarta, e aguardentes de bagaço, cachaça e brandies de rotação na base. PASSO 2: Avaliação de Preenchimento. A taxa de preenchimento da prateleira (shelf_fill_rate) é excelente, estimada em 98%. Não existem falhas de stock visíveis na frente de canal. PASSO 3: Deteção de Anomalias. Não foram identificados produtos danificados, sujidade, desalinhamentos graves ou produtos fora da sua categoria (wrong_product). Todas as etiquetas de preço estão presentes e alinhadas com os respetivos produtos. PASSO 4: Classificação de Risco. Dada a ausência de anomalias e o estado de arrumação exemplar, o nível de risco é nulo, resultando num 'overall_status' de 'ok'."
+}

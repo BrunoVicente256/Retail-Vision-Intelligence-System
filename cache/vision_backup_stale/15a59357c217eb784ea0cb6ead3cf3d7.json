@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260609_024414_F6A5",
+    "timestamp": "2026-06-09T01:44:14Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "mixed nuts",
+        "dried fruits",
+        "almonds",
+        "cashew nuts",
+        "pecans",
+        "sunflower seeds"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe principalmente produtos de frutos secos e misturas de frutos secos, organizados em caixas de exposição por tipo de produto. As categorias identificadas são 'mixed nuts', 'dried fruits', 'almonds', 'cashew nuts', 'pecans', e 'sunflower seeds'. A organização parece lógica, com produtos semelhantes agrupados. PASSO 2: Avaliação de Preenchimento. A prateleira está bem abastecida, com a maioria das caixas cheias. Há uma pequena falta de produtos na frente de algumas caixas, o que é normal para permitir o acesso aos produtos. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. O shelf_fill_rate estimado é de 95%. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias significativas como caos, sujidade, embalagens danificadas, produtos fora do lugar (violação) ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+}

@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260609_133606_B3A6",
+    "timestamp": "2026-06-09T12:36:06Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "ervilhas",
+        "feijão verde",
+        "macedonia de legumes",
+        "milho doce",
+        "polpa de tomate",
+        "cogumelos laminados",
+        "cogumelos inteiros"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira está organizada por zonas lógicas, com produtos como ervilhas, feijão verde, milho doce, polpa de tomate, cogumelos laminados e cogumelos inteiros agrupados por tipo. PASSO 2: Avaliação de Preenchimento. A prateleira está bem preenchida, com uma taxa de preenchimento estimada em 95%. Não há buracos ou filas vazias visíveis que indiquem rutura de stock. PASSO 3: Deteção de Anomalias. Não foram detetadas anomalias como caos, sujidade, embalagens danificadas, produtos fora do lugar ou ruturas de stock evidentes. PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o estado geral da prateleira é 'ok'."
+}

@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260609_133040_DE0A",
+    "timestamp": "2026-06-09T12:30:40Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+    "zone_id": "Z_TEST_01",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "Sheba",
+        "Cesar",
+        "Ranchos",
+        "Pedigree Rodeo",
+        "Pedigree Tasty Minis",
+        "Pedigree Dentastix"
+    ],
+    "model_reasoning": "PASSO 1: Mapeamento de Categorias. A prateleira exibe produtos para animais de companhia, especificamente comida e snacks para cães e gatos. Os produtos estão organizados por marca e tipo em cada prateleira, formando zonas lógicas (ex: comida húmida em lata/caixa, snacks em saco, snacks em caixa). PASSO 2: Avaliação de Preenchimento. A prateleira está quase a 100% preenchida. Existem algumas pequenas lacunas na frente de algumas prateleiras, mas não há buracos profundos ou filas vazias que indiquem rutura de stock significativa. O shelf_fill_rate é estimado em 0.95. PASSO 3: Deteção de Anomalias. Não foram detetados casos de CAOS/SUJIDADE, VIOLAÇÃO (produtos fora do lugar) ou RUTURA (falta evidente de stock crítico). PASSO 4: Classificação de Risco. Com base na ausência de anomalias, o 'overall_status' é 'ok'."
+}

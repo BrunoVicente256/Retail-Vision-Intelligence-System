@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260609_231534_1553C283",
+    "timestamp": "2026-06-09T22:15:34Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira do meio (terceira de cima para baixo), lado direito",
+            "severity": "high",
+            "description": "Espaço vazio profundo e extenso onde deveriam estar produtos de lixívia, revelando o fundo da prateleira e caixas de cartão vazias. A etiqueta de preço para 'Lixívia Tradicional 5L' está visível, mas não há produto correspondente.",
+            "confidence": 1.0,
+            "affected_area_pct": 0.5
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "wrong_product",
+            "location": "prateleira do meio (terceira de cima para baixo), centro",
+            "severity": "low",
+            "description": "Um pacote de 'Panos de Cozinha' está pendurado no meio da secção de produtos de limpeza líquidos, quebrando a organização lógica da categoria.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.87,
+    "products_detected": [
+        "limpa-sanitas",
+        "lixívia",
+        "panos de cozinha"
+    ],
+    "model_reasoning": "PASSO 1 — INVENTÁRIO DE PRODUTOS: A imagem exibe uma variedade de produtos de limpeza, incluindo limpa-sanitas (Domestos, Neo Blanc), lixívia (Neo Blanc, Continente, Power+, Lixívia Tradicional 5L) e um pacote de panos de cozinha. Os produtos de limpeza líquidos estão geralmente organizados por tipo e marca nas prateleiras superiores e inferiores, o que é uma organização lógica para o retalho. PASSO 2 — AVALIAÇÃO DE PREENCHIMENTO: A taxa de preenchimento da prateleira (shelf_fill_rate) é estimada em 0.87. As prateleiras superiores e a prateleira inferior estão bem preenchidas, com apenas pequenas lacunas na frente que não indicam rutura de stock. No entanto, a prateleira do meio apresenta uma rutura significativa. PASSO 3 — DETEÇÃO DE ANOMALIAS: Foi detetada uma rutura grave (empty_shelf) na prateleira do meio, no lado direito, onde um espaço profundo e extenso está completamente vazio, apesar de haver uma etiqueta de preço para 'Lixívia Tradicional 5L'. Esta rutura afeta aproximadamente 50% daquela prateleira. Adicionalmente, foi identificada uma violação (wrong_product) na mesma prateleira, no centro, onde um pacote de 'Panos de Cozinha' está pendurado, fora da sua categoria lógica de produtos de limpeza líquidos. Não foram observados danos significativos, desalinhamentos graves ou etiquetas ausentes para os produtos presentes. PASSO 4 — CLASSIFICAÇÃO DE RISCO: Devido à presença de uma rutura grave (empty_shelf) e uma anomalia menor (wrong_product), o estado geral da secção é classificado como 'critical'."
+}
