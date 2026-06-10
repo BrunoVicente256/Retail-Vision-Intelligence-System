@@ -1,0 +1,62 @@
+[
+  {
+    "_instrucao": "Preenche inspection_ids_relevantes com os IDs que o RAG devolver para esta query. Corre: python -c \"import sys; sys.path.insert(0,'src'); from rag_memory import query_memoria; r = query_memoria('prateleira vazia rutura de stock zona Z_EMPTY', sintetizar=False); [print(c['metadados']['inspection_id']) for c in r['chunks_recuperados']]\"",
+    "query": "Quando foi a última vez que a zona Z_EMPTY teve prateleira vazia ou rutura de stock?",
+    "inspection_ids_relevantes": [],
+    "notas": "Deve recuperar inspecções da pasta empty com empty_shelf issues. É a query obrigatória 1 do enunciado §6.4."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções empty com severity medium ou high.",
+    "query": "Que zonas tiveram ruturas de stock graves com fill rate abaixo de 70%?",
+    "inspection_ids_relevantes": [],
+    "notas": "Deve recuperar inspecções com fill_rate baixo e empty_shelf high/medium. Testa filtragem semântica por gravidade."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções da pasta dirty com misaligned issues.",
+    "query": "Existem prateleiras com produtos desalinhados ou desordenados?",
+    "inspection_ids_relevantes": [],
+    "notas": "Deve recuperar inspecções Z_DIRTY com misaligned. Testa retrieval de issue type específico."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções ok com fill_rate alto (normal/ambiguous).",
+    "query": "Quais as zonas que estão em bom estado com prateleiras bem abastecidas?",
+    "inspection_ids_relevantes": [],
+    "notas": "Deve recuperar inspecções com overall_status ok e fill_rate alto. Testa retrieval de estado positivo."
+  },
+  {
+    "_instrucao": "Preenche com o ID da inspecção da imagem WhatsApp...20.55.53.jpeg (dirty/leite) — é o único critical do dataset.",
+    "query": "Existe alguma zona em estado crítico que precise de intervenção imediata?",
+    "inspection_ids_relevantes": [],
+    "notas": "Deve recuperar a inspecção critical (leite, dirty). Único critical no GT — testa se o RAG o encontra."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções com empty_shelf da pasta empty (fill_rate entre 0.65 e 0.80).",
+    "query": "Que zonas tiveram problemas de stock em produtos de limpeza ou higiene?",
+    "inspection_ids_relevantes": [],
+    "notas": "Testa retrieval por categoria de produto — lixívia, Fairy, Finish estão no GT da pasta empty."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções mal rotuladas que identificaste no GT (dirty com empty real, normal com empty parcial).",
+    "query": "Existem prateleiras classificadas como normais mas com problemas reais de stock?",
+    "inspection_ids_relevantes": [],
+    "notas": "Testa se o RAG recupera os casos mal rotulados (normal com empty_shelf, dirty com empty grave). Interessante para o relatório."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções Z_DIRTY com misaligned + empty combinados.",
+    "query": "Que zonas apresentaram simultaneamente desordem e falta de produto?",
+    "inspection_ids_relevantes": [],
+    "notas": "Testa retrieval de múltiplos issue types na mesma inspecção. dirty tem casos com misaligned + empty_shelf."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções da pasta planogram.",
+    "query": "Foram detetadas violações de planograma ou produtos fora do lugar?",
+    "inspection_ids_relevantes": [],
+    "notas": "Deve recuperar inspecções Z_PLANOGRAM com wrong_product. Suporte baixo (2 imagens) — documenta no relatório."
+  },
+  {
+    "_instrucao": "Preenche com IDs de inspecções com fill_rate abaixo de 0.75 (empty + alguns dirty).",
+    "query": "Quais as inspecções com fill rate mais baixo que indicam necessidade de reposição urgente?",
+    "inspection_ids_relevantes": [],
+    "notas": "Testa retrieval por fill_rate baixo. Deve recuperar os empties com severity medium/high do GT."
+  }
+]
