@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260611_095335_1B3ECFA1",
+    "timestamp": "2026-06-11T08:53:35Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (2).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "cuidados corporais",
+        "cuidados faciais",
+        "depilatórios",
+        "acessórios de higiene"
+    ],
+    "model_reasoning": "PASSO 1: A prateleira exibe produtos de cuidados corporais, faciais e depilatórios, organizados por categorias lógicas, com rótulos indicativos como 'CORPO' e 'DEPILATÓRIOS'. PASSO 2: A avaliação do preenchimento da prateleira indica uma taxa de ocupação elevada, estimada em 90%, com a maioria dos espaços preenchidos por produtos. Não se observam buracos profundos que sugiram rutura de stock, apenas a ausência de algumas unidades na frente, o que é considerado reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos fora de categoria, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+}

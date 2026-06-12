@@ -1,0 +1,46 @@
+{
+    "inspection_id": "INS_20260611_094742_9AAE2066",
+    "timestamp": "2026-06-11T08:47:42Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Espaço vazio profundo na prateleira superior, onde deveriam estar produtos de limpeza.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Embalagens de ambientadores amassadas e tombadas na prateleira inferior.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "prateleira intermédia, lado esquerdo",
+            "severity": "low",
+            "description": "Caixas de pilhas desalinhadas e ligeiramente tombadas.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.08
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "ambientadores",
+        "pilhas",
+        "produtos de limpeza",
+        "isqueiros",
+        "sprays",
+        "fósforos"
+    ],
+    "model_reasoning": "O inventário de produtos detetou ambientadores, pilhas, produtos de limpeza, isqueiros, sprays e fósforos, organizados por categorias lógicas nas prateleiras. A avaliação de preenchimento estima uma taxa de ocupação de 85%, com a maioria das prateleiras bem abastecidas, embora algumas unidades possam estar em falta na frente. Foram detetadas três anomalias: uma rutura de stock na prateleira superior (empty_shelf), embalagens danificadas na prateleira inferior (damaged) e produtos desalinhados na prateleira intermédia (misaligned). Com duas anomalias menores e uma de gravidade média, o estado geral é classificado como 'warning'."
+}

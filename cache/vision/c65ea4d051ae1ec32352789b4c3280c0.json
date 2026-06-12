@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181644_C65EA4D0",
+    "timestamp": "2026-06-12T17:16:44Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "limpeza",
+        "detergente",
+        "branqueador"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos alinhados e sem buracos visíveis. A maioria dos produtos está corretamente posicionada nas suas categorias. Não foram detetados danos nas embalagens nem violações de planograma. O fill rate estimado é alto, indicando uma boa gestão de stock."
+}

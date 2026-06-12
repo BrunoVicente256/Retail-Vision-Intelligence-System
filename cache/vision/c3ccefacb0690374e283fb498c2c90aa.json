@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260612_143901_C3CCEFAC",
+    "timestamp": "2026-06-12T13:39:01Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.40.22.jpeg",
+    "zone_id": "Z_PLANOGRAM",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "café",
+        "chocolates",
+        "biscoitos",
+        "conservas",
+        "arroz",
+        "cereais",
+        "pão"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetadas lacunas significativas ou produtos danificados. A taxa de preenchimento estimada é alta, indicando uma boa gestão do stock visível. A organização geral da prateleira é satisfatória, com os produtos alinhados e a maioria dos espaços preenchidos."
+}

@@ -1,0 +1,41 @@
+{
+    "inspection_id": "INS_20260612_143434_C26AF6B5",
+    "timestamp": "2026-06-12T13:34:34Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, secção central",
+            "severity": "medium",
+            "description": "Várias caixas de ovos estão vazias, expondo o fundo da prateleira.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, secção esquerda",
+            "severity": "medium",
+            "description": "A caixa expositora está quase completamente vazia, com apenas algumas embalagens de ovos visíveis.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, secção central",
+            "severity": "medium",
+            "description": "A caixa expositora está vazia, com apenas o fundo visível.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.5
+        }
+    ],
+    "shelf_fill_rate": 0.45,
+    "products_detected": [
+        "ovos"
+    ],
+    "model_reasoning": "A análise da imagem revela várias prateleiras com falta de produto, especificamente caixas de ovos. Na prateleira superior, várias secções estão vazias. A prateleira intermédia, na secção esquerda, apresenta uma caixa expositora com poucas unidades restantes. A prateleira inferior, na secção central, está completamente vazia. Estes vazios significativos justificam a classificação de 'warning' no estado geral da prateleira e a identificação de múltiplos problemas de 'empty_shelf'."
+}

@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260612_142507_1E58A806",
+    "timestamp": "2026-06-12T13:25:07Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "ambientadores",
+        "pilhas",
+        "velas",
+        "isqueiros",
+        "fósforos",
+        "limpeza",
+        "aerosois"
+    ],
+    "model_reasoning": "A prateleira parece estar bem abastecida na sua maioria, com poucos espaços vazios visíveis. Não foram detetados produtos desalinhados, danificados ou incorretos. A taxa de preenchimento estimada é alta, indicando uma boa gestão de stock. Portanto, o estado geral é considerado 'ok'."
+}

@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260610_115226_1679DDC0",
+    "timestamp": "2026-06-10T10:52:26Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "coloração capilar",
+        "tratamento capilar",
+        "cuidados capilares"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos de coloração capilar e cuidados capilares, organizados por marca e tipo em prateleiras distintas. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com poucas lacunas visíveis que não indicam rutura de stock, mas sim reposição normal. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock profunda, danos nas embalagens, produtos incorretos na prateleira, ou etiquetas em falta. PASSO 4: Com a ausência de anomalias, o estado geral da prateleira é classificado como 'ok'."
+}

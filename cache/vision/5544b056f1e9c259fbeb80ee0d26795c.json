@@ -1,0 +1,36 @@
+{
+    "inspection_id": "INS_20260612_141523_5544B056",
+    "timestamp": "2026-06-12T13:15:23Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "A prateleira inferior do lado direito apresenta uma lacuna significativa de produto, com o fundo da prateleira visível.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Existe uma lacuna de produto na prateleira inferior central, onde o fundo da prateleira está exposto.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.3
+        }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+        "congelados",
+        "hamburgueres",
+        "nuggets",
+        "croquetes",
+        "peixe"
+    ],
+    "model_reasoning": "A análise da imagem revela que a prateleira está maioritariamente preenchida com produtos congelados, como hambúrgueres, nuggets e croquetes. No entanto, foram identificadas duas áreas de preocupação na prateleira inferior. A primeira, no lado direito, e a segunda, na secção central, mostram o fundo da prateleira exposto, indicando uma rutura de stock nessas secções. Estas lacunas justificam a classificação de 'warning' para o estado geral da prateleira."
+}

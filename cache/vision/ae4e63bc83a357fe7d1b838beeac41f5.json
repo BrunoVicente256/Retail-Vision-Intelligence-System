@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181437_AE4E63BC",
+    "timestamp": "2026-06-12T17:14:37Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "condiments",
+        "sauces",
+        "mayonnaise",
+        "mustard"
+    ],
+    "model_reasoning": "The image displays a retail shelf stocked with various condiments, primarily ketchup, mayonnaise, and mustard. The overall fill rate is high, with most products neatly arranged. There are no visible empty shelves, misaligned products, damaged items, or missing labels. Therefore, the overall status is 'ok' and no specific issues are reported."
+}

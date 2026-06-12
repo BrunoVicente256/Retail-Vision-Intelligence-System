@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260611_095339_3892F75E",
+    "timestamp": "2026-06-11T08:53:39Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (8).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "limpeza",
+        "detergentes",
+        "desinfetantes"
+    ],
+    "model_reasoning": "O inventário de produtos consiste principalmente em produtos de limpeza doméstica, como detergentes, desinfetantes e amaciadores, organizados por marca e tipo em prateleiras. A avaliação de preenchimento indica que a maioria das prateleiras está bem abastecida, com uma taxa de preenchimento estimada em 0.9, sem grandes ruturas de stock visíveis. A deteção de anomalias não revelou problemas significativos como ruturas profundas, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta, levando a uma classificação geral de 'ok'."
+}

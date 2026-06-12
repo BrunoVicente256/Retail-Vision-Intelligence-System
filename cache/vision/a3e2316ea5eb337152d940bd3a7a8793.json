@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260611_094757_A3E2316E",
+    "timestamp": "2026-06-11T08:47:57Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.48.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "compotas",
+        "mel",
+        "manteiga de amendoim",
+        "chocolates",
+        "sobremesas"
+    ],
+    "model_reasoning": "O inventário de produtos detetado inclui compotas, mel, manteiga de amendoim, chocolates e sobremesas, organizados por categorias lógicas em cada prateleira. A avaliação de preenchimento indica uma taxa de ocupação de aproximadamente 90%, com a maioria das prateleiras bem abastecidas, sem buracos profundos que sugiram rutura de stock. Não foram detetadas anomalias como rutura, dano, produtos incorretos, desalinhamento significativo ou etiquetas em falta, resultando num estado geral 'ok'."
+}

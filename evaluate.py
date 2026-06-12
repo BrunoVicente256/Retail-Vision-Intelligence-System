@@ -52,14 +52,14 @@ from pathlib import Path
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
-# --- Permite importar os módulos de src/ a partir da raiz ---
+# Permite importar os módulos de src/ a partir da raiz 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from utils.console import configurar_consola
 from shelf_inspector import inspecionar_prateleira, esta_em_cache
 from utils.api_client import MODEL_NAME, gemini_client
 
-configurar_consola()  # consola UTF-8 segura (demo-crítico)
+configurar_consola() 
 
 logger = logging.getLogger(__name__)
 
@@ -320,7 +320,7 @@ def avaliar_visual(images_dir: Path, gt: dict, estrategia: str) -> dict:
 
         detalhes.append(det)
 
-    # --- Cálculo das métricas ---
+    # Cálculo das métricas
     def _pct(num, den):
         return round(num / den, 4) if den else None
 
@@ -346,7 +346,6 @@ def avaliar_visual(images_dir: Path, gt: dict, estrategia: str) -> dict:
             "severity_accuracy":    _pct(sev_correctas, len(sev_pares)),
             "json_parse_rate":      _pct(n_parse_ok, n_tentadas),
             "hallucination_rate":   None,  # requer LLM-as-Judge (M3)
-            # --- extras ---
             "status_accuracy":      _pct(status_ok, status_aval),
             "fill_rate_mae":        round(sum(fill_erros) / len(fill_erros), 4) if fill_erros else None,
         },
@@ -517,7 +516,16 @@ def main():
         "analise_visual": avaliar_visual(images_dir, gt, args.strategy),
     }
 
-    # --- Hallucination Rate via LLM-as-Judge (opcional, multimodal) ---
+    # Se a avaliação visual não encontrou imagens, não tentamos o resto
+    # (depende de haver predições). Devolve um relatório mínimo e sai.
+    if "erro" in relatorio["analise_visual"]:
+        print(f"\n[ERRO] {relatorio['analise_visual']['erro']}")
+        print("       Nada a avaliar — relatório mínimo escrito e a sair.")
+
+    # Hallucination Rate via LLM-as-Judge (opcional, multimodal) ---
+    if not args.judge:
+        print("[AVISO] A correr sem --judge: Hallucination Rate ficará a null.")
+        print("       Para incluir, corre: --judge (usa 1 chamada/imagem no bucket gemini-2.5-flash).")
     if args.judge:
         print("\n[EVAL] A calcular Hallucination Rate (LLM-as-Judge multimodal)...")
         try:
@@ -541,12 +549,12 @@ def main():
         print("\n[EVAL] A avaliar Rule Engine...")
         relatorio["analise_rules"] = avaliar_rules()
 
-    # --- Persistência ---
+    # Persistência 
     caminho_out = Path(args.output)
     with open(caminho_out, "w", encoding="utf-8") as f:
         json.dump(relatorio, f, indent=4, ensure_ascii=False)
 
-    # --- Resumo na consola ---
+    # Resumo que aparece na consola 
     visual = relatorio["analise_visual"]
     metr = visual.get("metricas", {})
     print("\n" + "=" * 64)

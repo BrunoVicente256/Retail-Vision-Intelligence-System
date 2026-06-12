@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260612_141129_4C83D58A",
+    "timestamp": "2026-06-12T13:11:29Z",
+    "image_path": "data\\images\\normal\\garrafeira_01.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "vodka",
+        "liqueur",
+        "vermouth",
+        "whisky",
+        "gin",
+        "wine",
+        "cocktail"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos alinhados e sem buracos visíveis. A maioria dos produtos está corretamente posicionada nas suas categorias. Não foram detetadas ruturas de stock, produtos danificados ou violações de planograma. O fill rate estimado é alto, próximo de 100%, indicando uma boa gestão de stock."
+}

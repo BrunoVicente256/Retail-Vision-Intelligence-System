@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181542_BF050426",
+    "timestamp": "2026-06-12T17:15:42Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "detergente loiça",
+        "detergente roupa"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos alinhados e sem buracos visíveis. A maioria dos produtos está bem posicionada nas suas categorias. O fill rate estimado é alto, próximo de 95%, indicando boa gestão de stock. Não foram detetadas ruturas de stock, produtos fora de lugar ou danos nas embalagens."
+}

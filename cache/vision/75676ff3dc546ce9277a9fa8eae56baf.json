@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260612_181504_75676FF3",
+    "timestamp": "2026-06-12T17:15:04Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "azeite"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia de produtos da categoria 'azeite'. Não foram detetadas quaisquer lacunas significativas, produtos desalinhados ou danificados. A organização geral dos produtos é boa, com a maioria das embalagens visíveis e em bom estado. Portanto, o estado geral da prateleira é considerado 'ok'."
+}

@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260610_115326_D002926E",
+    "timestamp": "2026-06-10T10:53:26Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "sparkling wine",
+        "liqueur",
+        "wine",
+        "gin",
+        "tonic water",
+        "beer"
+    ],
+    "model_reasoning": "The image displays a retail shelf primarily stocked with alcoholic beverages, including sparkling wines, liqueurs, various types of wine, gin, tonic water, and beer. The shelf fill rate is estimated to be around 90%, with only minor gaps that do not indicate stockouts. No significant anomalies such as deep empty spaces, damaged packaging, incorrect product placement, or missing labels were detected. Therefore, the overall status is classified as 'ok'."
+}

@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260611_094644_0D5CE44E",
+    "timestamp": "2026-06-11T08:46:44Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "whisky",
+        "espumante"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe principalmente garrafas de whisky e algumas garrafas de espumante. Os produtos estão organizados por categoria lógica em prateleiras distintas. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são apenas na frente, o que é normal. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), embalagens danificadas (damaged), produtos incorretos (wrong_product), desalinhamentos significativos (misaligned) ou etiquetas em falta (label_missing). PASSO 4: Como não foram encontradas anomalias, o estado geral da prateleira é 'ok'."
+}

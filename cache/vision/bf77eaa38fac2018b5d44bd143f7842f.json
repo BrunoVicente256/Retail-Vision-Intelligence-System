@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260612_181718_BF77EAA3",
+    "timestamp": "2026-06-12T17:17:18Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "azeite"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com a maioria dos produtos alinhados nas suas posições. Não foram detetadas ruturas de stock significativas, produtos fora de lugar ou danos visíveis nas embalagens. Existem algumas pequenas lacunas na frente de alguns produtos, o que é normal devido à reposição e não constitui um problema. O fill rate estimado é alto, em torno de 92%."
+}

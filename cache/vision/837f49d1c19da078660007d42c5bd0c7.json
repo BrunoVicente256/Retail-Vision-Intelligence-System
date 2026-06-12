@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181423_837F49D1",
+    "timestamp": "2026-06-12T17:14:23Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "crackers",
+        "biscuits",
+        "snacks"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetadas falhas significativas de stock ou desalinhamentos graves que justifiquem um status de warning ou critical. A taxa de preenchimento estimada é alta, indicando uma boa gestão do espaço da prateleira."
+}

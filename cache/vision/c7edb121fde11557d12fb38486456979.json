@@ -1,0 +1,36 @@
+{
+    "inspection_id": "INS_20260612_142818_C7EDB121",
+    "timestamp": "2026-06-12T13:28:18Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "high",
+            "description": "A prateleira inferior está quase completamente vazia, com apenas um produto visível.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.9
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira central, secção direita",
+            "severity": "medium",
+            "description": "Existe uma caixa de exposição vazia na prateleira central, indicando falta de produto.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.2
+        }
+    ],
+    "shelf_fill_rate": 0.4,
+    "products_detected": [
+        "detergentes",
+        "limpeza geral",
+        "limpa vidros",
+        "desengordurantes",
+        "limpa fornos"
+    ],
+    "model_reasoning": "A inspeção revela várias prateleiras com produtos de limpeza. A prateleira inferior apresenta uma grande quantidade de espaço vazio, com apenas um produto visível, o que justifica a classificação de 'empty_shelf' com alta severidade. Adicionalmente, uma caixa de exposição vazia na prateleira central também indica uma rutura de stock, contribuindo para o estado de 'warning' geral. O 'shelf_fill_rate' foi estimado em 0.4 devido à significativa quantidade de espaço vazio observado em várias secções da prateleira."
+}

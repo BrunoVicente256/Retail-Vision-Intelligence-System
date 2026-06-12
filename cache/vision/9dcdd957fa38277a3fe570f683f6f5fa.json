@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260612_181617_9DCDD957",
+    "timestamp": "2026-06-12T17:16:17Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "whisky"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia e bem organizada, com a maioria dos produtos alinhados e em bom estado. Não foram detetadas ruturas de stock significativas, produtos fora de lugar ou danos nas embalagens. As pequenas lacunas visíveis na frente de algumas prateleiras são consistentes com a reposição normal de stock e não indicam um problema. O fill rate estimado é alto, em torno de 92%, refletindo a boa gestão do stock."
+}

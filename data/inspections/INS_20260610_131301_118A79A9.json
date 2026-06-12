@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260610_131301_118A79A9",
+    "timestamp": "2026-06-10T12:13:01Z",
+    "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (1).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "cuidados do corpo",
+        "hidratantes",
+        "loções",
+        "óleos",
+        "cremes"
+    ],
+    "model_reasoning": "PASSO 1: A prateleira exibe uma variedade de produtos de cuidados do corpo, incluindo loções, cremes, óleos e hidratantes, organizados por marca e tipo em prateleiras lógicas. PASSO 2: A avaliação do preenchimento da prateleira indica uma taxa de ocupação muito alta, estimada em cerca de 90%, com poucas lacunas visíveis e a maioria dos espaços preenchidos com produto. Não há indícios de rutura de stock profunda. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+}

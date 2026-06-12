@@ -1,0 +1,37 @@
+{
+    "inspection_id": "INS_20260611_094734_287619FF",
+    "timestamp": "2026-06-11T08:47:34Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Espaço vazio visível no fundo da prateleira superior, onde deveriam estar produtos de higiene oral.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira intermédia, centro",
+            "severity": "low",
+            "description": "Embalagens de pasta de dentes Colgate com as pontas ligeiramente amarfanhadas.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "higiene oral",
+        "pastas de dentes",
+        "escovas de dentes",
+        "fio dental",
+        "enxaguatórios bucais",
+        "loções corporais"
+    ],
+    "model_reasoning": "O inventário de produtos detetados inclui principalmente artigos de higiene oral, como escovas de dentes, pastas de dentes, fio dental e enxaguatórios bucais, além de algumas loções corporais. A prateleira apresenta um bom preenchimento geral, estimado em 85%, com a maioria dos produtos bem organizados. No entanto, foram identificadas duas anomalias: um espaço vazio na prateleira superior direita, indicando uma possível rutura de stock (empty_shelf), e algumas embalagens de pasta de dentes ligeiramente amarfanhadas na prateleira intermédia (damaged). Estes problemas, embora não graves, justificam um estado de 'warning'."
+}

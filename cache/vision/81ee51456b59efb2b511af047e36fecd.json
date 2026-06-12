@@ -1,0 +1,38 @@
+{
+    "inspection_id": "INS_20260611_094818_81EE5145",
+    "timestamp": "2026-06-11T08:48:18Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Espaço vazio visível no fundo da prateleira, atrás dos produtos de limpeza.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Uma lata de inseticida tombada na prateleira inferior.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "sacos",
+        "cubos de gelo",
+        "folha de alumínio",
+        "papel vegetal",
+        "película aderente",
+        "inseticidas",
+        "limpeza"
+    ],
+    "model_reasoning": "O inventário de produtos inclui sacos, cubos de gelo, folhas de alumínio, papel vegetal, película aderente, inseticidas e produtos de limpeza, organizados por categorias lógicas nas prateleiras. A avaliação de preenchimento estima uma taxa de ocupação de 85%, com a maioria das prateleiras bem abastecidas, embora algumas unidades possam estar em falta na frente. Foram detetadas duas anomalias: um espaço vazio profundo na prateleira superior direita (empty_shelf) e uma lata de inseticida tombada na prateleira inferior (damaged). Devido à presença de duas anomalias, o status geral é classificado como 'warning'."
+}

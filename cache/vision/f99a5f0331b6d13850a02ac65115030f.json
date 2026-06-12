@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_143519_F99A5F03",
+    "timestamp": "2026-06-12T13:35:19Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "ração húmida",
+        "ração seca",
+        "snacks para cães",
+        "ossos para cães"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos de alimentação para animais de companhia. Não foram detetadas ruturas de stock, produtos fora do lugar ou embalagens danificadas. O fill rate é muito alto, indicando uma boa gestão de stock. Pequenas lacunas frontais são normais e não constituem um problema."
+}

@@ -1,0 +1,33 @@
+{
+    "inspection_id": "INS_20260612_142340_2ECBE6C1",
+    "timestamp": "2026-06-12T13:23:40Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.53.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Vários buracos visíveis na prateleira inferior, onde o fundo da prateleira é visível.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "low",
+            "description": "Um pacote de leite está tombado e desalinhado na prateleira inferior.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.7,
+    "products_detected": [
+        "leite",
+        "sumos"
+    ],
+    "model_reasoning": "A prateleira apresenta algumas ruturas de stock visíveis na secção central inferior, onde o fundo da prateleira é exposto. Há também um produto desalinhado nessa mesma prateleira. O restante da prateleira parece estar razoavelmente abastecido, mas as lacunas detetadas justificam um status de 'warning'. O fill rate estimado considera as áreas com produto e as áreas vazias."
+}

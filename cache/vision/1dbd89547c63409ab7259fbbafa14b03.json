@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260612_141126_1DBD8954",
+    "timestamp": "2026-06-12T13:11:26Z",
+    "image_path": "data\\images\\normal\\garrafeira_01.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "vodka",
+        "vermouth",
+        "liqueur",
+        "gin",
+        "whisky",
+        "cocktail"
+    ],
+    "model_reasoning": "The shelves are predominantly full with various types of alcoholic beverages. There are no visible empty shelves, misplaced products, or damaged packaging. The products are neatly arranged, indicating good stock management. Therefore, the overall status is 'ok'."
+}

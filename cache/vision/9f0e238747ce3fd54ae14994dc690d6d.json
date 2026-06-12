@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181535_9F0E2387",
+    "timestamp": "2026-06-12T17:15:35Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.55.49 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "biscuits",
+        "chocolate",
+        "wafers"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com a maioria dos produtos alinhados e visíveis. Não foram detetadas ruturas de stock significativas, produtos fora de lugar ou danos nas embalagens. As pequenas lacunas frontais observadas são consistentes com a reposição normal de stock e não indicam um problema. O fill rate estimado é alto, refletindo uma boa gestão de inventário nesta secção."
+}

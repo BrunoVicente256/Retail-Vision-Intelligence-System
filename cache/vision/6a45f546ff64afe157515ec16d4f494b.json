@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260612_142721_6A45F546",
+    "timestamp": "2026-06-12T13:27:21Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira central, secção direita",
+            "severity": "medium",
+            "description": "Vários espaços vazios visíveis na prateleira central, onde deveriam estar caixas de café.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, secção central",
+            "severity": "medium",
+            "description": "Espaços vazios visíveis na prateleira inferior, indicando falta de produto.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.25
+        }
+    ],
+    "shelf_fill_rate": 0.65,
+    "products_detected": [
+        "café",
+        "cápsulas de café",
+        "máquinas de café"
+    ],
+    "model_reasoning": "A prateleira apresenta várias lacunas significativas, especialmente na prateleira central e inferior, onde o fundo da prateleira é visível. Estes buracos indicam ruturas de stock que afetam a disponibilidade do produto. Embora existam produtos em outras secções, a presença de múltiplos espaços vazios justifica um status de 'warning'. O fill rate estimado reflete a quantidade de espaço vazio observado."
+}

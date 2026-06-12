@@ -1,0 +1,37 @@
+{
+    "inspection_id": "INS_20260612_142607_16B101AA",
+    "timestamp": "2026-06-12T13:26:07Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Existe um espaço vazio visível na prateleira superior, onde deveriam estar produtos de café.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Há uma lacuna significativa na prateleira inferior, com caixas vazias visíveis.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.2
+        }
+    ],
+    "shelf_fill_rate": 0.7,
+    "products_detected": [
+        "molhos",
+        "conservas",
+        "bebidas",
+        "café",
+        "snacks",
+        "azeite"
+    ],
+    "model_reasoning": "A inspeção da imagem revela algumas lacunas de produto em várias prateleiras. Na prateleira superior, há um espaço vazio onde deveriam estar produtos de café, indicando uma potencial rutura de stock. Na prateleira inferior, uma área mais central apresenta caixas vazias, sugerindo uma falta de produto mais substancial. Embora a maioria das prateleiras esteja razoavelmente cheia, estas lacunas justificam um estado de aviso. A estimativa de preenchimento da prateleira considera tanto as áreas cheias como as vazias observadas."
+}

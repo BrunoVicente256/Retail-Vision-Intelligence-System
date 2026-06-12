@@ -1,0 +1,19 @@
+{
+    "inspection_id": "INS_20260612_142611_D9C49CD9",
+    "timestamp": "2026-06-12T13:26:11Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "molhos",
+        "conservas",
+        "bebidas",
+        "café",
+        "snacks",
+        "massas",
+        "azeite"
+    ],
+    "model_reasoning": "A prateleira apresenta um bom nível de stock, com a maioria dos produtos bem organizados e alinhados. Não foram detetadas ruturas de stock significativas, produtos fora de lugar ou danos visíveis nas embalagens. Existem algumas pequenas lacunas na frente de alguns produtos, o que é normal devido à reposição e não constitui um problema. O fill rate estimado é de 85%, indicando uma boa ocupação da prateleira."
+}

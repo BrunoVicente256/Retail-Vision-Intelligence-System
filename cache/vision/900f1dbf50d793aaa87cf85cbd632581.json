@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181642_900F1DBF",
+    "timestamp": "2026-06-12T17:16:42Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "skincare",
+        "cosmetics",
+        "hygiene"
+    ],
+    "model_reasoning": "A prateleira apresenta um excelente nível de stock, com a maioria dos produtos bem organizados e alinhados. Não foram detetadas ruturas de stock significativas, produtos fora de lugar ou danos nas embalagens. Existem algumas pequenas lacunas na frente de alguns produtos, o que é normal devido à reposição e não constitui um problema. O fill rate estimado é de aproximadamente 92%, indicando uma prateleira bem abastecida e em bom estado."
+}

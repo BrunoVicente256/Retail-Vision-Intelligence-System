@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181316_8B6DF201",
+    "timestamp": "2026-06-12T17:13:16Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "cerveja",
+        "sidra",
+        "bebidas"
+    ],
+    "model_reasoning": "A prateleira está maioritariamente cheia, com uma taxa de preenchimento estimada em 85%. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou em falta. Os produtos identificados incluem cerveja e sidra, com uma boa organização geral."
+}

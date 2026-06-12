@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260611_094650_95B1526C",
+    "timestamp": "2026-06-11T08:46:50Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "vinhos tintos",
+        "vinhos brancos",
+        "sangrias",
+        "espumantes",
+        "sucos"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe principalmente garrafas e caixas de vinho, categorizadas por tipo (tinto, branco, rosé, espumante) e marca. Há também algumas garrafas de sangria e sucos. A organização é lógica por prateleira e tipo de produto. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são apenas na frente, indicando reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), danos (damaged), produtos incorretos (wrong_product), desalinhamento significativo (misaligned) ou etiquetas ausentes (label_missing). PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+}

@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260611_094811_2135C4C5",
+    "timestamp": "2026-06-11T08:48:11Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "damaged",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Uma embalagem de produto de limpeza amarela está ligeiramente amassada.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.01
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "low",
+            "description": "Uma garrafa de produto de limpeza rosa está tombada.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.02
+        }
+    ],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "produtos de limpeza",
+        "detergentes",
+        "desinfetantes"
+    ],
+    "model_reasoning": "O inventário de produtos consiste principalmente em produtos de limpeza e detergentes, organizados por tipo e marca em cada prateleira. A avaliação de preenchimento indica que a maioria das prateleiras está bem abastecida, com uma taxa de preenchimento estimada em 0.9. Foram detetadas duas anomalias menores: uma embalagem ligeiramente amassada na prateleira superior e uma garrafa tombada na prateleira inferior. Como existem apenas duas anomalias de baixa gravidade, o status geral é 'warning'."
+}

@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_143516_020704CE",
+    "timestamp": "2026-06-12T13:35:16Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+        "pet_food",
+        "dog_treats"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia com produtos de comida para animais e guloseimas. Não foram detetadas quaisquer lacunas significativas, produtos desalinhados ou danificados. A organização geral é boa, com a maioria dos produtos bem posicionados. O preenchimento da prateleira é muito alto, indicando uma boa gestão de stock."
+}

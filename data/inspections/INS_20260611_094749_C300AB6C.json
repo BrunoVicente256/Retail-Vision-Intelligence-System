@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260611_094749_C300AB6C",
+    "timestamp": "2026-06-11T08:47:49Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, centro",
+            "severity": "medium",
+            "description": "Existe um espaço vazio profundo na prateleira superior, onde deveriam estar latas de bebida, com a estrutura da prateleira visível.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira inferior, lado direito",
+            "severity": "low",
+            "description": "Uma caixa de cerveja na prateleira inferior, lado direito, apresenta a embalagem ligeiramente amassada.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.02
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "cerveja",
+        "sidra",
+        "bebidas"
+    ],
+    "model_reasoning": "O inventário de produtos revela principalmente cervejas e sidras, organizadas por marca e tipo em cada prateleira. A avaliação de preenchimento estima que cerca de 85% da prateleira está ocupada por produtos, com algumas áreas de falta de stock visíveis. Foram detetadas duas anomalias: uma rutura de stock (empty_shelf) na prateleira superior, onde se vê o fundo da prateleira, e um dano leve numa embalagem na prateleira inferior. Devido à presença de uma rutura de stock e um dano, o status geral é classificado como 'warning'."
+}

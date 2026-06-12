@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260611_094638_EA4AB9BA",
+    "timestamp": "2026-06-11T08:46:38Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "whisky"
+    ],
+    "model_reasoning": "O inventário de produtos na prateleira consiste exclusivamente em garrafas de whisky, organizadas por marca e tipo. A avaliação de preenchimento indica que a prateleira está bem abastecida, com uma taxa de ocupação estimada em 90%, sem buracos profundos que sugiram rutura de stock. Não foram detetadas anomalias como rutura, dano, produtos incorretos, desalinhamento significativo ou etiquetas em falta, resultando num estado geral 'ok'."
+}

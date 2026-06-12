@@ -1,0 +1,37 @@
+{
+    "inspection_id": "INS_20260612_142400_A84903B3",
+    "timestamp": "2026-06-12T13:24:00Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "damaged",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Embalagens de inseticida com danos visíveis, amassadas e com sinais de desgaste.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Algumas embalagens de película aderente estão ligeiramente desalinhadas.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "sacos para sandes",
+        "sacos para congelação",
+        "folha de alumínio",
+        "papel vegetal",
+        "película aderente",
+        "inseticida"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, com a maioria dos produtos bem organizados e com bom stock. No entanto, foram detetadas algumas embalagens de inseticida na prateleira inferior com danos visíveis, o que justifica um status de 'warning'. Adicionalmente, algumas embalagens de película aderente apresentam um ligeiro desalinhamento, mas sem comprometer a organização geral. O fill rate estimado é de 85%, considerando os espaços vazios e a organização geral."
+}

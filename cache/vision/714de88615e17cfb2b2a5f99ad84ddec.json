@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_141433_714DE886",
+    "timestamp": "2026-06-12T13:14:33Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.49 (1).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "biscuits",
+        "crackers",
+        "cereals",
+        "snacks"
+    ],
+    "model_reasoning": "The image shows a retail shelf with a good fill rate. Most products are well-organized and stocked. There are no visible issues such as empty shelves, wrong products, damaged packaging, or missing labels. The overall status is 'ok' because the shelf appears to be in good condition. The shelf fill rate is estimated to be high, around 85%, as there are only minor gaps in product placement."
+}

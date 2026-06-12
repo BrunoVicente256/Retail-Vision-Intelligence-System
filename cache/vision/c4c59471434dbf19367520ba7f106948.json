@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181618_C4C59471",
+    "timestamp": "2026-06-12T17:16:18Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "whisky",
+        "champagne",
+        "sparkling wine"
+    ],
+    "model_reasoning": "A prateleira está maioritariamente cheia e bem organizada, com produtos de whisky e espumantes. Não foram detetadas ruturas de stock significativas, produtos fora de lugar ou danos nas embalagens. Existem algumas lacunas na frente de alguns produtos, o que é normal devido à reposição. O fill rate estimado é de 85%, considerando o espaço ocupado pelos produtos em relação ao espaço total disponível na prateleira."
+}

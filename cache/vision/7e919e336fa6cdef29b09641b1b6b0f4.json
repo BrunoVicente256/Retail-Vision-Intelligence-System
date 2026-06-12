@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181305_7E919E33",
+    "timestamp": "2026-06-12T17:13:05Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.52 (1).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "insecticidas",
+        "limpeza",
+        "higiene pessoal",
+        "detergentes"
+    ],
+    "model_reasoning": "A prateleira parece estar bem abastecida, com a maioria dos produtos organizados de forma adequada. Não foram detetados problemas significativos como prateleiras vazias, produtos danificados ou desalinhados que justifiquem um status de warning ou critical. A taxa de preenchimento estimada é alta, indicando boa disponibilidade de produtos."
+}

@@ -1,0 +1,46 @@
+{
+    "inspection_id": "INS_20260610_115347_1A089FB1",
+    "timestamp": "2026-06-10T10:53:47Z",
+    "image_path": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "high",
+            "description": "A prateleira inferior apresenta um grande espaço vazio no centro, com apenas um produto visível e o fundo da prateleira exposto.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.6
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Existe um espaço vazio considerável na prateleira superior, onde deveria haver produtos de limpeza, com a caixa de cartão vazia visível.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado direito",
+            "severity": "medium",
+            "description": "A prateleira intermédia, na secção de detergentes de loiça, apresenta um espaço vazio profundo à direita, com apenas um produto visível.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.4
+        }
+    ],
+    "shelf_fill_rate": 0.45,
+    "products_detected": [
+        "limpeza doméstica",
+        "detergentes",
+        "sprays",
+        "limpa-vidros",
+        "desengordurantes",
+        "detergente loiça"
+    ],
+    "model_reasoning": "O inventário de produtos detetados inclui uma variedade de produtos de limpeza doméstica, como detergentes, sprays e desengordurantes, organizados por tipo em cada prateleira. A avaliação de preenchimento da prateleira revela um baixo índice de ocupação, estimado em 45%, com várias secções apresentando buracos profundos até ao fundo da prateleira, indicando rutura de stock. Foram detetadas múltiplas anomalias do tipo 'empty_shelf' em diferentes prateleiras: uma grande rutura na prateleira inferior central, um espaço vazio significativo na prateleira superior direita e uma rutura na prateleira intermédia direita. Devido à presença de múltiplas ruturas de stock significativas, o status geral é classificado como 'critical'."
+}

@@ -1,25 +1,25 @@
 {
     "metadata": {
-        "gerado_em": "2026-06-10T10:54:02Z",
+        "gerado_em": "2026-06-12T17:55:45Z",
         "estrategia": "cot",
         "modelo": "gemini-2.5-flash-lite",
         "total_imagens": 54,
-        "sucessos": 24,
-        "cache_hits": 3,
-        "chamadas_reais": 21,
+        "sucessos": 54,
+        "cache_hits": 54,
+        "chamadas_reais": 0,
         "erros_parsing": 0,
-        "erros_quota": 30,
+        "erros_quota": 0,
         "por_categoria": {
             "normal": 16,
-            "empty": 8,
-            "dirty": 0,
-            "ambiguous": 0,
-            "planogram": 0
+            "empty": 16,
+            "dirty": 12,
+            "ambiguous": 8,
+            "planogram": 2
         }
     },
     "inspecoes": {
         "normal__garrafeira_01.jpeg": {
-            "caminho": "images\\normal\\garrafeira_01.jpeg",
+            "caminho": "data\\images\\normal\\garrafeira_01.jpeg",
             "categoria_real": "normal",
             "origem": "cache",
             "analise_ia": {
@@ -40,9 +40,9 @@
             }
         },
         "normal__garrafeira_02.jpeg": {
-            "caminho": "images\\normal\\garrafeira_02.jpeg",
+            "caminho": "data\\images\\normal\\garrafeira_02.jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115140_16F50DB8",
                 "timestamp": "2026-06-10T10:51:40Z",
@@ -61,9 +61,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115147_4420C4EC",
                 "timestamp": "2026-06-10T10:51:47Z",
@@ -82,9 +82,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115153_7EC7A072",
                 "timestamp": "2026-06-10T10:51:53Z",
@@ -105,9 +105,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.48 (2).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115200_41B41780",
                 "timestamp": "2026-06-10T10:52:00Z",
@@ -125,9 +125,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115206_9855EF4A",
                 "timestamp": "2026-06-10T10:52:06Z",
@@ -145,9 +145,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.50 (2).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115213_DCC8C664",
                 "timestamp": "2026-06-10T10:52:13Z",
@@ -166,9 +166,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115220_E53FD419",
                 "timestamp": "2026-06-10T10:52:20Z",
@@ -189,9 +189,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115226_1679DDC0",
                 "timestamp": "2026-06-10T10:52:26Z",
@@ -209,9 +209,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.51.jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51.jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51.jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115232_DE5A5877",
                 "timestamp": "2026-06-10T10:52:32Z",
@@ -230,9 +230,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115240_0FCC5749",
                 "timestamp": "2026-06-10T10:52:40Z",
@@ -250,9 +250,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115246_60CE0BC2",
                 "timestamp": "2026-06-10T10:52:46Z",
@@ -271,9 +271,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115252_FBC7249B",
                 "timestamp": "2026-06-10T10:52:52Z",
@@ -297,9 +297,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54 (7).jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115300_D509FD18",
                 "timestamp": "2026-06-10T10:53:00Z",
@@ -318,9 +318,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.54.jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.54.jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115306_74626B04",
                 "timestamp": "2026-06-10T10:53:06Z",
@@ -336,9 +336,9 @@
             }
         },
         "normal__WhatsApp Image 2026-06-08 at 20.55.55.jpeg": {
-            "caminho": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.55.jpeg",
+            "caminho": "data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.55.jpeg",
             "categoria_real": "normal",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115313_279785D4",
                 "timestamp": "2026-06-10T10:53:13Z",
@@ -358,9 +358,9 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
             "categoria_real": "empty",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115319_28FCCEB5",
                 "timestamp": "2026-06-10T10:53:19Z",
@@ -379,9 +379,9 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.40.23.jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
             "categoria_real": "empty",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115326_D002926E",
                 "timestamp": "2026-06-10T10:53:26Z",
@@ -402,9 +402,9 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
             "categoria_real": "empty",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115332_9CEF064C",
                 "timestamp": "2026-06-10T10:53:32Z",
@@ -458,9 +458,9 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg",
             "categoria_real": "empty",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115339_3121AB1B",
                 "timestamp": "2026-06-10T10:53:39Z",
@@ -507,7 +507,7 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
             "categoria_real": "empty",
             "origem": "cache",
             "analise_ia": {
@@ -546,9 +546,9 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
             "categoria_real": "empty",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115347_1A089FB1",
                 "timestamp": "2026-06-10T10:53:47Z",
@@ -597,9 +597,9 @@
             }
         },
         "empty__WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (5).jpeg",
             "categoria_real": "empty",
-            "origem": "api",
+            "origem": "cache",
             "analise_ia": {
                 "inspection_id": "INS_20260610_115355_01AB14AE",
                 "timestamp": "2026-06-10T10:53:55Z",
@@ -614,8 +614,98 @@
                 "model_reasoning": "A análise da imagem revela uma prateleira predominantemente preenchida com produtos da marca Fairy, especificamente detergentes para loiça. Não foram detetadas anomalias significativas como rupturas de stock, danos nas embalagens, produtos incorretos ou etiquetas em falta. A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com apenas pequenas lacunas normais de reposição na frente de algumas unidades. Portanto, o estado geral da prateleira é considerado 'ok'."
             }
         },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094616_FE6EA5EE",
+                "timestamp": "2026-06-11T08:46:16Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "detergente para máquina de lavar loiça",
+                    "pastilhas para máquina de lavar loiça",
+                    "tabletes para máquina de lavar loiça",
+                    "sal para máquina de lavar loiça",
+                    "líquido abrilhantador para máquina de lavar loiça"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos para máquinas de lavar loiça, incluindo pastilhas, tabletes, detergente líquido, abrilhantador e sal. Os produtos estão organizados por tipo em cada prateleira, seguindo uma categoria lógica. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Existem algumas unidades em falta na frente de algumas embalagens, mas não há buracos profundos que indiquem rutura de stock significativa. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), danos visíveis nas embalagens (damaged), produtos fora do lugar ou de categoria (wrong_product), desalinhamentos graves (misaligned) ou etiquetas em falta (label_missing). PASSO 4: Com zero anomalias detetadas, o estado geral da inspeção é 'ok'."
+            }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094624_B5110758",
+                "timestamp": "2026-06-11T08:46:24Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "critical",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, secção central",
+                        "severity": "high",
+                        "description": "Vários espaços vazios profundos na prateleira superior, indicando rutura de stock.",
+                        "confidence": 0.9,
+                        "affected_area_pct": 0.3
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "empty_shelf",
+                        "location": "prateleira intermédia, lado esquerdo",
+                        "severity": "high",
+                        "description": "Caixas de exposição vazias na prateleira intermédia, lado esquerdo, com o fundo da prateleira visível.",
+                        "confidence": 0.95,
+                        "affected_area_pct": 0.4
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "empty_shelf",
+                        "location": "prateleira inferior, secção central",
+                        "severity": "medium",
+                        "description": "Espaço vazio na prateleira inferior, secção central, onde deveriam estar produtos.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.2
+                    }
+                ],
+                "shelf_fill_rate": 0.45,
+                "products_detected": [
+                    "ovos"
+                ],
+                "model_reasoning": "A análise da imagem revela que os produtos presentes são predominantemente ovos, organizados em caixas de cartão e embalagens plásticas. O shelf fill rate estimado é de 0.45, indicando que quase metade da prateleira está vazia. Foram detetadas múltiplas ruturas de stock (empty_shelf) em diferentes secções e níveis da prateleira, com espaços vazios profundos e o fundo da prateleira visível, o que justifica a classificação 'critical' para o overall_status. Não foram detetados outros tipos de anomalias como produtos errados, danos ou sujidade."
+            }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094631_50663093",
+                "timestamp": "2026-06-11T08:46:31Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "ervilhas",
+                    "milho doce",
+                    "polpa de tomate",
+                    "cogumelos laminados",
+                    "feijão verde"
+                ],
+                "model_reasoning": "O inventário de produtos revela principalmente conservas de vegetais (ervilhas, milho doce, feijão verde, cogumelos laminados) e polpa de tomate. Os produtos estão organizados por categorias lógicas em cada prateleira. A avaliação de preenchimento indica uma taxa de ocupação de aproximadamente 90%, com a maioria das prateleiras bem abastecidas, sem buracos profundos que sugiram rutura de stock. Não foram detetadas anomalias significativas como ruturas, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta, resultando num status geral 'ok'."
+            }
+        },
         "empty__WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg": {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg",
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg",
             "categoria_real": "empty",
             "origem": "cache",
             "analise_ia": {
@@ -631,158 +721,860 @@
                 ],
                 "model_reasoning": "PASSO 1: A imagem exibe predominantemente garrafas de azeite virgem extra, organizadas por marca e tipo em diferentes prateleiras. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com a maioria dos espaços preenchidos por produtos. Não há buracos profundos que indiquem rutura de stock, apenas algumas unidades em falta na frente, o que é considerado reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock, danos, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Como não foram identificadas anomalias, o estado geral da prateleira é 'ok'."
             }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094638_EA4AB9BA",
+                "timestamp": "2026-06-11T08:46:38Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "whisky"
+                ],
+                "model_reasoning": "O inventário de produtos na prateleira consiste exclusivamente em garrafas de whisky, organizadas por marca e tipo. A avaliação de preenchimento indica que a prateleira está bem abastecida, com uma taxa de ocupação estimada em 90%, sem buracos profundos que sugiram rutura de stock. Não foram detetadas anomalias como rutura, dano, produtos incorretos, desalinhamento significativo ou etiquetas em falta, resultando num estado geral 'ok'."
+            }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094644_0D5CE44E",
+                "timestamp": "2026-06-11T08:46:44Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "whisky",
+                    "espumante"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe principalmente garrafas de whisky e algumas garrafas de espumante. Os produtos estão organizados por categoria lógica em prateleiras distintas. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são apenas na frente, o que é normal. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), embalagens danificadas (damaged), produtos incorretos (wrong_product), desalinhamentos significativos (misaligned) ou etiquetas em falta (label_missing). PASSO 4: Como não foram encontradas anomalias, o estado geral da prateleira é 'ok'."
+            }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094650_95B1526C",
+                "timestamp": "2026-06-11T08:46:50Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "vinhos tintos",
+                    "vinhos brancos",
+                    "sangrias",
+                    "espumantes",
+                    "sucos"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe principalmente garrafas e caixas de vinho, categorizadas por tipo (tinto, branco, rosé, espumante) e marca. Há também algumas garrafas de sangria e sucos. A organização é lógica por prateleira e tipo de produto. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são apenas na frente, indicando reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), danos (damaged), produtos incorretos (wrong_product), desalinhamento significativo (misaligned) ou etiquetas ausentes (label_missing). PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+            }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094658_CEEE8B1C",
+                "timestamp": "2026-06-11T08:46:58Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "bolachas",
+                    "cereais"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe principalmente bolachas, organizadas por marca e tipo (ex: zero açúcares, digestivas, breakfast). Há também uma secção de cereais. A organização é lógica por categoria de produto. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. A maioria dos espaços vazios são apenas na frente de algumas embalagens, indicando reposição normal e não rutura de stock. PASSO 3: Não foram detetadas anomalias como rutura de stock profunda, embalagens danificadas, produtos fora de categoria, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Como não foram identificadas anomalias, o estado geral da prateleira é 'ok'."
+            }
+        },
+        "empty__WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg": {
+            "caminho": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+            "categoria_real": "empty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094705_ECBC0BF0",
+                "timestamp": "2026-06-11T08:47:05Z",
+                "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+                "zone_id": "Z_EMPTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "chocolates",
+                    "biscuits",
+                    "confectionery"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos de chocolate, organizados por marca e tipo em várias prateleiras. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com poucas lacunas visíveis. As lacunas existentes parecem ser devido à falta de unidades na frente, e não a ruturas profundas de stock. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094713_77B201CB",
+                "timestamp": "2026-06-11T08:47:13Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira inferior, lado esquerdo",
+                        "severity": "medium",
+                        "description": "Espaço vazio profundo na prateleira inferior, com o fundo visível, onde deveriam estar produtos.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.15
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira intermédia, centro",
+                        "severity": "low",
+                        "description": "Embalagens de produtos de charcutaria amassadas e desalinhadas.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    }
+                ],
+                "shelf_fill_rate": 0.8,
+                "products_detected": [
+                    "charcutaria",
+                    "salgados",
+                    "salsicharia"
+                ],
+                "model_reasoning": "PASSO 1: A prateleira exibe principalmente produtos de charcutaria, salgados e salsicharia, organizados por tipo em cada secção. PASSO 2: A taxa de preenchimento estimada é de 80%, com algumas áreas apresentando falta de unidades na frente, mas a maioria das prateleiras está bem preenchida. No entanto, há um buraco profundo na prateleira inferior esquerda, indicando rutura de stock. PASSO 3: Foram detetadas duas anomalias: uma rutura de stock (empty_shelf) na prateleira inferior esquerda, onde o fundo da prateleira é visível, e embalagens danificadas (damaged) na prateleira intermédia central. PASSO 4: Com uma rutura de stock e embalagens danificadas, o status geral é classificado como 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094720_D24A89B3",
+                "timestamp": "2026-06-11T08:47:20Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "low",
+                        "description": "Espaço vazio visível na prateleira superior, onde deveriam estar produtos de café.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.05
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira inferior, centro",
+                        "severity": "low",
+                        "description": "Embalagens de snacks amassadas e desalinhadas na prateleira inferior.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "misaligned",
+                        "location": "prateleira intermédia, lado esquerdo",
+                        "severity": "low",
+                        "description": "Alguns frascos de molho estão ligeiramente tombados na prateleira intermédia.",
+                        "confidence": 0.6,
+                        "affected_area_pct": 0.08
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "molhos",
+                    "conservas",
+                    "bebidas",
+                    "café",
+                    "snacks",
+                    "massas"
+                ],
+                "model_reasoning": "O inventário de produtos detetou uma variedade de itens, incluindo molhos, conservas, bebidas, café, snacks e massas, organizados em categorias lógicas nas prateleiras. A avaliação de preenchimento estima que cerca de 85% da prateleira está ocupada por produtos, com algumas áreas de falta de unidades na frente que parecem ser reposição normal. No entanto, foram detetadas algumas anomalias: um espaço vazio na prateleira superior (empty_shelf), embalagens de snacks danificadas na prateleira inferior (damaged), e alguns frascos de molho ligeiramente desalinhados na prateleira intermédia (misaligned). Devido à presença de 3 anomalias, o status geral é classificado como 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094728_104317FB",
+                "timestamp": "2026-06-11T08:47:28Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "higiene pessoal",
+                    "limpeza doméstica",
+                    "detergentes"
+                ],
+                "model_reasoning": "A prateleira está bem abastecida, com uma taxa de preenchimento estimada em 90%. Os produtos estão organizados por categorias lógicas, como higiene pessoal, limpeza doméstica e detergentes. Não foram detetadas anomalias significativas como rupturas de stock, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta, pelo que o estado geral é considerado 'ok'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094734_287619FF",
+                "timestamp": "2026-06-11T08:47:34Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "low",
+                        "description": "Espaço vazio visível no fundo da prateleira superior, onde deveriam estar produtos de higiene oral.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira intermédia, centro",
+                        "severity": "low",
+                        "description": "Embalagens de pasta de dentes Colgate com as pontas ligeiramente amarfanhadas.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "higiene oral",
+                    "pastas de dentes",
+                    "escovas de dentes",
+                    "fio dental",
+                    "enxaguatórios bucais",
+                    "loções corporais"
+                ],
+                "model_reasoning": "O inventário de produtos detetados inclui principalmente artigos de higiene oral, como escovas de dentes, pastas de dentes, fio dental e enxaguatórios bucais, além de algumas loções corporais. A prateleira apresenta um bom preenchimento geral, estimado em 85%, com a maioria dos produtos bem organizados. No entanto, foram identificadas duas anomalias: um espaço vazio na prateleira superior direita, indicando uma possível rutura de stock (empty_shelf), e algumas embalagens de pasta de dentes ligeiramente amarfanhadas na prateleira intermédia (damaged). Estes problemas, embora não graves, justificam um estado de 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094742_9AAE2066",
+                "timestamp": "2026-06-11T08:47:42Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "medium",
+                        "description": "Espaço vazio profundo na prateleira superior, onde deveriam estar produtos de limpeza.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.15
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira inferior, centro",
+                        "severity": "low",
+                        "description": "Embalagens de ambientadores amassadas e tombadas na prateleira inferior.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "misaligned",
+                        "location": "prateleira intermédia, lado esquerdo",
+                        "severity": "low",
+                        "description": "Caixas de pilhas desalinhadas e ligeiramente tombadas.",
+                        "confidence": 0.6,
+                        "affected_area_pct": 0.08
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "ambientadores",
+                    "pilhas",
+                    "produtos de limpeza",
+                    "isqueiros",
+                    "sprays",
+                    "fósforos"
+                ],
+                "model_reasoning": "O inventário de produtos detetou ambientadores, pilhas, produtos de limpeza, isqueiros, sprays e fósforos, organizados por categorias lógicas nas prateleiras. A avaliação de preenchimento estima uma taxa de ocupação de 85%, com a maioria das prateleiras bem abastecidas, embora algumas unidades possam estar em falta na frente. Foram detetadas três anomalias: uma rutura de stock na prateleira superior (empty_shelf), embalagens danificadas na prateleira inferior (damaged) e produtos desalinhados na prateleira intermédia (misaligned). Com duas anomalias menores e uma de gravidade média, o estado geral é classificado como 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094749_C300AB6C",
+                "timestamp": "2026-06-11T08:47:49Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, centro",
+                        "severity": "medium",
+                        "description": "Existe um espaço vazio profundo na prateleira superior, onde deveriam estar latas de bebida, com a estrutura da prateleira visível.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.05
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira inferior, lado direito",
+                        "severity": "low",
+                        "description": "Uma caixa de cerveja na prateleira inferior, lado direito, apresenta a embalagem ligeiramente amassada.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.02
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "cerveja",
+                    "sidra",
+                    "bebidas"
+                ],
+                "model_reasoning": "O inventário de produtos revela principalmente cervejas e sidras, organizadas por marca e tipo em cada prateleira. A avaliação de preenchimento estima que cerca de 85% da prateleira está ocupada por produtos, com algumas áreas de falta de stock visíveis. Foram detetadas duas anomalias: uma rutura de stock (empty_shelf) na prateleira superior, onde se vê o fundo da prateleira, e um dano leve numa embalagem na prateleira inferior. Devido à presença de uma rutura de stock e um dano, o status geral é classificado como 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.55.48.jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.48.jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094757_A3E2316E",
+                "timestamp": "2026-06-11T08:47:57Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.48.jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "compotas",
+                    "mel",
+                    "manteiga de amendoim",
+                    "chocolates",
+                    "sobremesas"
+                ],
+                "model_reasoning": "O inventário de produtos detetado inclui compotas, mel, manteiga de amendoim, chocolates e sobremesas, organizados por categorias lógicas em cada prateleira. A avaliação de preenchimento indica uma taxa de ocupação de aproximadamente 90%, com a maioria das prateleiras bem abastecidas, sem buracos profundos que sugiram rutura de stock. Não foram detetadas anomalias como rutura, dano, produtos incorretos, desalinhamento significativo ou etiquetas em falta, resultando num estado geral 'ok'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.55.49 (3).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.49 (3).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094804_248B6A30",
+                "timestamp": "2026-06-11T08:48:04Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.49 (3).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "biscoitos",
+                    "bolachas",
+                    "chocolates",
+                    "wafer"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe principalmente produtos de pastelaria e snacks, como bolachas, biscoitos, chocolates e wafers. Os produtos estão organizados por tipo em cada prateleira, seguindo uma categoria lógica. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são apenas na frente, indicando reposição normal. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos, produtos incorretos, desalinhamento grave ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094811_2135C4C5",
+                "timestamp": "2026-06-11T08:48:11Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "damaged",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "low",
+                        "description": "Uma embalagem de produto de limpeza amarela está ligeiramente amassada.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.01
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "misaligned",
+                        "location": "prateleira inferior, lado esquerdo",
+                        "severity": "low",
+                        "description": "Uma garrafa de produto de limpeza rosa está tombada.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.02
+                    }
+                ],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "produtos de limpeza",
+                    "detergentes",
+                    "desinfetantes"
+                ],
+                "model_reasoning": "O inventário de produtos consiste principalmente em produtos de limpeza e detergentes, organizados por tipo e marca em cada prateleira. A avaliação de preenchimento indica que a maioria das prateleiras está bem abastecida, com uma taxa de preenchimento estimada em 0.9. Foram detetadas duas anomalias menores: uma embalagem ligeiramente amassada na prateleira superior e uma garrafa tombada na prateleira inferior. Como existem apenas duas anomalias de baixa gravidade, o status geral é 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.55.52.jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094818_81EE5145",
+                "timestamp": "2026-06-11T08:48:18Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "low",
+                        "description": "Espaço vazio visível no fundo da prateleira, atrás dos produtos de limpeza.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira inferior, centro",
+                        "severity": "low",
+                        "description": "Uma lata de inseticida tombada na prateleira inferior.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "sacos",
+                    "cubos de gelo",
+                    "folha de alumínio",
+                    "papel vegetal",
+                    "película aderente",
+                    "inseticidas",
+                    "limpeza"
+                ],
+                "model_reasoning": "O inventário de produtos inclui sacos, cubos de gelo, folhas de alumínio, papel vegetal, película aderente, inseticidas e produtos de limpeza, organizados por categorias lógicas nas prateleiras. A avaliação de preenchimento estima uma taxa de ocupação de 85%, com a maioria das prateleiras bem abastecidas, embora algumas unidades possam estar em falta na frente. Foram detetadas duas anomalias: um espaço vazio profundo na prateleira superior direita (empty_shelf) e uma lata de inseticida tombada na prateleira inferior (damaged). Devido à presença de duas anomalias, o status geral é classificado como 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.55.53.jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.53.jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094826_D745CA29",
+                "timestamp": "2026-06-11T08:48:26Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.53.jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira inferior, centro",
+                        "severity": "medium",
+                        "description": "Existe um espaço vazio profundo na prateleira inferior, onde se vê o fundo da prateleira, indicando rutura de stock.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira inferior, centro",
+                        "severity": "low",
+                        "description": "Uma embalagem de leite está tombada e ligeiramente amassada na prateleira inferior.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.02
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "leite",
+                    "laticínios"
+                ],
+                "model_reasoning": "O inventário de produtos detetou principalmente embalagens de leite e laticínios, organizadas por marca e tipo em diferentes prateleiras. A avaliação de preenchimento estima que cerca de 85% da prateleira está ocupada por produtos, com algumas áreas de falta de unidades na frente que parecem ser reposição normal. No entanto, foram detetadas duas anomalias: uma rutura de stock significativa na prateleira inferior central, onde se vê o fundo da prateleira, e uma embalagem danificada e tombada na mesma área. Devido à presença de uma rutura de stock e uma embalagem danificada, o estado geral é classificado como 'warning'."
+            }
+        },
+        "dirty__WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg": {
+            "caminho": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg",
+            "categoria_real": "dirty",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_094833_B80CAB09",
+                "timestamp": "2026-06-11T08:48:33Z",
+                "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg",
+                "zone_id": "Z_DIRTY",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "low",
+                        "description": "Espaço vazio visível no fundo da prateleira superior, onde deveriam estar produtos.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira intermédia, centro",
+                        "severity": "low",
+                        "description": "Embalagem de farinha de milho ligeiramente amarfanhada.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "empty_shelf",
+                        "location": "prateleira intermédia, lado esquerdo",
+                        "severity": "low",
+                        "description": "Espaço vazio visível no fundo da prateleira intermédia, onde deveriam estar produtos de farinha de mandioca.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.15
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "tapioca",
+                    "farinha",
+                    "pizza",
+                    "aveia",
+                    "arroz",
+                    "amido de milho",
+                    "puré de batata",
+                    "flocos de batata"
+                ],
+                "model_reasoning": "O inventário de produtos detetado inclui tapioca, várias farinhas (mandioca, trigo, milho), misturas para pizza, aveia, arroz, amido de milho e produtos de batata. Os produtos estão maioritariamente organizados por categoria lógica em cada prateleira. A avaliação de preenchimento estima uma taxa de ocupação de cerca de 85%, com algumas lacunas visíveis. Foram detetadas três anomalias: um espaço vazio na prateleira superior direita, uma embalagem ligeiramente danificada no centro da prateleira intermédia e uma lacuna mais significativa na prateleira intermédia esquerda. Devido à presença de duas rupturas de stock (empty_shelf) e um dano menor, o status geral é classificado como 'warning'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.49 (1).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.49 (1).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260610_130417_E5E6389E",
+                "timestamp": "2026-06-10T12:04:17Z",
+                "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.49 (1).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "medium",
+                        "description": "Espaço vazio profundo na prateleira superior, com a estrutura de suporte da prateleira visível.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "damaged",
+                        "location": "prateleira intermédia, centro",
+                        "severity": "low",
+                        "description": "Embalagens de biscoitos amassadas e desalinhadas na prateleira intermédia.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "misaligned",
+                        "location": "prateleira inferior, lado esquerdo",
+                        "severity": "low",
+                        "description": "Alguns pacotes de bolachas na prateleira inferior estão ligeiramente tombados.",
+                        "confidence": 0.6,
+                        "affected_area_pct": 0.03
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "bolachas",
+                    "cereais",
+                    "snacks",
+                    "bebidas"
+                ],
+                "model_reasoning": "A análise da imagem revelou a presença de vários tipos de produtos, principalmente bolachas, cereais e snacks, organizados em prateleiras. O preenchimento geral da prateleira é alto, estimado em 85%, com a maioria das áreas bem abastecidas. No entanto, foram detetadas algumas anomalias: um espaço vazio profundo na prateleira superior (empty_shelf), algumas embalagens danificadas na prateleira intermédia (damaged), e alguns produtos ligeiramente desalinhados na prateleira inferior (misaligned). Devido à presença de múltiplas anomalias, embora a maioria de baixa severidade, o estado geral é classificado como 'warning'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.50 (3).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.50 (3).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260610_130421_7A8F368C",
+                "timestamp": "2026-06-10T12:04:21Z",
+                "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.50 (3).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "bebidas energéticas",
+                    "refrigerantes",
+                    "cervejas",
+                    "sumos",
+                    "chás"
+                ],
+                "model_reasoning": "PASSO 1: A prateleira exibe uma variedade de produtos organizados por categoria lógica, incluindo bebidas energéticas (Monster), refrigerantes (Pepsi, Fanta), cervejas (Super Bock, Sagres), sumos e chás (Lipton). PASSO 2: A avaliação de preenchimento indica uma taxa de ocupação de produto muito alta, estimada em cerca de 90%, com poucas lacunas visíveis e nenhuma indicação de rutura de stock profunda. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta. PASSO 4: Com a ausência de anomalias, o estado geral da prateleira é classificado como 'ok'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260610_130525_676FCF23",
+                "timestamp": "2026-06-10T12:05:25Z",
+                "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "ração para gatos",
+                    "snacks para gatos"
+                ],
+                "model_reasoning": "O inventário de produtos consiste principalmente em ração para gatos, organizada por tipo (seco, húmido, snacks) e marca (Ultima, Perfect Fit). A avaliação de preenchimento indica que as prateleiras estão bem abastecidas, com uma taxa de preenchimento estimada em 0.9. Não foram detetadas anomalias como ruturas de stock, danos, produtos incorretos, desalinhamentos significativos ou etiquetas em falta, resultando num status geral 'ok'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.51 (1).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.51 (1).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260610_131301_118A79A9",
+                "timestamp": "2026-06-10T12:13:01Z",
+                "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (1).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "cuidados do corpo",
+                    "hidratantes",
+                    "loções",
+                    "óleos",
+                    "cremes"
+                ],
+                "model_reasoning": "PASSO 1: A prateleira exibe uma variedade de produtos de cuidados do corpo, incluindo loções, cremes, óleos e hidratantes, organizados por marca e tipo em prateleiras lógicas. PASSO 2: A avaliação do preenchimento da prateleira indica uma taxa de ocupação muito alta, estimada em cerca de 90%, com poucas lacunas visíveis e a maioria dos espaços preenchidos com produto. Não há indícios de rutura de stock profunda. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.51 (2).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.51 (2).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_095335_1B3ECFA1",
+                "timestamp": "2026-06-11T08:53:35Z",
+                "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (2).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "cuidados corporais",
+                    "cuidados faciais",
+                    "depilatórios",
+                    "acessórios de higiene"
+                ],
+                "model_reasoning": "PASSO 1: A prateleira exibe produtos de cuidados corporais, faciais e depilatórios, organizados por categorias lógicas, com rótulos indicativos como 'CORPO' e 'DEPILATÓRIOS'. PASSO 2: A avaliação do preenchimento da prateleira indica uma taxa de ocupação elevada, estimada em 90%, com a maioria dos espaços preenchidos por produtos. Não se observam buracos profundos que sugiram rutura de stock, apenas a ausência de algumas unidades na frente, o que é considerado reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock, embalagens danificadas, produtos fora de categoria, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.51 (8).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.51 (8).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260611_095339_3892F75E",
+                "timestamp": "2026-06-11T08:53:39Z",
+                "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (8).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "limpeza",
+                    "detergentes",
+                    "desinfetantes"
+                ],
+                "model_reasoning": "O inventário de produtos consiste principalmente em produtos de limpeza doméstica, como detergentes, desinfetantes e amaciadores, organizados por marca e tipo em prateleiras. A avaliação de preenchimento indica que a maioria das prateleiras está bem abastecida, com uma taxa de preenchimento estimada em 0.9, sem grandes ruturas de stock visíveis. A deteção de anomalias não revelou problemas significativos como ruturas profundas, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta, levando a uma classificação geral de 'ok'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.52 (1).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.52 (1).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260612_031311_3F5CEA2B",
+                "timestamp": "2026-06-12T02:13:11Z",
+                "image_path": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.52 (1).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira superior, lado direito",
+                        "severity": "low",
+                        "description": "Espaço vazio visível no fundo da prateleira superior, onde deveriam estar produtos de higiene.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.05
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "misaligned",
+                        "location": "prateleira inferior, lado esquerdo",
+                        "severity": "low",
+                        "description": "Algumas embalagens de inseticida estão ligeiramente tombadas.",
+                        "confidence": 0.6,
+                        "affected_area_pct": 0.1
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "label_missing",
+                        "location": "prateleira intermédia, centro",
+                        "severity": "low",
+                        "description": "Um espaço vazio na prateleira intermédia parece não ter etiqueta de preço ou produto.",
+                        "confidence": 0.5,
+                        "affected_area_pct": 0.03
+                    }
+                ],
+                "shelf_fill_rate": 0.85,
+                "products_detected": [
+                    "higiene pessoal",
+                    "limpeza doméstica",
+                    "inseticidas",
+                    "bebidas",
+                    "alimentos"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe uma variedade de produtos organizados por categorias lógicas, incluindo produtos de higiene pessoal (topo), produtos de limpeza doméstica e inseticidas (meio e inferior), e algumas bebidas e alimentos em prateleiras mais baixas. PASSO 2: A taxa de preenchimento da prateleira é estimada em cerca de 85%, com a maioria das prateleiras bem abastecidas, embora existam algumas lacunas menores. PASSO 3: Foram detetadas três anomalias: um espaço vazio na prateleira superior (empty_shelf), algumas embalagens desalinhadas na prateleira inferior (misaligned), e um espaço sem etiqueta visível na prateleira intermédia (label_missing). PASSO 4: Com duas anomalias menores e uma de baixo impacto, o estado geral é classificado como 'warning'."
+            }
+        },
+        "ambiguous__WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg": {
+            "caminho": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg",
+            "categoria_real": "ambiguous",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260612_031319_4B3A7D62",
+                "timestamp": "2026-06-12T02:13:19Z",
+                "image_path": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg",
+                "zone_id": "Z_AMBIGUOUS",
+                "overall_status": "warning",
+                "issues": [
+                    {
+                        "issue_id": "ISS_001",
+                        "type": "empty_shelf",
+                        "location": "prateleira inferior, lado direito",
+                        "severity": "medium",
+                        "description": "Espaço vazio profundo na prateleira inferior, com visibilidade do fundo da prateleira.",
+                        "confidence": 0.85,
+                        "affected_area_pct": 0.3
+                    },
+                    {
+                        "issue_id": "ISS_002",
+                        "type": "empty_shelf",
+                        "location": "prateleira inferior, centro",
+                        "severity": "medium",
+                        "description": "Vários espaços vazios profundos na prateleira inferior, indicando rutura de stock.",
+                        "confidence": 0.8,
+                        "affected_area_pct": 0.4
+                    },
+                    {
+                        "issue_id": "ISS_003",
+                        "type": "empty_shelf",
+                        "location": "prateleira intermédia, lado esquerdo",
+                        "severity": "low",
+                        "description": "Um pequeno espaço vazio na prateleira intermédia, lado esquerdo, onde faltam unidades.",
+                        "confidence": 0.7,
+                        "affected_area_pct": 0.1
+                    }
+                ],
+                "shelf_fill_rate": 0.75,
+                "products_detected": [
+                    "congelados",
+                    "hamburgueres",
+                    "nuggets",
+                    "croquetes",
+                    "batatas fritas"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos congelados, como hambúrgueres, nuggets, croquetes e batatas fritas, organizados em prateleiras. PASSO 2: A taxa de preenchimento estimada é de aproximadamente 75%, com algumas prateleiras apresentando espaços vazios visíveis até ao fundo, indicando potenciais ruturas de stock. PASSO 3: Foram detetadas várias instâncias de 'empty_shelf' (rutura de stock) nas prateleiras inferiores e intermédias, onde há espaços vazios profundos. Não foram detetados outros tipos de anomalias como dano, produtos errados, desalinhamento ou etiquetas ausentes. PASSO 4: Devido à presença de múltiplas ruturas de stock ('empty_shelf'), o status geral é classificado como 'warning'."
+            }
+        },
+        "planogram__WhatsApp Image 2026-06-08 at 20.40.22.jpeg": {
+            "caminho": "data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.40.22.jpeg",
+            "categoria_real": "planogram",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260612_031327_3D7DE8FB",
+                "timestamp": "2026-06-12T02:13:27Z",
+                "image_path": "data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.40.22.jpeg",
+                "zone_id": "Z_PLANOGRAM",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.9,
+                "products_detected": [
+                    "café",
+                    "chocolates",
+                    "biscoitos",
+                    "conservas",
+                    "cereais",
+                    "arroz",
+                    "pão"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe uma variedade de produtos organizados em prateleiras, incluindo café em cápsulas e em pó, chocolates, biscoitos, conservas, cereais, arroz e pão. Os produtos parecem estar agrupados por categorias lógicas em cada prateleira. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são pequenas lacunas na frente, o que é normal. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos nas embalagens, produtos incorretos, desalinhamentos graves ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+            }
+        },
+        "planogram__WhatsApp Image 2026-06-08 at 20.55.50.jpeg": {
+            "caminho": "data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+            "categoria_real": "planogram",
+            "origem": "cache",
+            "analise_ia": {
+                "inspection_id": "INS_20260612_031334_4AEC8DCF",
+                "timestamp": "2026-06-12T02:13:34Z",
+                "image_path": "data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+                "zone_id": "Z_PLANOGRAM",
+                "overall_status": "ok",
+                "issues": [],
+                "shelf_fill_rate": 0.95,
+                "products_detected": [
+                    "cereais infantis",
+                    "papinhas",
+                    "farinhas"
+                ],
+                "model_reasoning": "PASSO 1: A imagem exibe principalmente produtos de alimentação infantil, categorizados em cereais, papinhas e farinhas, organizados de forma lógica por tipo em cada prateleira. PASSO 2: A taxa de preenchimento da prateleira é estimada em 0.95, pois a maioria dos produtos está bem posicionada e a prateleira está quase totalmente preenchida, com apenas pequenas lacunas frontais que não indicam rutura de stock. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), danos (damaged), produtos incorretos (wrong_product), desalinhamentos significativos (misaligned) ou etiquetas em falta (label_missing). PASSO 4: Como não foram identificadas quaisquer anomalias, o estado geral da prateleira é classificado como 'ok'."
+            }
         }
     },
-    "falhas": [
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
-            "categoria": "empty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.48.jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.49 (3).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.53.jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg",
-            "categoria": "dirty",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.49 (1).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.50 (3).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.51 (1).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.51 (2).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.51 (8).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.52 (1).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg",
-            "categoria": "ambiguous",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\planogram\\WhatsApp Image 2026-06-08 at 20.40.22.jpeg",
-            "categoria": "planogram",
-            "motivo": "quota_esgotada"
-        },
-        {
-            "caminho": "images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
-            "categoria": "planogram",
-            "motivo": "quota_esgotada"
-        }
-    ]
+    "falhas": []
 }

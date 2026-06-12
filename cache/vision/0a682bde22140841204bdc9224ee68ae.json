@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_143836_0A682BDE",
+    "timestamp": "2026-06-12T13:38:36Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.55.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "molhos",
+        "maionese",
+        "conservas",
+        "laticínios"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram observados problemas significativos como prateleiras vazias, produtos errados ou danos visíveis. A taxa de preenchimento é alta, indicando boa gestão de stock. A variedade de produtos inclui molhos, maioneses e conservas, todos parecendo estar nas suas posições corretas."
+}

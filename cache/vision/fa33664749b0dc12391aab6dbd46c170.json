@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260612_142253_FA336647",
+    "timestamp": "2026-06-12T13:22:53Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.50 (3).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "bebidas energéticas",
+        "refrigerantes",
+        "cerveja",
+        "sumo",
+        "chá gelado"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 0.9. Os produtos visíveis incluem bebidas energéticas, refrigerantes, cerveja, sumo e chá gelado. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou danificados, nem falta de etiquetas. Portanto, o estado geral da prateleira é considerado 'ok'."
+}

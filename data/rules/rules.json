@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "rule_id": "RULE_001",
+        "created_at": "2026-06-12T22:29:13Z",
+        "natural_language": "Avisa-me sempre com nível warning quando o fill rate de qualquer zona estiver abaixo de 60%, sem restrição de horário",
+        "description": "Notificar com nível de alerta 'warning' sempre que o fill rate de qualquer zona for inferior a 60%, sem restrições de horário.",
+        "conditions": {
+            "zone_filter": null,
+            "time_filter": null,
+            "issue_types": null,
+            "severity_threshold": null,
+            "fill_rate_threshold": 0.6,
+            "location_filter": "any"
+        },
+        "action": {
+            "alert_level": "warning",
+            "notification_message": "Alerta de fill rate baixo na zona {zona}. Fill rate atual: {fill_rate}. Issues: {issues}"
+        },
+        "validation": {
+            "is_valid": true,
+            "ambiguities": [],
+            "assumptions": []
+        }
+    },
+    {
+        "rule_id": "RULE_002",
+        "created_at": "2026-06-12T22:29:39Z",
+        "natural_language": "Gera alerta crítico sempre em todas as zonas sem restrição de horário quando houver prateleira vazia com severidade alta",
+        "description": "Gerar um alerta crítico em todas as zonas, a qualquer hora, quando for detetada uma prateleira vazia com severidade alta.",
+        "conditions": {
+            "zone_filter": null,
+            "time_filter": null,
+            "issue_types": [
+                "empty_shelf"
+            ],
+            "severity_threshold": "high",
+            "fill_rate_threshold": null,
+            "location_filter": "any"
+        },
+        "action": {
+            "alert_level": "critical",
+            "notification_message": "Alerta crítico: Prateleira vazia detetada na zona {zona} com severidade alta."
+        },
+        "validation": {
+            "is_valid": true,
+            "ambiguities": [],
+            "assumptions": [
+                "Assumi que 'todas as zonas sem restrição de horário' significa que o filtro de tempo é nulo e o filtro de zona é nulo.",
+                "Assumi que '0% de ocupação' se refere ao fill_rate_threshold."
+            ]
+        }
+    },
+    {
+        "rule_id": "RULE_003",
+        "created_at": "2026-06-12T23:30:00Z",
+        "natural_language": "Avisa-me quando houver produtos desalinhados ou desordenados.",
+        "description": "Gera alerta info quando for detetado issue do tipo misaligned em qualquer zona, a qualquer hora.",
+        "conditions": {
+            "zone_filter": null,
+            "time_filter": null,
+            "issue_types": [
+                "misaligned"
+            ],
+            "severity_threshold": null,
+            "fill_rate_threshold": null,
+            "location_filter": "any"
+        },
+        "action": {
+            "alert_level": "info",
+            "notification_message": "Produtos desalinhados detetados na zona {zona}. Issues: {issues}"
+        },
+        "validation": {
+            "is_valid": true,
+            "ambiguities": [],
+            "assumptions": [
+                "Aplica-se a todas as zonas",
+                "Sem restrição de horário",
+                "Sem threshold de fill rate"
+            ]
+        }
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181323_8C473281",
+    "timestamp": "2026-06-12T17:13:23Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "farinha",
+        "tapioca",
+        "amido de milho",
+        "flocos de batata"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 85%. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou danificados. Os produtos identificados incluem várias marcas e tipos de farinha, tapioca, amido de milho e flocos de batata. A organização geral é satisfatória, justificando o status 'ok'."
+}

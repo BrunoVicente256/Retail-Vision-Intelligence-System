@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181331_7BE59E21",
+    "timestamp": "2026-06-12T17:13:31Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "detergente para máquina de lavar loiça",
+        "detergente líquido para máquina de lavar loiça",
+        "sal para máquina de lavar loiça"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia com produtos da marca Finish e Sun, que são detergentes para máquina de lavar loiça. A maioria dos produtos está bem alinhada e visível. Não foram detetados problemas significativos como prateleiras vazias, produtos errados, danos ou falta de etiquetas que justifiquem um status de warning ou critical. A taxa de preenchimento estimada é alta, refletindo a boa organização geral."
+}

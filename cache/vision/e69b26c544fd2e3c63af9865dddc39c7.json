@@ -1,0 +1,44 @@
+{
+    "inspection_id": "INS_20260612_142433_E69B26C5",
+    "timestamp": "2026-06-12T13:24:33Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "damaged",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Embalagem de produto de limpeza com rasgão visível.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado direito",
+            "severity": "low",
+            "description": "Uma embalagem de produto de limpeza está tombada.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.02
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "prateleira mais baixa, lado direito",
+            "severity": "medium",
+            "description": "Várias embalagens de produtos de limpeza de cor rosa estão deitadas ou mal alinhadas.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "detergentes",
+        "limpeza geral",
+        "desinfetantes",
+        "amaciadores"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, com a maioria dos produtos bem organizados e com bom stock. No entanto, foram detetados alguns problemas pontuais que justificam um alerta. Na prateleira inferior, um produto de limpeza apresenta um rasgão visível na embalagem, classificado como 'damaged' com severidade média. Adicionalmente, na mesma prateleira e na prateleira mais baixa, observam-se algumas embalagens tombadas ou mal alinhadas, indicando uma necessidade de reorganização. O fill rate geral é estimado em 85%, considerando os espaços vazios e os produtos desalinhados."
+}

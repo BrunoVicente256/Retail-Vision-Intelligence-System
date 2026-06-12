@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260612_181522_43940F96",
+    "timestamp": "2026-06-12T17:15:22Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "medium",
+            "description": "Fundo da prateleira visível numa secção da prateleira inferior, indicando falta de produto.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira intermédia, secção central",
+            "severity": "low",
+            "description": "Alguns pacotes de produtos estão tombados e desorganizados.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+        "charcutaria",
+        "salgados",
+        "salsicharia"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, mas com algumas falhas. Foi detetada uma rutura de stock parcial na prateleira inferior, onde o fundo da prateleira é visível, indicando a necessidade de reposição. Adicionalmente, alguns produtos na prateleira intermédia estão ligeiramente desorganizados e tombados, o que, embora não seja crítico, justifica um alerta de 'warning'. O fill rate geral é estimado em 75%, considerando as áreas com produto e os espaços vazios. A maioria dos produtos são de charcutaria e salgados, bem categorizados."
+}

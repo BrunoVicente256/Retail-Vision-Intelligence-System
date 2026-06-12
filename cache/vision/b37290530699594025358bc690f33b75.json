@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181310_B3729053",
+    "timestamp": "2026-06-12T17:13:10Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "detergentes",
+        "higiene pessoal",
+        "perfumaria",
+        "limpeza doméstica"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 0.9. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou incorretos. A organização geral dos produtos é satisfatória, levando à classificação de 'ok'."
+}

@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181415_0FBDC4A5",
+    "timestamp": "2026-06-12T17:14:15Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "chocolate",
+        "biscuits",
+        "sweets"
+    ],
+    "model_reasoning": "The image displays a retail shelf primarily stocked with chocolate bars and related confectionery. The shelves are generally well-filled, with minimal visible empty spaces. Product placement appears organized, and no significant issues like damaged packaging, misaligned products, or missing labels are apparent. Therefore, the overall status is 'ok' and no specific issues are reported."
+}

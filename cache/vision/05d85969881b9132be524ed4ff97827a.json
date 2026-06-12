@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260612_181530_05D85969",
+    "timestamp": "2026-06-12T17:15:30Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.23 (4).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "misaligned",
+            "location": "prateleira superior, centro",
+            "severity": "medium",
+            "description": "Latas de cerveja empilhadas de forma instável e desalinhada, com algumas latas a cair para a frente.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira inferior, lado direito",
+            "severity": "low",
+            "description": "Algumas embalagens de cerveja (packs de 6) apresentam amolgadelas e danos visíveis.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "cerveja",
+        "sidra",
+        "refrigerante"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, com a maioria dos produtos bem organizados e com bom stock. No entanto, foram detetados alguns problemas pontuais. Na prateleira superior, as latas de cerveja 'Steam Brew' estão empilhadas de forma instável e desalinhada, com risco de queda, o que justifica um alerta de 'misaligned'. Na prateleira inferior, algumas embalagens de cerveja apresentam danos visíveis, classificando-se como 'damaged'. O fill rate geral é bom, mas estes problemas pontuais justificam um status de 'warning'."
+}

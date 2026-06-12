@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260612_181404_A7FAA19D",
+    "timestamp": "2026-06-12T17:14:04Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "whisky"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia de garrafas de whisky, com poucas lacunas visíveis. A organização geral dos produtos é boa, sem desalinhamentos significativos ou produtos danificados. A taxa de preenchimento estimada é alta, indicando uma boa gestão de stock nesta secção."
+}

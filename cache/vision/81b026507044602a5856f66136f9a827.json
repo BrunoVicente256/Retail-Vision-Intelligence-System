@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181630_81B02650",
+    "timestamp": "2026-06-12T17:16:30Z",
+    "image_path": "data/images/normal/garrafeira_02.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "bebidas",
+        "vinho",
+        "espumante"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos alinhados e sem buracos visíveis. A maioria dos produtos está visível e acessível, com apenas algumas lacunas frontais normais de reposição. O fill rate estimado é alto, indicando boa gestão de stock. Não foram detetados problemas como ruturas de stock, produtos fora de lugar ou danos nas embalagens."
+}

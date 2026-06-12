@@ -1,0 +1,33 @@
+{
+    "inspection_id": "INS_20260612_142718_3B7ED6C6",
+    "timestamp": "2026-06-12T13:27:18Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.48 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Vários espaços vazios visíveis na prateleira superior, indicando rutura de stock.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado direito",
+            "severity": "medium",
+            "description": "Existem espaços vazios significativos na prateleira intermédia, especialmente na secção direita.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.4
+        }
+    ],
+    "shelf_fill_rate": 0.6,
+    "products_detected": [
+        "café em cápsulas",
+        "bolachas"
+    ],
+    "model_reasoning": "A inspeção da prateleira revela várias áreas com ausência de produto, particularmente nas prateleiras superior e intermédia, no lado direito. Estes espaços vazios indicam ruturas de stock, levando à classificação de 'warning' para o estado geral. A taxa de preenchimento estimada é de 0.6, considerando as áreas com produto e as áreas vazias observadas. Foram detetados produtos de café em cápsulas e bolachas."
+}

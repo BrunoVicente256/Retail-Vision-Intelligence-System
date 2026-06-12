@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181427_C3850D47",
+    "timestamp": "2026-06-12T17:14:27Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.49 (4).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "biscoitos",
+        "doces"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetados problemas significativos como prateleiras vazias, produtos errados, danos ou falta de etiquetas. A taxa de preenchimento estimada é alta, indicando uma boa gestão do stock visível."
+}

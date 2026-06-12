@@ -1,0 +1,37 @@
+{
+    "inspection_id": "INS_20260612_142822_11B9586C",
+    "timestamp": "2026-06-12T13:28:22Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, secção central",
+            "severity": "high",
+            "description": "Fundo da prateleira visível na secção central da prateleira inferior, indicando rutura de stock.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Grande espaço vazio na prateleira inferior, lado direito, com apenas um produto visível.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        }
+    ],
+    "shelf_fill_rate": 0.55,
+    "products_detected": [
+        "detergente loiça",
+        "limpeza geral",
+        "desengordurante",
+        "limpa vidros",
+        "limpa fornos",
+        "desentupidor"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado de alerta devido a múltiplas ruturas de stock. Na prateleira inferior, a secção central está completamente vazia, com o fundo da prateleira visível, o que constitui uma rutura de stock crítica. Adicionalmente, o lado direito da mesma prateleira também apresenta uma grande lacuna, com apenas um produto visível. As restantes prateleiras estão razoavelmente abastecidas, mas a presença de buracos significativos na prateleira inferior justifica um status de 'warning'. O fill rate geral foi estimado em 55% devido às áreas vazias significativas."
+}

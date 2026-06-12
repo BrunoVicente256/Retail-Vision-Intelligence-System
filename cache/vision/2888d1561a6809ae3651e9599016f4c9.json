@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_143919_2888D156",
+    "timestamp": "2026-06-12T13:39:19Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+    "zone_id": "Z_PLANOGRAM",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+        "baby_food",
+        "cereals",
+        "infant_formula"
+    ],
+    "model_reasoning": "A prateleira está quase completamente cheia, com uma taxa de preenchimento estimada em 0.98. Não foram detetados problemas visíveis como prateleiras vazias, produtos errados, danos, desalinhamentos significativos ou falta de etiquetas. Os produtos detetados incluem comida para bebé, cereais e fórmulas infantis, todos organizados de forma adequada. A ausência de problemas visíveis leva à classificação geral de 'ok'."
+}

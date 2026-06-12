@@ -1,0 +1,41 @@
+{
+    "inspection_id": "INS_20260612_143437_A73CB9BF",
+    "timestamp": "2026-06-12T13:34:37Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, secção central",
+            "severity": "medium",
+            "description": "Vários espaços vazios visíveis na prateleira superior, onde se vê o fundo da prateleira.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, secção esquerda",
+            "severity": "medium",
+            "description": "A prateleira intermédia esquerda apresenta grandes espaços vazios, com o fundo da prateleira visível.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, secção central",
+            "severity": "medium",
+            "description": "A prateleira inferior central tem um espaço vazio considerável, revelando o fundo da prateleira.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.35
+        }
+    ],
+    "shelf_fill_rate": 0.6,
+    "products_detected": [
+        "ovos"
+    ],
+    "model_reasoning": "A prateleira apresenta múltiplas ruturas de stock em diferentes níveis, onde o fundo da prateleira é visível. Embora existam produtos em algumas secções, a presença de espaços vazios significativos justifica um status de 'warning'. O fill rate geral é estimado em 60% devido às áreas vazias detetadas. Não foram detetados produtos incorretos ou danos nas embalagens visíveis."
+}

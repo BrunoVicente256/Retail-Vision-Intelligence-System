@@ -1,0 +1,33 @@
+{
+    "inspection_id": "INS_20260612_142337_1374C8F5",
+    "timestamp": "2026-06-12T13:23:37Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.53.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Existe um espaço vazio visível na prateleira inferior, onde deveriam estar produtos.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Algumas embalagens de leite na prateleira superior estão ligeiramente desalinhadas.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.8,
+    "products_detected": [
+        "leite",
+        "laticínios"
+    ],
+    "model_reasoning": "A prateleira apresenta um bom preenchimento geral, estimado em 80%. No entanto, foi detetado um espaço vazio na prateleira inferior, indicando uma potencial rutura de stock ou má organização, o que justifica um status de 'warning'. Adicionalmente, algumas embalagens na prateleira superior apresentam um ligeiro desalinhamento, embora não seja um problema crítico. Os produtos identificados são maioritariamente leite e outros laticínios."
+}

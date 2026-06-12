@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260610_115313_279785D4",
+    "timestamp": "2026-06-10T10:53:13Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.55.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "molhos",
+        "maionese",
+        "vinagrete",
+        "conservas",
+        "bebidas"
+    ],
+    "model_reasoning": "PASSO 1: A prateleira exibe principalmente molhos (maionese, ketchup, barbecue, etc.) e alguns produtos de conservas e bebidas. Os produtos estão organizados por tipo em cada prateleira, com categorias lógicas claras. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Não há buracos profundos visíveis que indiquem rutura de stock; a maioria dos espaços vazios são apenas a falta de unidades na frente, o que é normal. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos nas embalagens, produtos incorretos ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é 'ok'."
+}

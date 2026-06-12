@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181412_63974DD6",
+    "timestamp": "2026-06-12T17:14:12Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "biscoitos",
+        "cereais"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia de produtos, com poucas lacunas visíveis. A maioria dos produtos está bem alinhada e organizada. Não foram detetados problemas significativos que justifiquem um status de warning ou critical."
+}

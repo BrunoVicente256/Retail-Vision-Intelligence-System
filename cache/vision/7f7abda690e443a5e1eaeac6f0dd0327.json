@@ -1,0 +1,42 @@
+{
+    "inspection_id": "INS_20260612_142734_7F7ABDA6",
+    "timestamp": "2026-06-12T13:27:34Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.50 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Existe um espaço vazio visível na prateleira superior, onde deveriam estar produtos.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira do meio, lado direito",
+            "severity": "medium",
+            "description": "Há um espaço vazio significativo na prateleira do meio, indicando uma rutura de stock.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.2
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "low",
+            "description": "Um pequeno espaço vazio é visível na prateleira inferior, à direita.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.7,
+    "products_detected": [
+        "cereais",
+        "nestum"
+    ],
+    "model_reasoning": "A inspeção da prateleira revelou várias áreas com falta de produto, classificadas como 'empty_shelf'. Especificamente, a prateleira superior, a do meio e a inferior apresentam espaços vazios em diferentes extensões. A prateleira do meio tem a maior lacuna, indicando uma rutura de stock mais significativa. O preenchimento geral da prateleira foi estimado em 70%, considerando as áreas com e sem produto. A classificação geral é 'warning' devido à presença destas ruturas de stock."
+}

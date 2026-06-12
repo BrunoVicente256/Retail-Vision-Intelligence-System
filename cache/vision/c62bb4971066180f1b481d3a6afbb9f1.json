@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181255_C62BB497",
+    "timestamp": "2026-06-12T17:12:55Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "ração para gatos",
+        "snacks para gatos"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia com produtos de ração para gatos e alguns snacks. Não foram detetadas lacunas significativas ou produtos desalinhados que justifiquem um status de warning ou critical. A taxa de preenchimento estimada é alta, com a maioria dos espaços ocupados por produtos."
+}

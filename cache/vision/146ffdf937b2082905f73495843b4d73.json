@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260612_181527_146FFDF9",
+    "timestamp": "2026-06-12T17:15:27Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "higiene oral",
+        "creme dentífrico",
+        "escovas de dentes",
+        "enxaguatório bucal",
+        "loção corporal"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com a maioria dos produtos alinhados e visíveis. Não foram detetadas ruturas de stock significativas, produtos danificados ou violações de planograma. Existem algumas pequenas lacunas na frente de alguns produtos, o que é normal devido à reposição e não constitui um problema. O fill rate estimado é alto, em torno de 92%, indicando uma boa gestão de stock."
+}

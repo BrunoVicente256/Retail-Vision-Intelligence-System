@@ -1,0 +1,33 @@
+{
+    "inspection_id": "INS_20260611_094826_D745CA29",
+    "timestamp": "2026-06-11T08:48:26Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.53.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Existe um espaço vazio profundo na prateleira inferior, onde se vê o fundo da prateleira, indicando rutura de stock.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Uma embalagem de leite está tombada e ligeiramente amassada na prateleira inferior.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.02
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "leite",
+        "laticínios"
+    ],
+    "model_reasoning": "O inventário de produtos detetou principalmente embalagens de leite e laticínios, organizadas por marca e tipo em diferentes prateleiras. A avaliação de preenchimento estima que cerca de 85% da prateleira está ocupada por produtos, com algumas áreas de falta de unidades na frente que parecem ser reposição normal. No entanto, foram detetadas duas anomalias: uma rutura de stock significativa na prateleira inferior central, onde se vê o fundo da prateleira, e uma embalagem danificada e tombada na mesma área. Devido à presença de uma rutura de stock e uma embalagem danificada, o estado geral é classificado como 'warning'."
+}

@@ -1,4 +1,5 @@
 """Diagnóstico temporário: audita a qualidade das inspeções em cache."""
+
 import json
 import sys
 from pathlib import Path
@@ -8,7 +9,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 CACHE = Path("cache/vision")
 
-# O que esperamos ver em cada categoria (issue types plausíveis e status)
+# O que se espera ver em cada categoria (issue types plausíveis e status)
 ESPERADO = {
     "normal":    {"status": {"ok"},                "issues_esperados": set()},
     "empty":     {"status": {"warning", "critical"}, "issues_esperados": {"empty_shelf"}},
@@ -88,7 +89,6 @@ for cat in ["normal", "empty", "dirty", "ambiguous", "planogram"]:
         if motivos:
             suspeitos.append((cat, r, motivos))
 
-# O caso específico que o utilizador mencionou: dirty classificado como empty
 print(f"\n{'='*70}\nINSPEÇÕES SUSPEITAS (potenciais erros de classificação): {len(suspeitos)}\n{'='*70}")
 for cat, r, motivos in suspeitos:
     print(f"\n  [{cat}] {r['imagem']}  (status={r['status']}, fill={r['fill']})")
@@ -96,14 +96,13 @@ for cat, r, motivos in suspeitos:
         print(f"      >> {m}")
     print(f"      reasoning: {r['reasoning'][:160]}...")
 
-# Indicador de cache OBSOLETA: fill_rate fora de [0,1] (o validador atual faz clamp)
 print(f"\n{'='*70}\nINDICADORES DE CACHE OBSOLETA\n{'='*70}")
 fora_escala = [r for r in registos if isinstance(r["fill"], (int, float)) and r["fill"] > 1.0]
 print(f"  Inspeções com fill_rate > 1.0 (escala 0-100, código ANTIGO): {len(fora_escala)}/{len(registos)}")
 confs_fora = [c for r in registos for c in r["confs"] if isinstance(c, (int, float)) and c > 1.0]
 print(f"  Confidences > 1.0 (escala 0-100, código ANTIGO): {len(confs_fora)}")
 
-# Imagens distintas vs entradas de cache (várias estratégias por imagem)
+# Imagens distintas vs entradas de cache 
 imgs_distintas = defaultdict(set)
 for r in registos:
     imgs_distintas[r["categoria"]].add(r["imagem"])

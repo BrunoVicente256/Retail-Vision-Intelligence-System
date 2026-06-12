@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181429_CE97F8C9",
+    "timestamp": "2026-06-12T17:14:29Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.51 (4).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "skincare",
+        "cosmetics",
+        "cotton pads"
+    ],
+    "model_reasoning": "The shelves are generally well-stocked with skincare and cosmetic products. There are no visible empty shelves, misaligned products, or missing labels. The fill rate is estimated to be high, around 90%, as most sections of the shelves are occupied by products. Therefore, the overall status is 'ok'."
+}

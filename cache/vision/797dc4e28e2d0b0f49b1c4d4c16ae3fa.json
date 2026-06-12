@@ -1,0 +1,35 @@
+{
+    "inspection_id": "INS_20260612_181524_797DC4E2",
+    "timestamp": "2026-06-12T17:15:24Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Produtos de limpeza tombados e desorganizados na prateleira inferior.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira intermédia, centro",
+            "severity": "low",
+            "description": "Algumas embalagens de produtos de limpeza apresentam amassados.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "detergentes",
+        "higiene pessoal",
+        "limpeza doméstica",
+        "perfumaria"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, com a maioria dos produtos bem dispostos. No entanto, detetei alguns problemas que justificam um aviso. Na prateleira inferior, vários produtos de limpeza estão tombados e desorganizados, o que pode dificultar a sua retirada e colocação. Adicionalmente, na prateleira intermédia, algumas embalagens de produtos de limpeza mostram sinais de amassados, embora não pareçam comprometer a integridade do produto. O fill rate geral é bom, mas a desorganização em algumas áreas requer atenção."
+}

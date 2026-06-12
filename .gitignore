@@ -1,28 +1,48 @@
-# Python
+# ================================================
+# RETAIL VISION INTELLIGENCE SYSTEM — .gitignore
+# ================================================
+
+# --- Python ---
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
-# Virtual environment
+# --- Ambiente virtual ---
 venv/
+.venv/
+env/
 
-# Environment variables
+# --- Variáveis de ambiente ---
 .env
 
-# Logs
-*.log
+# --- Cache de backup obsoleto (não é o cache activo) ---
+cache/vision_backup_stale/
 
-# ChromaDB / vector store
+# --- Vector store ChromaDB (gerado em runtime, muito grande) ---
 vectorstore/
 
-# Generated reports
+# --- Relatórios gerados ---
 reports/
 
-# IDE / tooling
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / tooling ---
 .vscode/
 .idea/
-.claude/
 
-# OS
+# --- OS ---
 .DS_Store
 Thumbs.db
+
+# --- Enunciado ---
+tp2_liacd.pdf
+tp2_liacd.md
+
+# Resultados de avaliação (gerados em runtime)
+eval_*.json

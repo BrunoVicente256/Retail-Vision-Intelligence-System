@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260611_094705_ECBC0BF0",
+    "timestamp": "2026-06-11T08:47:05Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.55 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "chocolates",
+        "biscuits",
+        "confectionery"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos de chocolate, organizados por marca e tipo em várias prateleiras. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com poucas lacunas visíveis. As lacunas existentes parecem ser devido à falta de unidades na frente, e não a ruturas profundas de stock. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta. PASSO 4: Com zero anomalias detetadas, o estado geral da prateleira é classificado como 'ok'."
+}

@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181406_F2EE1B09",
+    "timestamp": "2026-06-12T17:14:06Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (5).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "whisky",
+        "espumante"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetadas lacunas significativas ou produtos desalinhados que justifiquem um status de alerta. A taxa de preenchimento estimada reflete a abundância de produtos na prateleira."
+}

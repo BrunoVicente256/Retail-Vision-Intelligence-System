@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260612_142357_673522EC",
+    "timestamp": "2026-06-12T13:23:57Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.52.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "sacos",
+        "folha de alumínio",
+        "papel vegetal",
+        "inseticida",
+        "película aderente"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia e organizada, com a maioria dos produtos bem dispostos. Não foram detetadas falhas significativas de stock ou desalinhamentos graves que justifiquem um estado de alerta. A taxa de preenchimento estimada é alta, indicando boa gestão de inventário nesta secção."
+}

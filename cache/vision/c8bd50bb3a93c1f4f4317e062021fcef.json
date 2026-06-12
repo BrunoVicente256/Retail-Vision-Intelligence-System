@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181421_C8BD50BB",
+    "timestamp": "2026-06-12T17:14:21Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.40.23 (5).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "nuts",
+        "dried_fruits"
+    ],
+    "model_reasoning": "The shelf appears to be well-stocked with a variety of nut products. There are no visible empty shelves, misaligned products, or damaged packaging. The products are neatly arranged, indicating good stock management. Therefore, the overall status is 'ok'."
+}

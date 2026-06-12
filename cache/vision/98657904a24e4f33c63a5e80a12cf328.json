@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_143800_98657904",
+    "timestamp": "2026-06-12T13:38:00Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "feijão",
+        "grão de bico",
+        "conservas de legumes"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetadas lacunas significativas ou produtos desalinhados que justifiquem um status de alerta. A taxa de preenchimento estimada é alta, indicando uma boa gestão do stock visível."
+}

@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_142751_9D71C6CF",
+    "timestamp": "2026-06-12T13:27:51Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "limpeza",
+        "lixívia"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos alinhados e sem buracos visíveis. A maioria dos produtos está corretamente posicionada nas suas categorias. Não foram detetadas ruturas de stock, produtos fora de lugar ou danos nas embalagens. O fill rate estimado é alto, próximo de 95%, indicando uma boa gestão de stock."
+}

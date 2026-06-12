@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_143713_EFA17404",
+    "timestamp": "2026-06-12T13:37:13Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\normal\\WhatsApp Image 2026-06-08 at 20.55.51 (6).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "hair_dye",
+        "hair_care"
+    ],
+    "model_reasoning": "The shelf appears to be well-stocked with hair dye and hair care products. There are no visible empty spaces, misaligned products, or damaged packaging. The products are neatly arranged, indicating good stock management. Therefore, the overall status is 'ok'."
+}

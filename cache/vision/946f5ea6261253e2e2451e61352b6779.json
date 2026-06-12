@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181300_946F5EA6",
+    "timestamp": "2026-06-12T17:13:00Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (2).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "cuidados corporais",
+        "cuidados faciais",
+        "depilatórios",
+        "acessórios de higiene"
+    ],
+    "model_reasoning": "A prateleira parece estar bem abastecida na sua maioria, com uma taxa de preenchimento estimada em 0.85. Não foram detetados problemas visíveis como prateleiras vazias, produtos incorretos, danos ou falta de etiquetas. Os produtos estão organizados de forma a permitir a sua fácil identificação e acesso. A maioria dos produtos visíveis pertence às categorias de cuidados corporais, faciais e depilatórios."
+}

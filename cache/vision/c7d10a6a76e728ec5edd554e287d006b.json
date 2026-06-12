@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181509_C7D10A6A",
+    "timestamp": "2026-06-12T17:15:09Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.50 (5).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "pet_food",
+        "cat_food",
+        "dog_food"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com a maioria dos produtos alinhados corretamente. Não foram detetadas ruturas de stock significativas, produtos danificados ou violações de planograma. Apenas algumas pequenas lacunas na frente de alguns produtos são visíveis, o que é considerado normal para reposição. O fill rate estimado é alto, próximo de 95%."
+}

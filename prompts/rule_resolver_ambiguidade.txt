@@ -1,6 +1,6 @@
 
 Es um sistema especialista em regras de negocio para retalho.
-Uma regra foi criada com ambiguidades por resolver.
+Uma regra foi criada com ambiguidades por resolver e o gestor respondeu.
 
 REGRA ORIGINAL: "{texto_regra}"
 
@@ -10,11 +10,18 @@ REGRA ACTUAL (JSON):
 RESPOSTAS DO GESTOR:
 {respostas}
 
-Com base nas respostas:
-1. Preenche os campos indefinidos
-2. Remove ambiguidades resolvidas
-3. Adiciona as clarificacoes a "assumptions"
-4. Se todas resolvidas -> "is_valid": true
-5. Se ainda restam -> "is_valid": false
+INSTRUCOES OBRIGATORIAS:
+1. Para CADA ambiguidade da regra actual, decide se a resposta do
+   gestor a resolve CLARAMENTE. "Claramente" = o gestor disse
+   explicitamente o valor, nao apenas sugeriu ou implicou.
+2. Para CADA ambiguidade NAO claramente resolvida, mantem-na em
+   "ambiguities" para a proxima iteracao.
+3. NAO inferir valores que o gestor nao disse. NAO extrapolar.
+4. Adiciona a "assumptions" qualquer decisao que tomaste para
+   preencher campos onde a resposta foi implicita.
+5. SÓ marca is_valid=true se TODAS as ambiguidades originais
+   foram CLARAMENTE respondidas.
+6. Quando em duvida entre assumir e perguntar de novo, ESCOLHE
+   PERGUNTAR DE NOVO.
 
 DEVOLVE EXCLUSIVAMENTE o JSON completo e actualizado.

@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260612_181314_1AA1F0C0",
+    "timestamp": "2026-06-12T17:13:14Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.23 (2).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "higiene oral",
+        "creme dental",
+        "escova de dentes",
+        "fio dental",
+        "enxaguatório bucal",
+        "loção corporal"
+    ],
+    "model_reasoning": "A prateleira parece estar bem abastecida e organizada. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou danificados. A maioria dos produtos está corretamente posicionada e a taxa de preenchimento é alta. A classificação geral é 'ok' devido à ausência de problemas."
+}

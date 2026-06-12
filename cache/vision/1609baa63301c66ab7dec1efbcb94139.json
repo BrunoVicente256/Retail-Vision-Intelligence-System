@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_142748_1609BAA6",
+    "timestamp": "2026-06-12T13:27:48Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "limpeza",
+        "detergente",
+        "lixívia"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos visíveis e bem organizados. Não foram detetadas falhas significativas como prateleiras vazias, produtos desalinhados ou danificados. A taxa de preenchimento estimada é alta, indicando uma boa gestão do stock na prateleira. Portanto, o estado geral é considerado 'ok'."
+}

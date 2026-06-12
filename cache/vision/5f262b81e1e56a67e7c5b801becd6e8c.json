@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260612_181258_5F262B81",
+    "timestamp": "2026-06-12T17:12:58Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (1).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "cuidados do corpo",
+        "hidratantes",
+        "loções",
+        "óleos",
+        "cremes"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetadas lacunas significativas ou produtos desalinhados que justifiquem um status de warning ou critical. A taxa de preenchimento estimada é alta, indicando boa gestão de stock na prateleira."
+}

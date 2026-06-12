@@ -1,0 +1,35 @@
+{
+    "inspection_id": "INS_20260612_141526_25915497",
+    "timestamp": "2026-06-12T13:15:26Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Fundo da prateleira visível em várias secções da prateleira inferior direita, indicando rutura de stock.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira intermédia, lado esquerdo",
+            "severity": "low",
+            "description": "Alguns pacotes de nuggets estão tombados e desalinhados na prateleira intermédia esquerda.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+        "congelados",
+        "hamburgueres",
+        "nuggets",
+        "croquetes"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, mas com algumas falhas notórias. Foi detetada uma rutura de stock significativa na prateleira inferior direita, onde o fundo da prateleira é visível em várias áreas, justificando um status de 'warning'. Adicionalmente, alguns produtos na prateleira intermédia esquerda estão desalinhados e tombados, embora de forma menos crítica. O fill rate geral foi estimado em 75%, considerando as áreas com produto e os espaços vazios visíveis."
+}

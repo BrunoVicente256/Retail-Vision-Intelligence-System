@@ -1,0 +1,45 @@
+{
+    "inspection_id": "INS_20260612_031319_4B3A7D62",
+    "timestamp": "2026-06-12T02:13:19Z",
+    "image_path": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.53 (2).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado direito",
+            "severity": "medium",
+            "description": "Espaço vazio profundo na prateleira inferior, com visibilidade do fundo da prateleira.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Vários espaços vazios profundos na prateleira inferior, indicando rutura de stock.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado esquerdo",
+            "severity": "low",
+            "description": "Um pequeno espaço vazio na prateleira intermédia, lado esquerdo, onde faltam unidades.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+        "congelados",
+        "hamburgueres",
+        "nuggets",
+        "croquetes",
+        "batatas fritas"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos congelados, como hambúrgueres, nuggets, croquetes e batatas fritas, organizados em prateleiras. PASSO 2: A taxa de preenchimento estimada é de aproximadamente 75%, com algumas prateleiras apresentando espaços vazios visíveis até ao fundo, indicando potenciais ruturas de stock. PASSO 3: Foram detetadas várias instâncias de 'empty_shelf' (rutura de stock) nas prateleiras inferiores e intermédias, onde há espaços vazios profundos. Não foram detetados outros tipos de anomalias como dano, produtos errados, desalinhamento ou etiquetas ausentes. PASSO 4: Devido à presença de múltiplas ruturas de stock ('empty_shelf'), o status geral é classificado como 'warning'."
+}

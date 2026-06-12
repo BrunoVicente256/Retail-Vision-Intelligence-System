@@ -1,0 +1,38 @@
+{
+    "inspection_id": "INS_20260612_181536_5823D98F",
+    "timestamp": "2026-06-12T17:15:36Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, secção central",
+            "severity": "medium",
+            "description": "Espaço vazio visível no fundo da prateleira, indicando rutura de stock.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado direito",
+            "severity": "low",
+            "description": "Embalagens de puré de batata ligeiramente desalinhadas.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.8,
+    "products_detected": [
+        "tapioca",
+        "farinha",
+        "pizza",
+        "aveia",
+        "trigo",
+        "milho",
+        "batata"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, com a maioria dos produtos bem organizados. No entanto, foi detetada uma rutura de stock na prateleira superior, onde o fundo da prateleira é visível, justificando um status de 'warning'. Existe também um ligeiro desalinhamento em algumas embalagens na prateleira inferior, mas sem gravidade. O fill rate geral é estimado em 80%, considerando os espaços vazios e os produtos presentes."
+}

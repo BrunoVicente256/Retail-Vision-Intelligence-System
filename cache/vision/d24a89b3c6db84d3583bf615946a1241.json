@@ -1,0 +1,46 @@
+{
+    "inspection_id": "INS_20260611_094720_D24A89B3",
+    "timestamp": "2026-06-11T08:47:20Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Espaço vazio visível na prateleira superior, onde deveriam estar produtos de café.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Embalagens de snacks amassadas e desalinhadas na prateleira inferior.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "prateleira intermédia, lado esquerdo",
+            "severity": "low",
+            "description": "Alguns frascos de molho estão ligeiramente tombados na prateleira intermédia.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.08
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "molhos",
+        "conservas",
+        "bebidas",
+        "café",
+        "snacks",
+        "massas"
+    ],
+    "model_reasoning": "O inventário de produtos detetou uma variedade de itens, incluindo molhos, conservas, bebidas, café, snacks e massas, organizados em categorias lógicas nas prateleiras. A avaliação de preenchimento estima que cerca de 85% da prateleira está ocupada por produtos, com algumas áreas de falta de unidades na frente que parecem ser reposição normal. No entanto, foram detetadas algumas anomalias: um espaço vazio na prateleira superior (empty_shelf), embalagens de snacks danificadas na prateleira inferior (damaged), e alguns frascos de molho ligeiramente desalinhados na prateleira intermédia (misaligned). Devido à presença de 3 anomalias, o status geral é classificado como 'warning'."
+}

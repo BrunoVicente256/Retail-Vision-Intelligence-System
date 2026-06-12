@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181410_C638DB12",
+    "timestamp": "2026-06-12T17:14:10Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "vinho tinto",
+        "vinho branco",
+        "sangria",
+        "vinho rosé"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. A taxa de preenchimento estimada é alta, em torno de 0.9. Não foram detetados problemas significativos como prateleiras vazias, produtos errados, danos ou desalinhamentos graves que justifiquem um status de warning ou critical. A maioria dos produtos visíveis são vinhos (tinto, branco, rosé) e sangrias."
+}

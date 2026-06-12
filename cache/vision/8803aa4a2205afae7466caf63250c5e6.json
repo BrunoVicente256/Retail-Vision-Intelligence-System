@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260612_142430_8803AA4A",
+    "timestamp": "2026-06-12T13:24:30Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.51 (7).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "detergente",
+        "limpeza geral",
+        "desinfetante",
+        "amaciador",
+        "limpa vidros"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 0.9. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou incorretos. Os produtos detetados pertencem a categorias de limpeza doméstica. Portanto, o estado geral da prateleira é considerado 'ok'."
+}

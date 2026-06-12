@@ -1,0 +1,41 @@
+{
+    "inspection_id": "INS_20260611_094624_B5110758",
+    "timestamp": "2026-06-11T08:46:24Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "critical",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, secção central",
+            "severity": "high",
+            "description": "Vários espaços vazios profundos na prateleira superior, indicando rutura de stock.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado esquerdo",
+            "severity": "high",
+            "description": "Caixas de exposição vazias na prateleira intermédia, lado esquerdo, com o fundo da prateleira visível.",
+            "confidence": 0.95,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, secção central",
+            "severity": "medium",
+            "description": "Espaço vazio na prateleira inferior, secção central, onde deveriam estar produtos.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.2
+        }
+    ],
+    "shelf_fill_rate": 0.45,
+    "products_detected": [
+        "ovos"
+    ],
+    "model_reasoning": "A análise da imagem revela que os produtos presentes são predominantemente ovos, organizados em caixas de cartão e embalagens plásticas. O shelf fill rate estimado é de 0.45, indicando que quase metade da prateleira está vazia. Foram detetadas múltiplas ruturas de stock (empty_shelf) em diferentes secções e níveis da prateleira, com espaços vazios profundos e o fundo da prateleira visível, o que justifica a classificação 'critical' para o overall_status. Não foram detetados outros tipos de anomalias como produtos errados, danos ou sujidade."
+}

@@ -1,0 +1,34 @@
+{
+    "inspection_id": "INS_20260611_094713_77B201CB",
+    "timestamp": "2026-06-11T08:47:13Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "medium",
+            "description": "Espaço vazio profundo na prateleira inferior, com o fundo visível, onde deveriam estar produtos.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira intermédia, centro",
+            "severity": "low",
+            "description": "Embalagens de produtos de charcutaria amassadas e desalinhadas.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        }
+    ],
+    "shelf_fill_rate": 0.8,
+    "products_detected": [
+        "charcutaria",
+        "salgados",
+        "salsicharia"
+    ],
+    "model_reasoning": "PASSO 1: A prateleira exibe principalmente produtos de charcutaria, salgados e salsicharia, organizados por tipo em cada secção. PASSO 2: A taxa de preenchimento estimada é de 80%, com algumas áreas apresentando falta de unidades na frente, mas a maioria das prateleiras está bem preenchida. No entanto, há um buraco profundo na prateleira inferior esquerda, indicando rutura de stock. PASSO 3: Foram detetadas duas anomalias: uma rutura de stock (empty_shelf) na prateleira inferior esquerda, onde o fundo da prateleira é visível, e embalagens danificadas (damaged) na prateleira intermédia central. PASSO 4: Com uma rutura de stock e embalagens danificadas, o status geral é classificado como 'warning'."
+}

@@ -1,0 +1,20 @@
+{
+    "inspection_id": "INS_20260612_181434_A63E9240",
+    "timestamp": "2026-06-12T17:14:34Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.54 (3).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "aguardentes",
+        "licores",
+        "sangria",
+        "whisky",
+        "gin",
+        "brandy",
+        "rum",
+        "vodka"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 85%. Não foram detetados problemas visíveis como prateleiras vazias, produtos danificados, desalinhados ou com etiquetas em falta. A organização geral dos produtos é satisfatória, levando à classificação de 'ok'."
+}

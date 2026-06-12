@@ -1,0 +1,45 @@
+{
+    "inspection_id": "INS_20260612_031311_3F5CEA2B",
+    "timestamp": "2026-06-12T02:13:11Z",
+    "image_path": "data\\images\\ambiguous\\WhatsApp Image 2026-06-08 at 20.55.52 (1).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Espaço vazio visível no fundo da prateleira superior, onde deveriam estar produtos de higiene.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "low",
+            "description": "Algumas embalagens de inseticida estão ligeiramente tombadas.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "label_missing",
+            "location": "prateleira intermédia, centro",
+            "severity": "low",
+            "description": "Um espaço vazio na prateleira intermédia parece não ter etiqueta de preço ou produto.",
+            "confidence": 0.5,
+            "affected_area_pct": 0.03
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "higiene pessoal",
+        "limpeza doméstica",
+        "inseticidas",
+        "bebidas",
+        "alimentos"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe uma variedade de produtos organizados por categorias lógicas, incluindo produtos de higiene pessoal (topo), produtos de limpeza doméstica e inseticidas (meio e inferior), e algumas bebidas e alimentos em prateleiras mais baixas. PASSO 2: A taxa de preenchimento da prateleira é estimada em cerca de 85%, com a maioria das prateleiras bem abastecidas, embora existam algumas lacunas menores. PASSO 3: Foram detetadas três anomalias: um espaço vazio na prateleira superior (empty_shelf), algumas embalagens desalinhadas na prateleira inferior (misaligned), e um espaço sem etiqueta visível na prateleira intermédia (label_missing). PASSO 4: Com duas anomalias menores e uma de baixo impacto, o estado geral é classificado como 'warning'."
+}

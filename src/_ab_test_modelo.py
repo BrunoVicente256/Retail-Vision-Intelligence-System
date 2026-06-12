@@ -10,7 +10,6 @@ from shelf_inspector import inspecionar_prateleira
 
 MODELOS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
-# (caminho, verdade esperada confirmada visualmente)
 CASOS = [
     ("images/empty/WhatsApp Image 2026-06-08 at 20.55.52 (2).jpeg",
      "empty parcial: recesso vazio no topo-centro (lixívia). Deve detetar empty_shelf."),

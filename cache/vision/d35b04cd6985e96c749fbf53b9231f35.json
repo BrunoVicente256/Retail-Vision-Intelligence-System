@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260612_181622_D35B04CD",
+    "timestamp": "2026-06-12T17:16:22Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (6).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "vinho tinto",
+        "vinho branco",
+        "sangria",
+        "vinho rosé"
+    ],
+    "model_reasoning": "A prateleira apresenta um bom nível de stock, com a maioria dos produtos bem organizados. Não foram detetadas ruturas de stock significativas, produtos danificados ou violações de planograma. Existem algumas pequenas lacunas na frente de alguns produtos, o que é normal devido à reposição e não constitui um problema. O fill rate estimado é de aproximadamente 92%, indicando uma prateleira bem abastecida."
+}

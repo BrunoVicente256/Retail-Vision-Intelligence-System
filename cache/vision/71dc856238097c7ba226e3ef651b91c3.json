@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260612_181318_71DC8562",
+    "timestamp": "2026-06-12T17:13:18Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.55.48.jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "compotas",
+        "mel",
+        "manteiga de amendoim",
+        "chocolates",
+        "sobremesas"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 0.9. Não foram detetados problemas visíveis como prateleiras vazias, produtos incorretos, danificados, desalinhados ou com etiquetas em falta. Os produtos identificados incluem compotas, mel, manteiga de amendoim, chocolates e sobremesas, todos parecendo estar nas suas posições corretas e em bom estado. Portanto, o estado geral da prateleira é considerado 'ok'."
+}

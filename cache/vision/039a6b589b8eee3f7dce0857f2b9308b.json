@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181303_039A6B58",
+    "timestamp": "2026-06-12T17:13:03Z",
+    "image_path": "data/images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.51 (8).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "limpeza",
+        "detergentes",
+        "desinfetantes"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com uma taxa de preenchimento estimada em 0.9. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou danificados. Os produtos presentes são principalmente de limpeza e detergentes, e estão organizados de forma a não apresentar problemas. Portanto, o estado geral da prateleira é considerado 'ok'."
+}

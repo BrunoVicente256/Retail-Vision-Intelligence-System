@@ -1,0 +1,16 @@
+{
+    "inspection_id": "INS_20260610_115246_60CE0BC2",
+    "timestamp": "2026-06-10T10:52:46Z",
+    "image_path": "images\\normal\\WhatsApp Image 2026-06-08 at 20.55.53 (3).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "feijão",
+        "grão de bico",
+        "conservas de legumes",
+        "conservas de fruta"
+    ],
+    "model_reasoning": "O inventário de produtos detetou principalmente conservas de feijão, grão de bico, legumes e fruta, organizadas por tipo em cada prateleira. A avaliação de preenchimento indica que as prateleiras estão bem abastecidas, com uma taxa de ocupação estimada em 0.9, sem ruturas de stock visíveis. Não foram detetadas anomalias como ruturas, danos, produtos incorretos, desalinhamentos significativos ou etiquetas em falta, resultando num estado geral 'ok'."
+}

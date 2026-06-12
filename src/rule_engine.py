@@ -92,18 +92,40 @@ CONTEXTO DO SISTEMA:
 - Niveis de alerta: info, warning, critical
 - Localizacao: bottom, middle, top, any
 
-INSTRUCOES:
-1. Analisa e identifica TODAS as condicoes mencionadas
-2. Para cada dimensao em falta ou ambigua, regista em "ambiguities"
-3. Quando assumires algo, regista em "assumptions"
-4. Se ha ambiguidades -> "is_valid": false
-5. Se clara e completa -> "is_valid": true
+INSTRUCOES OBRIGATORIAS (NAO AS IGNORAR):
+1. Para CADA uma das 4 dimensoes abaixo, decide se esta EXPLICITAMENTE
+   respondida na regra original do gestor. "Explicita" = escrita em
+   palavras pelo gestor, nao apenas inferivel.
+   a) THRESHOLD: fill_rate especificado? "vazia" = 0% ou abaixo de X%?
+   b) SCOPE: todas as zonas ou zonas especificas?
+   c) URGENCIA: nivel de alerta? (info/warning/critical)
+   d) TEMPO: sempre ou so em determinados horarios?
+2. Para CADA dimensao NAO explicita, adiciona uma ambiguidade no
+   formato "DIMENSAO_X: <o que esta em falta>". NAO assumas defaults
+   razoaveis. NAO penses "o utilizador provavelmente quis dizer X".
+   LISTA a ambiguidade.
+3. SÓ marca is_valid=true se AS 4 dimensoes estao EXPLICITAMENTE
+   respondidas na regra original do gestor (nao basta que sejam
+   inferiveis pelo contexto).
+4. Quando em duvida entre assumir e perguntar, ESCOLHE PERGUNTAR.
+   E melhor pedir clarificacao do que assumir silenciosamente.
+5. Quando assumires algo (mesmo que justificado), regista-o em
+   "assumptions" com a tua justificacao.
 
-DIMENSOES A VERIFICAR (todas as 4 devem estar claras para is_valid=true):
-  A) THRESHOLD: fill_rate especificado? "vazia" = 0% ou abaixo de X%?
-  B) SCOPE: todas as zonas ou especificas?
-  C) URGENCIA: nivel de alerta? (info/warning/critical)
-  D) TEMPO: sempre ou so em determinados horarios?
+EXEMPLO DE REGRA QUE DEVE TER is_valid=false:
+  Entrada: "Avisa-me quando a prateleira estiver vazia"
+  Resultado esperado: 4 ambiguidades listadas:
+    "DIMENSAO_THRESHOLD: 'vazia' significa 0% de ocupacao ou abaixo de X%?"
+    "DIMENSAO_SCOPE: aplica-se a todas as zonas ou a zonas especificas?"
+    "DIMENSAO_URGENCIA: qual o nivel de alerta (info/warning/critical)?"
+    "DIMENSAO_TEMPO: aplicar sempre ou so em determinados horarios?"
+  is_valid: false
+
+EXEMPLO DE REGRA is_valid=true:
+  Entrada: "Alerta critico em Z_EMPTY se fill_rate < 30% em qualquer horario"
+  As 4 dimensoes estao explicitas: zona (Z_EMPTY), threshold (<30%),
+  urgencia (critico), tempo (qualquer horario = sempre).
+  is_valid: true
 
 DEVOLVE EXCLUSIVAMENTE este JSON valido:
 {{
@@ -133,7 +155,7 @@ DEVOLVE EXCLUSIVAMENTE este JSON valido:
 
 _PROMPT_RESOLVER_AMBIGUIDADE = """
 Es um sistema especialista em regras de negocio para retalho.
-Uma regra foi criada com ambiguidades por resolver.
+Uma regra foi criada com ambiguidades por resolver e o gestor respondeu.
 
 REGRA ORIGINAL: "{texto_regra}"
 
@@ -143,12 +165,19 @@ REGRA ACTUAL (JSON):
 RESPOSTAS DO GESTOR:
 {respostas}
 
-Com base nas respostas:
-1. Preenche os campos indefinidos
-2. Remove ambiguidades resolvidas
-3. Adiciona as clarificacoes a "assumptions"
-4. Se todas resolvidas -> "is_valid": true
-5. Se ainda restam -> "is_valid": false
+INSTRUCOES OBRIGATORIAS:
+1. Para CADA ambiguidade da regra actual, decide se a resposta do
+   gestor a resolve CLARAMENTE. "Claramente" = o gestor disse
+   explicitamente o valor, nao apenas sugeriu ou implicou.
+2. Para CADA ambiguidade NAO claramente resolvida, mantem-na em
+   "ambiguities" para a proxima iteracao.
+3. NAO inferir valores que o gestor nao disse. NAO extrapolar.
+4. Adiciona a "assumptions" qualquer decisao que tomaste para
+   preencher campos onde a resposta foi implicita.
+5. SÓ marca is_valid=true se TODAS as ambiguidades originais
+   foram CLARAMENTE respondidas.
+6. Quando em duvida entre assumir e perguntar de novo, ESCOLHE
+   PERGUNTAR DE NOVO.
 
 DEVOLVE EXCLUSIVAMENTE o JSON completo e actualizado.
 """

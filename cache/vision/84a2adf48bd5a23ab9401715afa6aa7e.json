@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_142701_84A2ADF4",
+    "timestamp": "2026-06-12T13:27:01Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.40.23 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "cuidados pessoais",
+        "loção corporal",
+        "desodorizante"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetados problemas significativos como prateleiras vazias, produtos errados ou danos visíveis. A taxa de preenchimento estimada é alta, indicando uma boa gestão do stock na prateleira. A classificação geral é 'ok' devido à ausência de problemas críticos ou de aviso."
+}

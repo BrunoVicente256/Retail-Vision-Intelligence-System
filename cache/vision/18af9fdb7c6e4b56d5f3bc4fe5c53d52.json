@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181432_18AF9FDB",
+    "timestamp": "2026-06-12T17:14:32Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.55.52 (3).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "limpeza",
+        "detergente",
+        "desinfetante"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia com produtos de limpeza, como detergentes e desinfetantes. Não foram detetados problemas visíveis como prateleiras vazias, produtos desalinhados ou danificados. A organização geral e o preenchimento da prateleira são satisfatórios, indicando um estado 'ok'."
+}

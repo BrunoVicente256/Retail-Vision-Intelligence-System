@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260611_094631_50663093",
+    "timestamp": "2026-06-11T08:46:31Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.53 (4).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "ervilhas",
+        "milho doce",
+        "polpa de tomate",
+        "cogumelos laminados",
+        "feijão verde"
+    ],
+    "model_reasoning": "O inventário de produtos revela principalmente conservas de vegetais (ervilhas, milho doce, feijão verde, cogumelos laminados) e polpa de tomate. Os produtos estão organizados por categorias lógicas em cada prateleira. A avaliação de preenchimento indica uma taxa de ocupação de aproximadamente 90%, com a maioria das prateleiras bem abastecidas, sem buracos profundos que sugiram rutura de stock. Não foram detetadas anomalias significativas como ruturas, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta, resultando num status geral 'ok'."
+}

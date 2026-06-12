@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260610_130421_7A8F368C",
+    "timestamp": "2026-06-10T12:04:21Z",
+    "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.50 (3).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "bebidas energéticas",
+        "refrigerantes",
+        "cervejas",
+        "sumos",
+        "chás"
+    ],
+    "model_reasoning": "PASSO 1: A prateleira exibe uma variedade de produtos organizados por categoria lógica, incluindo bebidas energéticas (Monster), refrigerantes (Pepsi, Fanta), cervejas (Super Bock, Sagres), sumos e chás (Lipton). PASSO 2: A avaliação de preenchimento indica uma taxa de ocupação de produto muito alta, estimada em cerca de 90%, com poucas lacunas visíveis e nenhuma indicação de rutura de stock profunda. PASSO 3: Não foram detetadas anomalias significativas como rutura de stock, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta. PASSO 4: Com a ausência de anomalias, o estado geral da prateleira é classificado como 'ok'."
+}

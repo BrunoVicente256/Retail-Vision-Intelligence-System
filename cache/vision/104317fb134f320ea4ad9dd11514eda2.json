@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260611_094728_104317FB",
+    "timestamp": "2026-06-11T08:47:28Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.22 (4).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "higiene pessoal",
+        "limpeza doméstica",
+        "detergentes"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida, com uma taxa de preenchimento estimada em 90%. Os produtos estão organizados por categorias lógicas, como higiene pessoal, limpeza doméstica e detergentes. Não foram detetadas anomalias significativas como rupturas de stock, danos, produtos incorretos, desalinhamentos graves ou etiquetas em falta, pelo que o estado geral é considerado 'ok'."
+}

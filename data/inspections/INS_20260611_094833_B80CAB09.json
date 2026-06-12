@@ -1,0 +1,48 @@
+{
+    "inspection_id": "INS_20260611_094833_B80CAB09",
+    "timestamp": "2026-06-11T08:48:33Z",
+    "image_path": "data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.55.54 (1).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Espaço vazio visível no fundo da prateleira superior, onde deveriam estar produtos.",
+            "confidence": 0.8,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira intermédia, centro",
+            "severity": "low",
+            "description": "Embalagem de farinha de milho ligeiramente amarfanhada.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira intermédia, lado esquerdo",
+            "severity": "low",
+            "description": "Espaço vazio visível no fundo da prateleira intermédia, onde deveriam estar produtos de farinha de mandioca.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "tapioca",
+        "farinha",
+        "pizza",
+        "aveia",
+        "arroz",
+        "amido de milho",
+        "puré de batata",
+        "flocos de batata"
+    ],
+    "model_reasoning": "O inventário de produtos detetado inclui tapioca, várias farinhas (mandioca, trigo, milho), misturas para pizza, aveia, arroz, amido de milho e produtos de batata. Os produtos estão maioritariamente organizados por categoria lógica em cada prateleira. A avaliação de preenchimento estima uma taxa de ocupação de cerca de 85%, com algumas lacunas visíveis. Foram detetadas três anomalias: um espaço vazio na prateleira superior direita, uma embalagem ligeiramente danificada no centro da prateleira intermédia e uma lacuna mais significativa na prateleira intermédia esquerda. Devido à presença de duas rupturas de stock (empty_shelf) e um dano menor, o status geral é classificado como 'warning'."
+}

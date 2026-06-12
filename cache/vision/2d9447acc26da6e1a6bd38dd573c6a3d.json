@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181417_2D9447AC",
+    "timestamp": "2026-06-12T17:14:17Z",
+    "image_path": "data/images/normal/garrafeira_02.jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "bebidas",
+        "vinho"
+    ],
+    "model_reasoning": "A prateleira está predominantemente cheia, com a maioria dos produtos bem dispostos. Não foram detetadas falhas significativas de stock ou produtos desalinhados que justifiquem um status de warning ou critical. A taxa de preenchimento estimada é alta, refletindo uma boa organização geral."
+}

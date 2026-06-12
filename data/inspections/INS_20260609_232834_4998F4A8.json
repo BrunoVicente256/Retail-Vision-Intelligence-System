@@ -1,0 +1,13 @@
+{
+    "inspection_id": "INS_20260609_232834_4998F4A8",
+    "timestamp": "2026-06-09T22:28:34Z",
+    "image_path": "images/empty/WhatsApp Image 2026-06-08 at 20.55.54 (2).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "azeite virgem extra"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe predominantemente garrafas de azeite virgem extra, organizadas por marca e tipo em diferentes prateleiras. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%, com a maioria dos espaços preenchidos por produtos. Não há buracos profundos que indiquem rutura de stock, apenas algumas unidades em falta na frente, o que é considerado reposição normal. PASSO 3: Não foram detetadas anomalias como rutura de stock, danos, produtos incorretos, desalinhamentos significativos ou etiquetas em falta. PASSO 4: Como não foram identificadas anomalias, o estado geral da prateleira é 'ok'."
+}

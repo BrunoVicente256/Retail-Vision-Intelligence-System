@@ -1,0 +1,36 @@
+{
+    "inspection_id": "INS_20260612_142510_FD243373",
+    "timestamp": "2026-06-12T13:25:10Z",
+    "image_path": "C:\\Users\\ldgv7\\Desktop\\Retail Vision Intelligence System\\data\\images\\dirty\\WhatsApp Image 2026-06-08 at 20.40.23 (3).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "damaged",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "Embalagens de aerossol com danos visíveis, como amolgadelas e riscos.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.15
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "misaligned",
+            "location": "prateleira inferior, centro",
+            "severity": "low",
+            "description": "Alguns produtos de limpeza em spray estão ligeiramente tombados.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+        "ambientadores",
+        "pilhas",
+        "limpeza",
+        "sprays",
+        "acessórios"
+    ],
+    "model_reasoning": "A prateleira apresenta um estado geral razoável, com a maioria dos produtos bem organizados e com bom stock. No entanto, foram detetados alguns problemas pontuais. Na prateleira inferior, na zona central, observam-se embalagens de aerossol com danos físicos visíveis, como amolgadelas e riscos, o que justifica a classificação de 'damaged'. Além disso, alguns desses produtos estão ligeiramente tombados, indicando um desalinhamento menor. O fill rate geral é alto, mas a presença destes danos e desalinhamentos justifica um status de 'warning'."
+}

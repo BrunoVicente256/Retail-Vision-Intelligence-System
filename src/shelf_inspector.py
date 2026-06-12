@@ -475,7 +475,7 @@ def inspecionar_prateleira(
         logger.error("[INSPETOR] Ficheiro não encontrado: %s", caminho_imagem)
         return None
 
-    # --- Metadados determinísticos ---
+    # Metadados determinísticos 
     modelo     = modelo or MODEL_NAME
     hash_id    = _gerar_hash_cache(caminho_imagem, tipo_prompt, modelo)
     zone_id    = zone_id or _derivar_zone_id(caminho_imagem)
@@ -487,7 +487,7 @@ def inspecionar_prateleira(
         Path(caminho_imagem).name, tipo_prompt, zone_id
     )
 
-    # --- Verificar cache ---
+    # Verificar cache
     cached = _ler_cache(hash_id)
     if cached is not None:
         logger.info("[CACHE HIT] Resultado recuperado do disco.")
@@ -495,7 +495,7 @@ def inspecionar_prateleira(
 
     logger.info("[CACHE MISS] A chamar API...")
 
-    # --- Construir prompt e carregar imagem ---
+    # Construir prompt e carregar imagem
     construir_prompt = _ESTRATEGIAS[tipo_prompt]
     prompt = construir_prompt(insp_id, timestamp, caminho_imagem, zone_id)
 
@@ -505,7 +505,7 @@ def inspecionar_prateleira(
         logger.error("[INSPETOR] Erro ao abrir imagem: %s", e)
         return None
 
-    # --- Chamada à API (rate limit e retry geridos pelo api_client) ---
+    # Chamada à API (rate limit e retry geridos pelo api_client)
     try:
         response = gemini_client.gerar_conteudo(contents=[prompt, imagem], model=modelo)
     except RuntimeError as e:
@@ -513,7 +513,7 @@ def inspecionar_prateleira(
         logger.error("[INSPETOR] %s", str(e))
         return None
 
-    # --- Parsing defensivo ---
+    # Parsing defensivo 
     dados = _parsear_resposta(response.text)
     if dados is None:
         logger.error(
@@ -521,10 +521,10 @@ def inspecionar_prateleira(
         )
         return None
 
-    # --- Validação e normalização ---
+    # Validação e normalização
     dados = _validar_e_normalizar(dados, caminho_imagem, insp_id, zone_id, timestamp)
 
-    # --- Persistir em cache ---
+    # Persistir em cache 
     _escrever_cache(hash_id, dados)
 
     return dados

@@ -1,0 +1,44 @@
+{
+    "inspection_id": "INS_20260610_130417_E5E6389E",
+    "timestamp": "2026-06-10T12:04:17Z",
+    "image_path": "images/ambiguous/WhatsApp Image 2026-06-08 at 20.55.49 (1).jpeg",
+    "zone_id": "Z_AMBIGUOUS",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "medium",
+            "description": "Espaço vazio profundo na prateleira superior, com a estrutura de suporte da prateleira visível.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.1
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "damaged",
+            "location": "prateleira intermédia, centro",
+            "severity": "low",
+            "description": "Embalagens de biscoitos amassadas e desalinhadas na prateleira intermédia.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.05
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "misaligned",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "low",
+            "description": "Alguns pacotes de bolachas na prateleira inferior estão ligeiramente tombados.",
+            "confidence": 0.6,
+            "affected_area_pct": 0.03
+        }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "bolachas",
+        "cereais",
+        "snacks",
+        "bebidas"
+    ],
+    "model_reasoning": "A análise da imagem revelou a presença de vários tipos de produtos, principalmente bolachas, cereais e snacks, organizados em prateleiras. O preenchimento geral da prateleira é alto, estimado em 85%, com a maioria das áreas bem abastecidas. No entanto, foram detetadas algumas anomalias: um espaço vazio profundo na prateleira superior (empty_shelf), algumas embalagens danificadas na prateleira intermédia (damaged), e alguns produtos ligeiramente desalinhados na prateleira inferior (misaligned). Devido à presença de múltiplas anomalias, embora a maioria de baixa severidade, o estado geral é classificado como 'warning'."
+}

@@ -1,0 +1,17 @@
+{
+    "inspection_id": "INS_20260611_094616_FE6EA5EE",
+    "timestamp": "2026-06-11T08:46:16Z",
+    "image_path": "data\\images\\empty\\WhatsApp Image 2026-06-08 at 20.55.52 (6).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "detergente para máquina de lavar loiça",
+        "pastilhas para máquina de lavar loiça",
+        "tabletes para máquina de lavar loiça",
+        "sal para máquina de lavar loiça",
+        "líquido abrilhantador para máquina de lavar loiça"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe predominantemente produtos para máquinas de lavar loiça, incluindo pastilhas, tabletes, detergente líquido, abrilhantador e sal. Os produtos estão organizados por tipo em cada prateleira, seguindo uma categoria lógica. PASSO 2: A taxa de preenchimento da prateleira é alta, estimada em cerca de 90%. Existem algumas unidades em falta na frente de algumas embalagens, mas não há buracos profundos que indiquem rutura de stock significativa. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), danos visíveis nas embalagens (damaged), produtos fora do lugar ou de categoria (wrong_product), desalinhamentos graves (misaligned) ou etiquetas em falta (label_missing). PASSO 4: Com zero anomalias detetadas, o estado geral da inspeção é 'ok'."
+}

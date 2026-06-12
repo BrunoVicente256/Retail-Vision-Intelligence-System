@@ -1,0 +1,44 @@
+{
+    "inspection_id": "INS_20260612_181307_D5B83CB3",
+    "timestamp": "2026-06-12T17:13:07Z",
+    "image_path": "data/images/dirty/WhatsApp Image 2026-06-08 at 20.40.22 (2).jpeg",
+    "zone_id": "Z_DIRTY",
+    "overall_status": "warning",
+    "issues": [
+        {
+            "issue_id": "ISS_001",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, lado esquerdo",
+            "severity": "medium",
+            "description": "A prateleira inferior esquerda está significativamente vazia, com caixas de madeira expostas e apenas alguns produtos de salsicha visíveis.",
+            "confidence": 0.9,
+            "affected_area_pct": 0.4
+        },
+        {
+            "issue_id": "ISS_002",
+            "type": "empty_shelf",
+            "location": "prateleira inferior, centro",
+            "severity": "medium",
+            "description": "A prateleira inferior central apresenta uma grande lacuna onde deveriam estar produtos, com caixas de madeira vazias visíveis.",
+            "confidence": 0.85,
+            "affected_area_pct": 0.3
+        },
+        {
+            "issue_id": "ISS_003",
+            "type": "empty_shelf",
+            "location": "prateleira superior, lado direito",
+            "severity": "low",
+            "description": "Existe um espaço vazio visível na prateleira superior direita, onde um produto parece ter sido removido.",
+            "confidence": 0.7,
+            "affected_area_pct": 0.1
+        }
+    ],
+    "shelf_fill_rate": 0.65,
+    "products_detected": [
+        "charcutaria",
+        "salsicharia",
+        "salame",
+        "chouriço"
+    ],
+    "model_reasoning": "A inspeção da imagem revela várias lacunas significativas em diferentes prateleiras, indicando uma falta de produto. A prateleira inferior esquerda e central estão particularmente vazias, com caixas de suporte visíveis. Há também uma lacuna menor na prateleira superior direita. Estes fatores levam à classificação de 'warning' para o estado geral da prateleira. A estimativa da taxa de preenchimento da prateleira é de aproximadamente 0.65, considerando as áreas vazias observadas."
+}

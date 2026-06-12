@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_031334_4AEC8DCF",
+    "timestamp": "2026-06-12T02:13:34Z",
+    "image_path": "data\\images\\planogram\\WhatsApp Image 2026-06-08 at 20.55.50.jpeg",
+    "zone_id": "Z_PLANOGRAM",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+        "cereais infantis",
+        "papinhas",
+        "farinhas"
+    ],
+    "model_reasoning": "PASSO 1: A imagem exibe principalmente produtos de alimentação infantil, categorizados em cereais, papinhas e farinhas, organizados de forma lógica por tipo em cada prateleira. PASSO 2: A taxa de preenchimento da prateleira é estimada em 0.95, pois a maioria dos produtos está bem posicionada e a prateleira está quase totalmente preenchida, com apenas pequenas lacunas frontais que não indicam rutura de stock. PASSO 3: Não foram detetadas anomalias como rutura de stock (empty_shelf), danos (damaged), produtos incorretos (wrong_product), desalinhamentos significativos (misaligned) ou etiquetas em falta (label_missing). PASSO 4: Como não foram identificadas quaisquer anomalias, o estado geral da prateleira é classificado como 'ok'."
+}

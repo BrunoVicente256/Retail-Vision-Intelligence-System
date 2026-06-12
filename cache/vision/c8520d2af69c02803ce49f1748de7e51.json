@@ -1,0 +1,15 @@
+{
+    "inspection_id": "INS_20260612_181419_C8520D2A",
+    "timestamp": "2026-06-12T17:14:19Z",
+    "image_path": "data/images/normal/WhatsApp Image 2026-06-08 at 20.40.22 (1).jpeg",
+    "zone_id": "Z_NORMAL",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+        "biscuits",
+        "crackers",
+        "snacks"
+    ],
+    "model_reasoning": "The shelves are generally well-stocked with a variety of biscuit and cracker products. There are no visible signs of empty shelves, misaligned products, or missing labels. The products are neatly arranged, indicating good stock management. Therefore, the overall status is 'ok'."
+}

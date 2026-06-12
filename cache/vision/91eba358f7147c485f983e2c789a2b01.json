@@ -1,0 +1,14 @@
+{
+    "inspection_id": "INS_20260612_181624_91EBA358",
+    "timestamp": "2026-06-12T17:16:24Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.55.55 (1).jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+        "biscoitos",
+        "cereais"
+    ],
+    "model_reasoning": "A prateleira está bem abastecida e organizada, com produtos alinhados e sem buracos visíveis. A maioria dos produtos está bem exposta, com apenas algumas pequenas lacunas na frente que são normais para reposição. Não foram detetadas ruturas de stock, produtos fora de lugar ou danos nas embalagens. O fill rate estimado é de aproximadamente 92%, indicando um bom nível de stock."
+}

@@ -1,0 +1,18 @@
+{
+    "inspection_id": "INS_20260612_181325_EC2FEDD3",
+    "timestamp": "2026-06-12T17:13:25Z",
+    "image_path": "data/images/empty/WhatsApp Image 2026-06-08 at 20.40.23.jpeg",
+    "zone_id": "Z_EMPTY",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+        "sparkling_wine",
+        "liqueur",
+        "wine",
+        "gin",
+        "tonic_water",
+        "whisky"
+    ],
+    "model_reasoning": "The image displays multiple shelves stocked with various alcoholic beverages. The shelves appear to be well-organized and predominantly full, with minimal visible empty spaces. Products are generally aligned and labels are visible. Based on the overall appearance of full shelves and lack of significant product gaps or misalignments, the overall status is assessed as 'ok'. The shelf fill rate is estimated to be high, around 0.9, due to the dense stocking observed across all visible shelves. No specific issues were detected that would warrant a 'warning' or 'critical' status."
+}
