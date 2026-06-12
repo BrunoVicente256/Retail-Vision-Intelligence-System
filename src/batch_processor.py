@@ -29,14 +29,9 @@ from shelf_inspector import inspecionar_prateleira, esta_em_cache
 from utils.api_client import gemini_client, MODEL_NAME
 from utils.console import configurar_consola
 
-# Consola UTF-8 segura (Windows cp1252 crasharia em → ═ e acentos)
 configurar_consola()
 
-# ==========================================
-# CONFIGURAÇÃO
-# ==========================================
-
-# Ordem determinística das categorias (== nomes das pastas em images/).
+# Ordem das categorias (nomes das pastas em images/).
 CATEGORIAS = ["normal", "empty", "dirty", "ambiguous", "planogram"]
 
 # Estratégia de prompting usada na construção do dataset base.
@@ -54,7 +49,6 @@ PAUSA_ENTRE_CHAMADAS_REAIS = 4.0
 
 # Caminho do índice agregado final.
 CAMINHO_INDICE = Path("cache/vision/dataset_final.json")
-
 
 # ==========================================
 # RECOLHA DETERMINÍSTICA DE FICHEIROS
